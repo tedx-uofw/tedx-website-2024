@@ -5,7 +5,7 @@ import Sponsors from '../sponsors/sponsors';
 import About from "../about/about";
 import Footer from "../footer/footer";
 
-function Landing(){
+function Home(){
   return (
     <>
     <Speakers />
@@ -16,4 +16,4 @@ function Landing(){
 
   )
 }
-export default Landing;
+export default Home;

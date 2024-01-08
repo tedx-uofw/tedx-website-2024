@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Landing from './components/landing_page/landing';
+import Home from './components/home/home';
 import Navbar from './components/navbar/navbar';
 
 import Speakers from './components/speakers/speakers';
@@ -18,7 +18,7 @@ function App() {
         <div>
           <Navbar />
           <Routes>
-          <Route path="/" element = { <Landing /> } />
+          <Route path="/" element = { <Home /> } />
             <Route path="/sponsors" element = { <Sponsors /> } />
             <Route path="/about-tedx" element = { <AboutUs /> } />
             <Route path="/past-events" element = { <PastEvents /> } />
