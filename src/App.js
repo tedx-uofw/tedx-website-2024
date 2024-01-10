@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/home/home';
 import Navbar from './components/navbar/navbar';
+import Footer from './components/footer/footer';
 
 import Speakers from './components/speakers/speakers';
 import Sponsors from './components/sponsors/sponsors';
@@ -26,6 +27,7 @@ function App() {
             <Route path="/speakers" element = { <Speakers />} />
             <Route path="*" element={<div> 404 Not Found </div>}></Route>
           </Routes>
+          <Footer />
         </div>
       </Router>
     </div>
