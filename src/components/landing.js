@@ -1,23 +1,26 @@
 import React from 'react';
 
-// edit this omg
-const times = ["10:00-11:00AM", "12:00-1:00PM", "1:00-2:00PM"]
-const names = ["SUSIE SHARPE", "SUSIE SHARPE", "SUSIE SHARPE"]
-const titles = ["Artist & Internal Medicine Physician", "Artist & Internal Medicine Physician", "Artist & Internal Medicine Physician"]
+const speakers = [{
+    name: 'SUSIE SHARPE', time: '10:00-11:00AM', 
+    title: 'Artist & Internal Medicine Physician'
+}, {
+    name: 'SUSIE SHARPE', time: '10:00-11:00AM', 
+    title: 'Artist & Internal Medicine Physician'
+}, {
+    name: 'SUSIE SHARPE', time: '10:00-11:00AM', 
+    title: 'Artist & Internal Medicine Physician'
+},];
 
-function ScheduleItems(props) {
-    const time = props.times;
-    const name = props.names;
-    const title = props.titles;
+function ScheduleItems() {
+    const speaker = ({name, time, title}) =>
+    <li>
+        <p>{time}</p>
+        <p>{name}</p>
+        <p>{title}</p>
+    </li>
     return (
-        <li>
-            <div className='schedule-times'>
-
-            </div>
-            <div className='name-container'>
-
-            </div>
-        </li>
+        <li></li>
+        
     )
 }
 
@@ -36,6 +39,7 @@ function Landing(){
 
             <div className='landing-schedule-container'>
                 <h3>Schedule</h3>
+
 
             </div>
             <div className='landing-venue-container'>
