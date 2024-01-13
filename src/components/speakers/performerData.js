@@ -4,7 +4,7 @@ import ExImg from "./speakersImg/ChristmasStar.png"
 export default [
     {
         img: ExImg,
-        name: "Susie Sharpe",
+        name: "Aramis O. Hamer",
         description: <p>
             Aramis O. Hamer is a visual artist and muralist in Seattle, WA. 
             Her large-scale, acrylic paintings are inspired by the cosmos, 
@@ -17,7 +17,7 @@ export default [
     },
     {
         img: ExImg,
-        name: "Susie Sharpe",
+        name: "Aramis O. Hamer",
         description: <p>
             Aramis O. Hamer is a visual artist and muralist in Seattle, WA. 
             Her large-scale, acrylic paintings are inspired by the cosmos, 
