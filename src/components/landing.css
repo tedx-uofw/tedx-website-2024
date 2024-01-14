@@ -1,0 +1,9 @@
+.landing-title {
+    display: flex;
+    width: 1405.935px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+
+}

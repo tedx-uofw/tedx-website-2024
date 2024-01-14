@@ -19,7 +19,7 @@ function App() {
         <div>
           <Navbar />
           <Routes>
-          <Route path="/" element = { <Home /> } />
+            <Route path="/" element = { <Home /> } />
             <Route path="/sponsors" element = { <Sponsors /> } />
             <Route path="/about-tedx" element = { <AboutUs /> } />
             <Route path="/past-events" element = { <PastEvents /> } />

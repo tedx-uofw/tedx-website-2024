@@ -1,46 +1,33 @@
 import React from 'react';
+import './landing.css';
 
-const speakers = [{
-    name: 'SUSIE SHARPE', time: '10:00-11:00AM', 
-    title: 'Artist & Internal Medicine Physician'
-}, {
-    name: 'SUSIE SHARPE', time: '10:00-11:00AM', 
-    title: 'Artist & Internal Medicine Physician'
-}, {
-    name: 'SUSIE SHARPE', time: '10:00-11:00AM', 
-    title: 'Artist & Internal Medicine Physician'
-},];
-
-function ScheduleItems() {
-    const speaker = ({name, time, title}) =>
-    <li>
-        <p>{time}</p>
-        <p>{name}</p>
-        <p>{title}</p>
-    </li>
-    return (
-        <li></li>
-        
-    )
+function Schedule(props) {
+    return <li>{props.time} {props.name} {props.title}</li>
 }
 
 function Landing(){
+    const items = [
+        {name: 'your mom', title: 'banker', time: "11:00am-12:00pm"},
+        {name: 'your mom', title: 'banker', time: "11:00am-12:00pm"},
+        {name: 'your mom', title: 'banker', time: "11:00am-12:00pm"}
+    ];
     return (
         <div className = "landing-container">
             <div className='landing-title'>
                 <h2>04.13.2023 | 10:30 AM | Kane Hall</h2>
-                <h1>Crossroads</h1>
+                <h1 className='landing-theme-name'>Crossroads</h1>
                 <p>The intersection of ideas, the overlapping of concepts, and the reflection that 
-                    can come when we are faced with a dilemma. It is a versatile theme that can be explored 
-                    from a wide range of perspectives, including personal growth and innovation.Scroll to 
+                    can come<br/> when we are faced with a dilemma. It is a versatile theme that can be explored 
+                    from a wide<br/> range of perspectives, including personal growth and innovation.Scroll to 
                     learn more about the event!</p>
                 <button>Get Tickets</button>
             </div>
 
             <div className='landing-schedule-container'>
                 <h3>Schedule</h3>
-
-
+                <ul>
+                    {items.map((item) => <Schedule name={item.name} title={item.title} time={item.time} /> )}
+                </ul>
             </div>
             <div className='landing-venue-container'>
                 <h3>Venue</h3>
