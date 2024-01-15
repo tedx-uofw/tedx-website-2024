@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./nav-img/logo.png";
 import { useNavigate } from "react-router-dom";
+import "./navbar.css";
 
 function Navbar(){
 
@@ -21,18 +22,21 @@ function Navbar(){
 
        <section id="right-nav">
         {/* links to all other pages */}
-        <a href="/speakers">Speakers</a>
-        <a href="/sponsors">Sponsors</a>
+        <section id="right-nav-links">
+          <a href="/speakers">SPEAKERS</a>
+          <a href="/sponsors">SPONSORS</a>
 
-        {/* add onClick functions for these frop down options */}
-        <select id="nav-dropdown" onChange={e => routeChange(e.target.value)}>
-          <option value="about-tedx">About Us</option>
-          <option value="team">Team</option>
-          <option value="past-events">Past Events</option>
-        </select>
+          {/* add onClick functions for these frop down options */}
+          <select id="nav-dropdown" onChange={e => routeChange(e.target.value)}>
+            <option value="about-tedx">ABOUT US</option>
+            <option value="team">TEAM</option>
+            <option value="past-events">PAST EVENTS</option>
+          </select>
+        </section>
+
 
         {/* add on click functionality when tix page up */}
-        <button id="tix-button" type="button">Get Tickets</button>
+        <button id="tix-button" type="button">GET TICKETS</button>
 
        </section>
       </div>
