@@ -4,7 +4,7 @@ body,
 .App {
     display: flex;
     flex-direction: column;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     margin: 0;
 }
 
