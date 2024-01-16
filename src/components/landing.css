@@ -115,3 +115,29 @@
     line-height: 128.5%;
     letter-spacing: 0.4px;
 }
+
+/* Venue */
+.landing-venue-contents-ctr {
+    display: flex;
+    width: 1406px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+/* Meet the Team */
+
+.landing-team-contents-ctr {
+    display: flex;
+    width: 1406px;
+    align-items: center;
+    gap: 40px;
+}
+
+#landing-team-text {
+    color: var(--white);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
