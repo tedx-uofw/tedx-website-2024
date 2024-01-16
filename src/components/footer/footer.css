@@ -1,0 +1,102 @@
+#footer {
+    display: flex;
+    align-items: flex-start;
+    background: var(--Background-Dark-Blue, #0B0D26);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    background: var(--blue-aurora-40, linear-gradient(182deg, rgba(46, 75, 212, 0.40) -1.18%, rgba(198, 115, 252, 0.40) 98.55%));
+}
+
+#top {
+    display: flex;
+    padding: 4rem 6.25rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    row-gap: 3.75rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+#logo {
+    width: 30rem;
+    height: auto;
+    flex-shrink: 0;
+}
+
+#pages {
+    display: flex;
+    align-items: flex-start;
+    gap: 44px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.header {
+    color: var(--Purble, #A5A5CC);
+    text-align: center;
+
+    /* Regular 20 */
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+.section a {
+    text-decoration: none;
+    color: var(--White, #FFF);
+    text-align: center;
+
+    /* Regular 20 */
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+#bottom {
+    display: flex;
+    padding: 1.25rem 6.25rem 2rem 6.25rem;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    row-gap: 2rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+#copyright {
+    color: var(--White, #FFF);
+
+    /* Regular 20 */
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#icons {
+    display: flex;
+    width: 17.25rem;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+#icons a{
+    display: flex;
+    width: 17.25rem;
+    align-items: center;
+    gap: 1.25rem;
+}
