@@ -1,5 +1,5 @@
 import React from 'react';
-import "./create-speaker.css";
+import "./createSpeaker.css";
 
 function CreateSpeaker(props) {
     return (

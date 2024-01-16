@@ -9,8 +9,10 @@ p {
 }
 
 div .header-box {
-    border-radius: 12px;
-    border: 1px solid #A5A5CC;
+    /* border-radius: 12px; */
+    border-radius: 0.694vw;
+    /* border: 1px solid #A5A5CC; */
+    border: 0.06vw solid #A5A5CC;
     /* background: rgba(30, 28, 34, 0.40); */
     background: #1E1C22;
     opacity: 40%;
@@ -18,6 +20,8 @@ div .header-box {
     padding: 1.389vw 2.14vw 1.389vw  1.389vw;
     /* width: 66%; */
     width: 66.3vw;
+    height: 5.6vw;
+    /* height: 96px; */
     /* width: 1145px; */
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +41,8 @@ div .header-box {
 .heading-text {
     color: #FFF;
     font-family: Poppins;
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 2.3vw;
     font-style: normal;
     font-weight: 400;
     line-height: 128.5%;
@@ -45,8 +50,12 @@ div .header-box {
     /* margin: 20px; */
     margin: 1.16vw;
     vertical-align: middle;
+    margin-top: 1.4vw;
+    margin-bottom: 1.4vw;
 }
 
 .star-img {
     vertical-align: middle;
+    width: 2.78vw;
+    height: 2.78vw;
 }

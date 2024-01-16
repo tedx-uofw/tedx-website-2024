@@ -5,15 +5,17 @@
 }
 
 .speaker-box {
-    border-radius: 12px;
-    border: 0.654px solid #A5A5CC;
+    /* border-radius: 12px; */
+    border-radius: 0.694vw;
+    /* border: 1px solid #A5A5CC; */
+    border: 0.06vw solid #A5A5CC;
     /* background: rgba(30, 28, 34, 0.40); */
     background: #1E1C22;
-    opacity: 50%;
+    opacity: 40%;
     /* padding: 24px; */
     /* width: 66%; */
     width: 66.3vw;
-    height: 15.74vw;
+    height: 19.5vw;
     /* width: 1145px; */
     margin-left: auto;
     margin-right: auto;
@@ -33,16 +35,22 @@
 
 .speaker-img {
     object-fit: cover;
-    /* margin-right: 20px; */
-    margin-right: 1.9vw;
-    border-radius: 12px 0 0 12px;
-    border: 0.654px solid #A5A5CC;
+    /* margin-right: 40px; */
+    margin-right: 2.3vw;
+    /* border-radius: 12px 0 0 12px; */
+    border-radius: 0.694vw 0 0 0.694vw;
+    /* border: 1px solid #A5A5CC; */
+    border-right: 0.06vw solid #A5A5CC;
     /* width: 100%;
     height: 100%; */
     /* width: 272px; */
     /* height: 272px; */
-    width: 15.74vw;
-    height: 15.74vw;
+    /* width: 15.74vw; */
+    /* height: 15.74vw; */
+    /* width: 337px; */
+    /* height: 337px; */
+    width: 19.5vw;
+    height: 19.5vw;
 }
 
 .speaker-profile {
@@ -57,15 +65,15 @@
 .speaker-name {
     color: #FBFBFB;
     font-family: Poppins;
-    /* font-size: 16px; */
-    font-size: 0.93vw;
+    /* font-size: 24px; */
+    font-size: 1.39vw;
     font-style: normal;
     font-weight: 600;
     line-height: 136.9%; /* 21.904px */
     letter-spacing: 0.32px;
-    margin-top: 2.26vw;
+    /* margin-top: 40px; */
+    margin-top: 2.3vw;
     /* vertical-align: middle; */
-    /* margin-top: 39px; */
 }
 
 .speaker-descr {
@@ -78,5 +86,6 @@
     line-height: 136.9%; /* 27.38px */
     letter-spacing: 0.4px; 
     /* vertical-align: middle; */
-    /* margin-bottom: 39px; */
+    /* margin-bottom: 40px; */
+    margin-bottom: 2.3vw;
 }

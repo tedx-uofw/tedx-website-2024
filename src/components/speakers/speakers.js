@@ -1,7 +1,7 @@
 import React from "react";
 import "./speakers.css";
 import star from "./speakersImg/ChristmasStar.png";
-import CreateSpeaker from "./create-speaker.js";
+import CreateSpeaker from "./createSpeaker.js";
 import speakerData from './speakerData.js';
 import performerData from './performerData.js';
 
