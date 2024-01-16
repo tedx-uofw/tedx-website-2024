@@ -15,28 +15,25 @@ function Navbar(){
       <div id="navbar">
        <section id="left-nav">
         {/* add image and then on click have it go to home page */}
-        <a href="/">
-          <img class="nav-logo" src={logo} alt="tedx-logo"/>
+        <a id='logo' href="/">
+          <img id="nav-logo" src={logo} alt="tedx-logo"/>
         </a>
        </section>
 
        <section id="right-nav">
         {/* links to all other pages */}
-        <section id="right-nav-links">
-          <a href="/speakers">SPEAKERS</a>
-          <a href="/sponsors">SPONSORS</a>
+          <a class="right-nav" href="/speakers">SPEAKERS</a>
+          <a class="right-nav" href="/sponsors">SPONSORS</a>
 
           {/* add onClick functions for these frop down options */}
-          <select id="nav-dropdown" onChange={e => routeChange(e.target.value)}>
-            <option value="about-tedx">ABOUT US</option>
-            <option value="team">TEAM</option>
-            <option value="past-events">PAST EVENTS</option>
+          <select id="nav-dropdown" class="right-nav" onChange={e => routeChange(e.target.value)}>
+              <option value="about-tedx">ABOUT US</option>
+              <option value="team">TEAM</option>
+              <option value="past-events">PAST EVENTS</option>
           </select>
-        </section>
-
 
         {/* add on click functionality when tix page up */}
-        <button id="tix-button" type="button">GET TICKETS</button>
+        <button id="tix-button" class="right-nav" type="button">GET TICKETS</button>
 
        </section>
       </div>

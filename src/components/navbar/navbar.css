@@ -1,47 +1,50 @@
 #navbar {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  height: 20%;
-  padding-left: 6%;
-  padding-right: 6%;
-  padding-top: 4.75%;
-  padding-bottom: 4.75%;
-  font-family: Poppins;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 4.75%;
+  margin-bottom: 4.75%;
+  font-size: 150%;
 }
 
-#navbar section {
-  display: flex;
+/* make new section for non button links and adjust its width to move it away
+from the button */
+
+#left-nav {
   align-items: center;
+  margin-right: 20px;
 }
 
 #right-nav {
   display: flex;
-  width: 60%;
-  justify-content: flex-end;
-  font-size: 150%;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#right-nav-links {
-  padding-right: 7%;
-  display: flex;
-  justify-content: space-evenly;
-  width: 60%;
+select {
+  background-color: black;
+  color: #FFF;
+  border: none;
+  font-size: 100%;
+  width: 150px;
 }
 
-
-
-#right-nav-links a {
+#right-nav a {
   text-decoration: none;
   color: #FFF;
+
 }
 
-#nav-dropdown {
-  font-size: 97%;
-  border: none;
-  color: #FFF;
-  background-color: black;
-  width: 26%;
+select, #right-nav a {
+  margin-right: 12px;
+}
+
+#right-nav a:hover {
+  text-decoration: none;
+  color: purple;
 }
 
 #tix-button {
