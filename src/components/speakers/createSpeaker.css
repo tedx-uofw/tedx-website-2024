@@ -1,9 +1,3 @@
-.speaker-container {
-    width: 66.3vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .speaker-box {
     /* border-radius: 12px; */
     border-radius: 0.694vw;
@@ -24,6 +18,8 @@
     /* margin-bottom: 24px; */
     margin-bottom: 1.4vw;
     box-sizing: border-box;
+    display: flex;
+    padding-right: 2.3vw;
 }
 
 .speaker-content {
@@ -41,12 +37,6 @@
     border-radius: 0.694vw 0 0 0.694vw;
     /* border: 1px solid #A5A5CC; */
     border-right: 0.06vw solid #A5A5CC;
-    /* width: 100%;
-    height: 100%; */
-    /* width: 272px; */
-    /* height: 272px; */
-    /* width: 15.74vw; */
-    /* height: 15.74vw; */
     /* width: 337px; */
     /* height: 337px; */
     width: 19.5vw;
@@ -54,12 +44,16 @@
 }
 
 .speaker-profile {
+    /* display: flex; */
+    /* flex-direction: column; */
     align-items: center;
     /* padding-top: 24px; */
     /* padding-bottom: 24px; */
     vertical-align: middle;
     /* padding-left: 2.14vw; */
     /* height: fit-content; */
+    /* margin-right: 2.3vw; */
+    margin: 2.3vw 0 2.3vw 0;
 }
 
 .speaker-name {
@@ -72,8 +66,33 @@
     line-height: 136.9%; /* 21.904px */
     letter-spacing: 0.32px;
     /* margin-top: 40px; */
-    margin-top: 2.3vw;
+    /* margin-top: 2.3vw; */
     /* vertical-align: middle; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.title-box {
+    /* margin-top: 20px; */
+    margin-top: 1.16vw;
+    /* margin-bottom: 32px; */
+    margin-bottom: 1.85vw;
+}
+
+.title-star {
+    vertical-align: middle;
+    /* width: 24px; */
+    /* height: 24px; */
+    width: 1.4vw;
+    height: 1.4vw;
+}
+
+.speaker-title {
+    /* font-size: 20px; */
+    font-size: 1.16vw;
+    display: inline;
+    /* margin-left: 8px; */
+    margin-left: 0.46vw;
 }
 
 .speaker-descr {
@@ -83,9 +102,10 @@
     font-size: 1.16vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 136.9%; /* 27.38px */
+    /* line-height: 136.9%; 27.38px */
+    line-height: normal;
     letter-spacing: 0.4px; 
     /* vertical-align: middle; */
     /* margin-bottom: 40px; */
-    margin-bottom: 2.3vw;
+    /* margin-bottom: 2.3vw; */
 }

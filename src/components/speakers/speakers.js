@@ -23,6 +23,7 @@ function Speakers(){
             key={speaker.id}
             img={speaker.img}
             name={speaker.name}
+            title={speaker.title}
             description={speaker.description}
           />
         ))}
@@ -38,6 +39,7 @@ function Speakers(){
             key={performer.id}
             img={performer.img}
             name={performer.name}
+            title={performer.title}
             description={performer.description}
           />
         ))}    
