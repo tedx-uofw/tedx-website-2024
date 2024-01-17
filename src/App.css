@@ -17,3 +17,7 @@ body,
 :root {
     --white: #FFFFFF;
 }
+
+a:link, a:visited, a:active, a:hover {
+    color: var(--white);
+}
