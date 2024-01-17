@@ -6,33 +6,23 @@
     /* background: rgba(30, 28, 34, 0.40); */
     background: #1E1C22;
     opacity: 40%;
-    /* padding: 24px; */
-    /* width: 66%; */
     width: 66.3vw;
     height: 19.5vw;
     /* width: 1145px; */
-    margin-left: auto;
-    margin-right: auto;
-    /* margin-left: 16.9vw; */
-    /* margin-right: 16.9vw; */
     /* margin-bottom: 24px; */
-    margin-bottom: 1.4vw;
+    margin: 0vw auto 1.4vw auto;
     box-sizing: border-box;
     display: flex;
-    padding-right: 2.3vw;
 }
 
 .speaker-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 1.9vw;
 }
 
 .speaker-img {
     object-fit: cover;
-    /* margin-right: 40px; */
-    margin-right: 2.3vw;
     /* border-radius: 12px 0 0 12px; */
     border-radius: 0.694vw 0 0 0.694vw;
     /* border: 1px solid #A5A5CC; */
@@ -44,39 +34,22 @@
 }
 
 .speaker-profile {
-    /* display: flex; */
-    /* flex-direction: column; */
-    align-items: center;
-    /* padding-top: 24px; */
-    /* padding-bottom: 24px; */
-    vertical-align: middle;
-    /* padding-left: 2.14vw; */
-    /* height: fit-content; */
-    /* margin-right: 2.3vw; */
-    margin: 2.3vw 0 2.3vw 0;
+    margin: 2.3vw;
 }
 
 .speaker-name {
     color: #FBFBFB;
     font-family: Poppins;
     /* font-size: 24px; */
-    font-size: 1.39vw;
-    font-style: normal;
+    font-size: 1.4vw;
     font-weight: 600;
-    line-height: 136.9%; /* 21.904px */
-    letter-spacing: 0.32px;
-    /* margin-top: 40px; */
-    /* margin-top: 2.3vw; */
-    /* vertical-align: middle; */
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin: 0vw;
 }
 
 .title-box {
     /* margin-top: 20px; */
-    margin-top: 1.16vw;
     /* margin-bottom: 32px; */
-    margin-bottom: 1.85vw;
+    margin: 1.16vw 0vw 1.85vw 0vw;
 }
 
 .title-star {
@@ -102,10 +75,5 @@
     font-size: 1.16vw;
     font-style: normal;
     font-weight: 400;
-    /* line-height: 136.9%; 27.38px */
-    line-height: normal;
-    letter-spacing: 0.4px; 
-    /* vertical-align: middle; */
-    /* margin-bottom: 40px; */
-    /* margin-bottom: 2.3vw; */
+    margin: 0vw;
 }
