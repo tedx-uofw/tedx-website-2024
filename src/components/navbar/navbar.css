@@ -15,16 +15,22 @@ from the button */
 
 #left-nav {
   align-items: center;
-  margin-right: 20px;
+  width: 80%;
 }
 
 #right-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 70%;
 }
 
-select {
+#right-nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-dropdown {
   background-color: black;
   color: #FFF;
   border: none;
@@ -32,14 +38,20 @@ select {
   width: 150px;
 }
 
+/* option {
+  display: none;
+  border: none;
+  position: absolute;
+} */
+
+#nav-dropdown:hover {
+  color: purple;
+}
+
 #right-nav a {
   text-decoration: none;
   color: #FFF;
-
-}
-
-select, #right-nav a {
-  margin-right: 12px;
+  margin-right: 20px;
 }
 
 #right-nav a:hover {
@@ -49,7 +61,7 @@ select, #right-nav a {
 
 #tix-button {
   font-size: 24px;
-  border-radius: 19px;
+  border-radius: 6.25rem;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 10px;
