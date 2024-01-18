@@ -1,61 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
-h1 {
-    display: inline;
-}
-
-p {
-    color: #FFF;
-}
-
 div .header-box {
-    /* border-radius: 12px; */
-    border-radius: 0.694vw;
-    /* border: 1px solid #A5A5CC; */
-    border: 0.06vw solid #A5A5CC;
-    /* background: rgba(30, 28, 34, 0.40); */
-    background: #1E1C22;
-    opacity: 40%;
-    /* padding: 24px; */
-    padding: 1.389vw 2.14vw 1.389vw  1.389vw;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    /* border-radius: 0.694vw; */
+    border: 1px solid #A5A5CC;
+    /* border: 0.06vw solid #A5A5CC; */
+    background: var(--off-black-40, rgba(30, 28, 34, 0.40)); 
+    padding: 24px;
+    /* padding: 1.389vw; */
     /* width: 66%; */
-    width: 66.3vw;
-    height: 5.6vw;
-    /* height: 96px; */
-    /* width: 1145px; */
+    /* width: 66.3vw; */
+    /* height: 5.6vw; */
+    height: 96px;
+    width: 1145px;
     margin-left: auto;
     margin-right: auto;
     /* margin-left: 16.9vw; */
     /* margin-right: 16.9vw; */
-    /* margin-bottom: 24px; */
-    margin-bottom: 1.4vw;
-    /* margin-top: 276px; */
+    margin-bottom: 24px;
+    /* margin-bottom: 1.4vw; */
     box-sizing: border-box;
 }
 
 .performer-box {
-    /* margin-top: 100px; */
-    margin-top: 5.8vw;
+    margin-top: 100px;
+    /* margin-top: 5.8vw; */
 }
 
 .heading-text {
-    color: #FFF;
+    color: var(--White, #FFF);
     font-family: Poppins;
-    /* font-size: 40px; */
-    font-size: 2.3vw;
+    font-size: 40px;
+    /* font-size: 2.3vw; */
     font-style: normal;
     font-weight: 400;
-    line-height: 128.5%;
-    letter-spacing: 0.8px;
-    /* margin: 20px; */
-    margin: 1.16vw;
-    vertical-align: middle;
-    margin-top: 1.4vw;
-    margin-bottom: 1.4vw;
+    line-height: normal;
+    margin-left: 20px;
+    /* margin-left: 1.16vw; */
 }
 
 .star-img {
-    vertical-align: middle;
-    width: 2.78vw;
-    height: 2.78vw;
+    width: 48px;
+    height: 48px;
+    /* width: 2.78vw; */
+    /* height: 2.78vw; */
 }
