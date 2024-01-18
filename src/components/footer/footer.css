@@ -32,14 +32,25 @@ footer {
 #pages {
     display: flex;
     align-items: flex-start;
-    gap: 44px;
+    gap: 2.75rem;
+}
+
+#pages a:hover {
+    text-decoration: none;
+    background-color: #90FFD4;
+    background-image: linear-gradient(60deg, #90FFD4, #67AFE0, #737CFE, #E57EFF);
+    /* background-size: 100%; */
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .header {
@@ -94,9 +105,13 @@ footer {
     gap: 1.25rem;
 }
 
-#icons a{
+#icons a {
     display: flex;
     width: 17.25rem;
     align-items: center;
     gap: 1.25rem;
+}
+
+#icons a:hover {
+    opacity: 50%;
 }
