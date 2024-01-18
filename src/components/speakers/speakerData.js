@@ -1,7 +1,7 @@
 import ExImg from "./speakersImg/ChristmasStar.png"
 
 
-export default [
+const speakerArray = [
     {
         img: ExImg,
         name: "Susie Sharpe",
@@ -31,3 +31,5 @@ export default [
         </p>
     }
 ]
+
+export default speakerArray;
