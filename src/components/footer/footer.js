@@ -12,19 +12,19 @@ function Footer(){
             <a href=""><img src={logo} alt="Logo of TEDxUofW" id="logo" hfref="/"></img></a>
             {/* Sitemap */}
             <div id="pages">
-              {/* EventsSsection */}
+              {/* Events Section */}
               <div class="section">
                 <p class="header">EVENT</p>
                 <a href="/">Home</a>
-                <a href="/">Speakers</a>
-                <a href="/">Sponsors</a>
+                <a href="/speakers">Speakers</a>
+                <a href="/sponsors">Sponsors</a>
               </div>
               {/* About Section */}
               <div class="section">
                 <p class="header">ABOUT</p>
-                <a href="/">About Us</a>
-                <a href="/">Team</a>
-                <a href="/">Past Events</a>
+                <a href="/about-tedx">About Us</a>
+                <a href="/team">Team</a>
+                <a href="/past-events">Past Events</a>
               </div>
             </div>
           </div>
