@@ -1,4 +1,4 @@
-import ExImg from "./speakersImg/ChristmasStar.png"
+import ExImg from "./speakersImg/Rectangle 24.png"
 
 
 const speakerArray = [

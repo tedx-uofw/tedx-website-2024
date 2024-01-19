@@ -1,10 +1,10 @@
-import ExImg from "./speakersImg/ChristmasStar.png"
+import ExImg from "./speakersImg/Rectangle 24.png"
 
 
 export default [
     {
         img: ExImg,
-        name: "Aramis O. Hamer",
+        name: "Susie Sharpe",
         title: "Visual artist & Muralist",
         description: <p>
             Aramis O. Hamer is a visual artist and muralist in Seattle, WA. 

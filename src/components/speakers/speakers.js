@@ -14,8 +14,10 @@ function Speakers(){
       <div id="speakers">
 
         <div className="header-box">
-          <img src={star} className="star-img" alt="Christmas Star"/>
-          <h1 className="heading-text">SPEAKERS</h1>
+          <div className="header-content">
+            <img src={star} className="star-img" alt="Christmas Star"/>
+            <h1 className="header-text">SPEAKERS</h1>
+          </div>      
         </div>
         
         {speakerInfo.map(speaker => (
@@ -29,11 +31,12 @@ function Speakers(){
         ))}
 
         <div className="header-box performer-box">
-          <img src={star} className="star-img" alt="Christmas Star"/>
-          <h1 className="heading-text">PERFORMERS</h1>
+          <div className="header-content">
+            <img src={star} className="star-img" alt="Christmas Star"/>
+            <p className="header-text">PERFORMERS</p>
+          </div>
         </div>
         
-
         {performerInfo.map(performer => (
           <CreateSpeaker
             key={performer.id}
