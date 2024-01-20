@@ -25,18 +25,19 @@
 .speaker-name {
     font-size: 24px;
     font-weight: 600;
-    margin: 0;
+    margin: -3px 0 -6px 0;
 }
 
 .speaker-title {
     font-size: 16px;
     font-weight: 400;
-    margin: 16px 0 32px 0;
+    margin: 8px 0 16px 0;
 }
 
 .speaker-descr {
     font-size: 20px;
     font-weight: 400;
+    margin: -20px 0 -20px 0;
 }
 
 .last-person {

@@ -10,7 +10,7 @@ function CreateSpeaker(props) {
             <div className="speaker-content">
               <p className="speaker-name">{props.name}</p>
               <p className="speaker-title">{props.title}</p>
-              <p className="sepaker-descr">{props.description}</p>
+              <p className="speaker-descr">{props.description}</p>
             </div>
           </div>
           {props.name === "Aramis O. Hamer" && <div className="last-person"></div>}
