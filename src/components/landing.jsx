@@ -39,7 +39,7 @@ function Landing(){
                 <div className='landing-theme-date'>
                     <p>04.13.2023 | 10:30 AM | Kane Hall</p>
                 </div>
-                <div className='crossroads-logo'>
+                <div className='crossroads-logo imgs'>
                     <img src={logo} alt='Crossroads' />
                 </div>
 
@@ -52,7 +52,7 @@ function Landing(){
                 <div className='ticket-btn'>
                     <button>GET TICKETS</button>
                 </div>
-                <div className='crossroads-graphic'>
+                <div className='crossroads-graphic imgs'>
                     <img src={graphic} alt='Crossroads Graphic'/>
                 </div>
             </div>
@@ -77,7 +77,7 @@ function Landing(){
                         <h3 className='title'>VENUE</h3>
                     </div>
                     <div className='landing-venue-contents-ctr'>
-                        <div className='landing-venue-img-container'>
+                        <div className='landing-venue-img-container imgs'>
                             <img src={kane} alt='Kane Hall Photo'/>
                         </div>
                         <div className='landing-venue-text-ctr'>
@@ -100,7 +100,7 @@ function Landing(){
                         <h3 className='title'>MEET THE TEAM</h3>
                     </div>
                     <div className='landing-team-contents-ctr'>
-                        <div className='landing-team-img-container'>
+                        <div className='landing-team-img-container imgs'>
                             <img src={teamPhoto} alt='Team Photo'/>
                         </div>
                         <div className='landing-team-text-ctr'>
