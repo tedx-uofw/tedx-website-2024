@@ -1,6 +1,13 @@
 .landing-container {
     font-family: Poppins;
     color: #FBFBFB;
+    gap: 100px;
+}
+
+.info-section-ctr {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
 }
 
 /* Title */
@@ -11,6 +18,7 @@
     margin-left: 161px;
     margin-right: 161px;
     text-align: center;
+    gap: 40px;
 
 }
 
@@ -35,6 +43,13 @@
 #scroll-to-learn {
     font-style: italic;
     font-weight: 600;
+}
+
+.crossroads-graphic {
+    padding-top: 83.91px;
+    padding-bottom: 194.97px;
+    
+    
 }
 
 
@@ -155,6 +170,10 @@
 
 /* Meet the Team */
 
+.landing-team-container {
+    padding-bottom: 80px;
+}
+
 .landing-team-contents-ctr {
     display: flex;
     width: 1406px;
@@ -168,6 +187,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
 }
 
 .meet-team-btn button {
@@ -270,4 +290,8 @@
 
 .ticket-btn button:hover {
     color: #0B0D26;
+}
+
+img {
+    max-width: 100%;
 }
