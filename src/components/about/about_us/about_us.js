@@ -16,7 +16,7 @@ function AboutUs(){
       <div id="about_us">
         {/* About TED */}
         <div id="about_ted">
-          <div class="header-box">
+          <div class="aboutus-header">
             <img src={star} className="star-img" alt="Christmas Star"></img>
             <h1>ABOUT TED</h1>
           </div>
@@ -30,21 +30,21 @@ function AboutUs(){
 
         {/* About TEDx */}
         <div id="about_tedx">
-          <div class="header-box">
+          <div class="aboutus-header">
             <img src={star} className="star-img" alt="Christmas Star"></img>
             <h1>ABOUT TEDx</h1>
           </div>
           <div class="content">
             <img src={tedx} alt="TEDx Logo"></img>
-            <p>In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience.<br></br>
+            <p>In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience.<br></br><br></br>
               At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx, 
-              where x = independently organized TED event.<br></br>The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.</p>
+              where x = independently organized TED event.<br></br><br></br>The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.</p>
           </div>
         </div>
 
         {/* About TEDxUofW */}
         <div id="about_tedxuofw">
-          <div class="header-box">
+          <div class="aboutus-header">
             <img src={star} className="star-img" alt="Christmas Star"></img>
             <h1>ABOUT TEDxUofW</h1>
           </div>
@@ -57,12 +57,12 @@ function AboutUs(){
         
         {/* Contact Us */}
         <div id="contact">
-          <div class="header-box">
+          <div class="aboutus-header">
             <img src={star} className="star-img" alt="Christmas Star"></img>
             <h1>CONTACT US</h1>
           </div>
           <div class="content">
-            <div id="icons">
+            <div id="links">
                 {/* Mail */}
                 <a href=""><img src={email}></img>tedxuofw@uw.edu</a>
                 {/* Instagram */}

@@ -1,17 +1,20 @@
-.header-box {
-  border: 1px solid #A5A5CC;
-  border-radius: 0.75;
-  background: var(--off-black-40, rgba(30, 28, 34, 0.40));
+.aboutus-header {
   display: flex;
+  padding: 1rem;
   align-items: center;
-  margin: 1.5;
+  align-content: center;
+  gap: 1.25rem;
+  font-size: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--Purble, #A5A5CC);
+  background: var(--off-black-40, rgba(30, 28, 34, 0.40));
+  margin: 5rem 5rem 5rem 5rem;
 }
 
 .content {
   display: flex;
   gap: 5rem;
   margin-top: 5rem;
-  margin-left: 15rem;
 }
 
 .star-img {
@@ -23,8 +26,8 @@
 .content img {
   height: auto;
   border-radius: 0.75rem;
-  color: rgba(255, 255, 255, 0.80);
   margin-left: 10rem;
+  border-radius: 0.75rem;
 }
 
 .content p {
@@ -44,44 +47,35 @@
 }
 
 #contact {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 5rem;
+  gap: 5rem; */
+  margin-bottom: 3rem;
 }
 
-#icons {
-  align-items: flex-start;
+#links {
+  /* align-items: flex-start; */
   color: white;
-}
-
-#icons a {
-  text-decoration: none;
-}
-
-#icons img {
   display: flex;
-  height: 2rem;
-  width: 2rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-#icons a:hover {
+#links a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#links img {
+  display: flex;
+  height: 35px;
+}
+
+#links a:hover {
   opacity: 50%;
 }
 
-/* h1 {
-  display: flex;
-  padding: 10px 0px;
-  align-items: center;
-  gap: 10px;
-  margin: none !important;
-
-  color: var(--White, #FFF);
-  font-family: Poppins;
-  font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 400;
-} */
+.aboutus-header h1 {
+  margin: 0 auto 0 auto;
+}
