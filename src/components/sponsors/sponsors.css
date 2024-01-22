@@ -1,0 +1,51 @@
+#sponsor-bucket {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  padding-bottom: 9rem;
+  padding-top: 2.0rem;
+}
+
+.sponsor-box {
+  display: flex;
+  width: 21.5rem;
+  height: 16.25rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.75rem;
+  border: 1px solid var(--Purble, #A5A5CC);
+  background: var(--off-black-40, rgba(30, 28, 34, 0.40));
+}
+
+
+#sponsors {
+  display: flex;
+  flex-direction: column;
+}
+
+#sponsors h1 {
+  padding-left: 6rem;
+  font-size: 32px;
+}
+
+.sponsor-box:hover {
+  background-color: rgb(16, 5, 40);
+  transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -webkit-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+}
+
+.clickedSponsorBox {
+  background-color: rgb(16, 5, 40);
+  border-color: rgb(16, 5, 40);
+  display: flex;
+  width: 21.5rem;
+  height: 16.25rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.75rem;
+}
+
