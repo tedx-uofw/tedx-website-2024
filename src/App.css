@@ -16,6 +16,14 @@ body,
 
 :root {
     --white: #FFFFFF;
+    --Button-Aurora: linear-gradient(
+        90deg, 
+        #90FFD4 0%, 
+        #67AFE0 33.06%, 
+        #737CFE 65.67%, 
+        #E57EFF 100%
+        );
+
 }
 
 a:link, a:visited, a:active, a:hover {

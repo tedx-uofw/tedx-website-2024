@@ -124,9 +124,8 @@
 }
 
 .schedule-divider {
-    border: 2px solid #67AFE0;
-    width: 100%;
-    align-self: stretch;
+    background: linear-gradient(to right, #90FFD4 -9.65%, #7ED4E1 8.3%, #6CABEE 30.35%, #A297F6 63.29%, #E57EFF 108.14%);
+    height: 2px;
 }
 
 /* Venue */
@@ -171,22 +170,104 @@
     line-height: normal;
 }
 
-/*Button*/
- button {
-    color: var(--white);
-    background-color: black;
+.meet-team-btn button {
+    font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    color: white;
+    padding: 20px 32px;
+    gap: 4px;
+    border: none;
+    outline: none;
+    position: relative;
+    z-index: 1;
     border-radius: 100px;
-    border: 2px solid;
-    padding: 20px 32px 20px;
+    background: var(--Button-Aurora);
+    cursor: pointer;
+}
 
-    border-bottom-color: #67AFE0;
-    border-left-color: #90FFD4;
-    border-right-color: #E57EFF;
-    border-top-color: #737CFE;
+.meet-team-btn button::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 100px;
+    background-color: #0B0D26;
+    z-index: -1;
+    transition: 200ms;
+}
 
+.meet-team-btn button::after {
+  content: attr(data);
+  font-size: 16px;
+  background: var(--Button-Aurora);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 200ms;
+}
 
- }
+.meet-team-btn button:hover::before {
+  opacity: 0%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+/*Button*/
+
+.ticket-btn button {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px 32px;
+    gap: 4px;
+    border: none;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    border-radius: 100px;
+    background: var(--Button-Aurora);
+    color: white;
+    cursor: pointer;
+}
+
+.ticket-btn button::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 100px;
+    background-color: #0B0D26;
+    z-index: -1;
+    transition: 200ms;
+}
+
+.ticket-btn button::after {
+    content: attr(data);
+    font-size: 16px;
+    background: var(--Button-Aurora);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 200ms;
+}
+
+.ticket-btn button:hover::before {
+    opacity: 0%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.ticket-btn button:hover {
+    color: #0B0D26;
+}

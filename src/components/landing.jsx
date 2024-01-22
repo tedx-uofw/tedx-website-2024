@@ -106,7 +106,10 @@ function Landing(){
                     </div>
                     <div className='landing-team-text-ctr'>
                         <p id='landing-team-text'>Learn more about the team behind the conference!</p>
-                        <button className='btn'>MEET THE TEAM</button>
+                        <div className='meet-team-btn'>
+                        <button>MEET THE TEAM</button>
+                        </div>
+                        
                     </div>
 
                 </div>
