@@ -47,9 +47,7 @@
 
 .crossroads-graphic {
     padding-top: 83.91px;
-    padding-bottom: 194.97px;
-    
-    
+    padding-bottom: 194.97px;  
 }
 
 
@@ -150,6 +148,7 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 60px;
+    max-width: 100%;
 }
 
 .venue-text, .parking-text {
@@ -174,11 +173,19 @@
     padding-bottom: 80px;
 }
 
+/*
+.landing-team-img-container {
+    display: flex;
+    width: 766px;
+    height: 100%;
+} */
+
 .landing-team-contents-ctr {
     display: flex;
     width: 1406px;
     align-items: center;
     gap: 40px;
+    max-width: 100%;
 }
 
 #landing-team-text {
@@ -189,6 +196,8 @@
     line-height: normal;
 
 }
+
+/* Team Button */
 
 .meet-team-btn button {
     font-family: "Poppins", sans-serif;
@@ -238,7 +247,7 @@
   left: 0px;
 }
 
-/*Button*/
+/* Ticket Button*/
 
 .ticket-btn button {
     font-family: "Poppins", sans-serif;
@@ -292,6 +301,8 @@
     color: #0B0D26;
 }
 
-img {
+.imgs img {
     max-width: 100%;
 }
+
+
