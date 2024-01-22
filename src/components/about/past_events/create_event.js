@@ -9,7 +9,7 @@ function CreateEvent(props) {
             <div className="event-content">
                 <div className="event-logistics">
                     <img src={star} className="star-img" alt="Christmas Star"/>
-                    <p>{props.logistics}</p>
+                    <p className="logistics-text">{props.logistics}</p>
                 </div>
                 <div className="event-info">
                     <p className="event-title">{props.title}</p>
