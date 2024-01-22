@@ -173,6 +173,13 @@
     padding-bottom: 80px;
 }
 
+/*
+.landing-team-img-container {
+    display: flex;
+    width: 766px;
+    height: 100%;
+} */
+
 .landing-team-contents-ctr {
     display: flex;
     width: 1406px;
@@ -240,7 +247,7 @@
   left: 0px;
 }
 
-/*Button*/
+/* Ticket Button*/
 
 .ticket-btn button {
     font-family: "Poppins", sans-serif;
