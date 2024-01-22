@@ -1,7 +1,7 @@
 #sponsor-bucket {
   display: inline-flex;
   align-items: flex-start;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
   gap: 2.5rem;
   padding-bottom: 9rem;
@@ -23,10 +23,13 @@
 #sponsors {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 0.5rem;
+
 }
 
 #sponsors h1 {
-  padding-left: 6rem;
   font-size: 32px;
 }
 
@@ -38,7 +41,7 @@
   -o-transition: background-color .5s ease-out;
 }
 
-.clickedSponsorBox {
+.clicked-sponsor-box {
   background-color: rgb(16, 5, 40);
   border-color: rgb(16, 5, 40);
   display: flex;
