@@ -18,7 +18,7 @@ function AboutUs(){
         <div id="about_ted">
           <div class="header-box">
             <img src={star} className="star-img" alt="Christmas Star"></img>
-            <h2>ABOUT TED</h2>
+            <h1>ABOUT TED</h1>
           </div>
           <div class="content">
             <img src={ted} alt="TED Logo: Ideas worth spreading"></img>
@@ -32,7 +32,7 @@ function AboutUs(){
         <div id="about_tedx">
           <div class="header-box">
             <img src={star} className="star-img" alt="Christmas Star"></img>
-            <h2>ABOUT TEDx</h2>
+            <h1>ABOUT TEDx</h1>
           </div>
           <div class="content">
             <img src={tedx} alt="TEDx Logo"></img>
@@ -46,7 +46,7 @@ function AboutUs(){
         <div id="about_tedxuofw">
           <div class="header-box">
             <img src={star} className="star-img" alt="Christmas Star"></img>
-            <h2>ABOUT TEDxUofW</h2>
+            <h1>ABOUT TEDxUofW</h1>
           </div>
           <div class="content">
             <img src={tedxuofw} alt="TEDxUofW Logo"></img>
@@ -59,7 +59,7 @@ function AboutUs(){
         <div id="contact">
           <div class="header-box">
             <img src={star} className="star-img" alt="Christmas Star"></img>
-            <h2>CONTACT US</h2>
+            <h1>CONTACT US</h1>
           </div>
           <div class="content">
             <div id="icons">
