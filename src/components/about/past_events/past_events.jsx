@@ -1,7 +1,7 @@
 import React from "react";
 import "./past_events.css";
-import CreateEvent from "./create_event.js";
-import event_data from './event_data.js';
+import CreateEvent from "./create_event.jsx";
+import event_data from './event_data.jsx';
 
 function PastEvents(){
 
