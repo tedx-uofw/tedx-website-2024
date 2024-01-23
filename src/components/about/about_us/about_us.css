@@ -14,7 +14,7 @@
 .content {
   display: flex;
   gap: 5rem;
-  margin-top: 5rem;
+  margin: 0rem 5rem 0rem 5rem;
 }
 
 .star-img {
@@ -24,40 +24,32 @@
 }
 
 .content img {
-  height: auto;
   border-radius: 0.75rem;
-  margin-left: 10rem;
-  border-radius: 0.75rem;
+  max-width: 100%;
+  height: fit-content;
 }
 
 .content p {
-  width: 30%;
   color: var(--White, #FFF);
   font-family: Poppins;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
+  max-width: 100%;
+  height: fit-content;
 }
 
 #about_us {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10rem;
-}
-
-#contact {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 5rem; */
-  margin-bottom: 3rem;
 }
 
 #links {
-  /* align-items: flex-start; */
+  align-items: center;
   color: white;
   display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5rem;
 }
 
 #links a {
@@ -77,5 +69,7 @@
 }
 
 .aboutus-header h1 {
-  margin: 0 auto 0 auto;
+  margin: 0;
+  align-items: start;
+  padding: 0;
 }
