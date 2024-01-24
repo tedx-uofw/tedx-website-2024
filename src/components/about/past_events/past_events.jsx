@@ -10,7 +10,7 @@ function PastEvents(){
   return (
       <div id="past_events">
 
-        <h1>PAST EVENTS</h1>
+        <h1 className="heading">PAST EVENTS</h1>
 
         {eventInfo.map(event => (
           <CreateEvent
