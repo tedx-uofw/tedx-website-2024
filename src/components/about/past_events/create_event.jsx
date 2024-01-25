@@ -1,5 +1,7 @@
 import React from 'react';
 import star from "./event_imgs/ChristmasStar.png";
+// import star from "../assets/ChristmasStar.svg";
+
 import "./create_event.css";
 
 function CreateEvent(props) {

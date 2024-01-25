@@ -1,5 +1,4 @@
 import React from 'react';
-// import star from "./speakersImg/ChristmasStar.png";
 import "./createSpeaker.css";
 
 function CreateSpeaker(props) {

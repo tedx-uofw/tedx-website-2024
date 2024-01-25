@@ -3,6 +3,7 @@
     padding: 10px 0px;
     align-items: center;
     gap: 10px;
-    width: 1436px;
+    /* width: 1436px; */
+    width: 83%;
     margin: 0 auto 40px auto;
 }
