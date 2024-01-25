@@ -20,7 +20,7 @@ function Team(props){
   return (
       <div id="team-container">
         <div className="team-info-container">
-          <div className="box">
+          <div className="team-box">
             <img src={starLogo} alt="Star Logo" />
             <h2 className="team-header" id={props.name}>{props.name}</h2>
           </div>

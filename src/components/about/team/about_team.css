@@ -15,30 +15,6 @@
     letter-spacing: 0.8px;
 }
 
-/* Team Header */
-.team-header {
-    color: var(--white);
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-}
-
-.box {
-    border-radius: 11.769px;
-    border: 1px solid #A5A5CC;
-    background: rgba(30, 28, 34, 0.40);
-
-    display: flex;
-    align-content: center;
-    padding-left: 20px;
-    gap: 20px;
-    width: 500px;
-    height: 96px;
-    align-self: stretch;
-}
-
 /* Team Container */
 
 .team-info-container {
@@ -92,4 +68,23 @@
 
 .links:link {
     text-decoration: none;
+}
+
+/* Team Header */
+.team-header {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.team-box {
+    border-radius: 11.769px;
+    border: 1px solid #A5A5CC;
+    background: rgba(30, 28, 34, 0.40);
+
+    display: flex;
+    align-content: center;
+    padding-left: 20px;
+    gap: 20px;
+    align-self: stretch;
+    width: 85%;
 }
