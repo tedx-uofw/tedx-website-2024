@@ -16,10 +16,10 @@ import speakerData from "../team/team-data/speaker-selec-data"
 function AboutTeam() {
 
     return (
-        <div class="about-team-container page-container">
+        <div class="about-team-container">
             <h1 className="page-title">MEET THE TEAM</h1>
 
-                <div className="team-contents-container">  
+                <div className="team-contents-container">
                     <div className="section-links">
                         <h2 id="teams-title">TEAMS</h2>
                         <ul className="team-list-items">
@@ -45,8 +45,8 @@ function AboutTeam() {
                                 <a href="#SPEAKER SELECTION" className="links">Speaker Selection</a>
                             </li>
                         </ul>
-                        </div> 
-                    <div className="team-ctr">     
+                        </div>
+                    <div className="team-ctr">
                         <Team
                             name="CO-PRESIDENTS"
                             data={presData}
@@ -75,7 +75,7 @@ function AboutTeam() {
                             name="SPEAKER SELECTION"
                             data={speakerData}
                             />
-                        </div>   
+                        </div>
                 </div>
         </div>
     );
