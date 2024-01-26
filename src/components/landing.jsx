@@ -66,7 +66,10 @@ function Landing(){
 
                     <div className='schedule-items-ctr'>
                         <ul id='schedule-list'>
-                            {items.map((item) => <Schedule name={item.name} title={item.title} time={item.time} /> )}
+                            {items.map((item) => 
+                            <Schedule name={item.name} 
+                            title={item.title} 
+                            time={item.time} /> )}
                         </ul>
                     </div>
                 </div>
@@ -106,7 +109,7 @@ function Landing(){
                         <div className='landing-team-text-ctr'>
                             <p id='landing-team-text'>Learn more about the team behind the conference!</p>
                             <div className='meet-team-btn'>
-                            <button>MEET THE TEAM</button>
+                            <button><a href='/team' className='meet-team-link'>MEET THE TEAM</a></button>
                             </div>
                             
                         </div>

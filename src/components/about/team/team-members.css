@@ -1,0 +1,33 @@
+.team-member-ctr {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #A5A5CC;
+    background: rgba(30, 28, 34, 0.40);
+    width: 272px;
+
+}
+
+.team-member-text {
+    padding-bottom: 12px;
+}
+
+.team-member-name, .team-member-title {
+    font-weight: 400;
+    padding-left: 12px;
+}
+
+.team-member-name {
+    font-size: 20px;
+}
+
+.team-member-title {
+    font-size: 16px;
+}
+
+.team-member-img {
+    max-width: 272px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}

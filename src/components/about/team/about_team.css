@@ -1,0 +1,102 @@
+/*Title*/
+
+.page-title {
+    display: flex;
+    padding-left: 220px;
+    padding-bottom: 10px;
+
+    align-items: center;
+    gap: 10px;
+
+    color: #F5F5F5;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 104.5%; /* 41.8px */
+    letter-spacing: 0.8px;
+}
+
+/* Team Container */
+
+.team-info-container {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    align-content: flex-end;
+    gap: 19px;
+    flex-wrap: wrap;
+}
+
+.team-contents-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+/*About Team Container */
+
+.team-ctr {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-team-container {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+/* Section Links */
+
+#teams-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section-links {
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    position: fixed;
+
+}
+
+.team-list-items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    list-style: none;
+
+}
+
+.links {
+    color: var(--White, #FFF);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.links:link {
+    text-decoration: none;
+}
+
+/* Team Header */
+.team-header {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.team-box {
+    border-radius: 11.769px;
+    border: 1px solid #A5A5CC;
+    background: rgba(30, 28, 34, 0.40);
+
+    display: flex;
+    align-content: center;
+    padding-left: 20px;
+    gap: 20px;
+    align-self: stretch;
+    width: 100%;
+}

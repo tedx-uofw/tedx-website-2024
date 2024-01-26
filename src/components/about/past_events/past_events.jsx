@@ -1,7 +1,7 @@
 import React from "react";
 import "./past_events.css";
-import CreateEvent from "./create_event.js";
-import event_data from './event_data.js';
+import CreateEvent from "./create_event.jsx";
+import event_data from './event_data.jsx';
 
 function PastEvents(){
 
@@ -10,7 +10,7 @@ function PastEvents(){
   return (
       <div id="past_events">
 
-        <h1>PAST EVENTS</h1>
+        <h1 className="heading">PAST EVENTS</h1>
 
         {eventInfo.map(event => (
           <CreateEvent

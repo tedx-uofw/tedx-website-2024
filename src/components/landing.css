@@ -267,6 +267,10 @@
     cursor: pointer;
 }
 
+.meet-team-link:link {
+    text-decoration: none;
+}
+
 .ticket-btn button::before {
     content: "";
     position: absolute;

@@ -61,7 +61,6 @@ function AboutUs(){
             <img src={star} className="star-img" alt="Christmas Star"></img>
             <h1>CONTACT US</h1>
           </div>
-          <div class="content">
             <div id="links">
                 {/* Mail */}
                 <a href=""><img src={email}></img>tedxuofw@uw.edu</a>
@@ -74,7 +73,6 @@ function AboutUs(){
                 {/* LinkedIn */}
                 <a href=""><img src={linkedin}></img>@tedxuofw</a>
               </div>
-          </div>
         </div>
       </div>
   )

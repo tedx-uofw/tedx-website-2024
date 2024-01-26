@@ -1,0 +1,8 @@
+.team-member-list {
+    display: flex;
+    gap: 19px;
+    flex-wrap: wrap;
+    /*width: 272px*/
+    padding-bottom: 80px;
+
+}

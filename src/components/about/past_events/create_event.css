@@ -1,5 +1,6 @@
 .event-box {
-    width: 1436px;
+    /* width: 1436px; */
+    width: 83%;
     margin: 0px auto 40px auto;
     border-radius: 12px;
     border: 1px solid var(--Purble, #A5A5CC);
@@ -54,8 +55,9 @@
 }
 
 .event-img {
-    height: 490px;
-    width: 718px;
+    /* height: 490px; */
+    /* width: 718px; */
+    width: 50%;
     border-radius: 0px 12px 12px 0px;
     border-left: 1px;
 }
