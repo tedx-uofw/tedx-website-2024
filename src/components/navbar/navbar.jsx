@@ -37,7 +37,9 @@ function Navbar(){
 
 
         {/* add on click functionality when tix page up */}
-        <button id="tix-button" class="right-nav" type="button">GET TICKETS</button>
+        <div className='ticket-btn'>
+                    <button>GET TICKETS</button>
+                </div>
 
        </section>
       </div>

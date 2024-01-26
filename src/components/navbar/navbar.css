@@ -1,6 +1,7 @@
 #navbar {
   display: flex;
   flex-direction: row;
+  font-family: "Poppins", sans-serif;
   align-items: center;
   justify-content: space-between;
   padding-left: 6%;
@@ -68,19 +69,7 @@ from the button */
   -moz-text-fill-color: transparent;
 }
 
-#tix-button {
-  font-size: 24px;
-  border-radius: 6.25rem;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-weight: 600;
-  text-align: center;
-}
-
-#tix-button:hover {
-  background-color: #90FFD4;
-  background-image: linear-gradient(45deg, #90FFD4, #67AFE0, #737CFE, #E57EFF);
+#navbar .ticket-btn button{
+  padding: 0.8rem 1.3rem;
 }
 
