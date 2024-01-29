@@ -1,7 +1,7 @@
 .speaker-box {
     /* width: 1145px; */
     width: 66.3%;
-    /* height: 337px; */
+    height: 337px;
     /* height: auto; */
     margin: 24px auto 0 auto;
     border: 1px solid #A5A5CC;
@@ -18,7 +18,7 @@
 }
 
 .speaker-content {
-    margin: 40px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -44,5 +44,5 @@
 }
 
 .last-person {
-    margin-bottom: 420px;
+    margin-bottom: 80px;
 }
