@@ -1,6 +1,6 @@
 .speaker-box {
     /* width: 1145px; */
-    width: 66.3%;
+    width: 67%;
     height: 337px;
     /* height: auto; */
     margin: 24px auto 0 auto;
@@ -34,7 +34,7 @@
 .speaker-title {
     font-size: 16px;
     font-weight: 400;
-    margin: 8px 0 16px 0;
+    margin: 16px 0 32px 0;
 }
 
 .speaker-descr {
