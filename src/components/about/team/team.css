@@ -5,3 +5,20 @@
     padding-bottom: 80px;
 
 }
+
+/* Team Header */
+.team-header {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.team-box {
+    border-radius: 11.769px;
+    border: 1px solid #A5A5CC;
+    background: rgba(30, 28, 34, 0.40);
+    display: flex;
+    padding-left: 20px;
+    gap: 20px;
+    width: 91.5%;
+    max-width: 1198px;
+}
