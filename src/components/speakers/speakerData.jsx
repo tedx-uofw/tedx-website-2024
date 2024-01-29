@@ -12,7 +12,8 @@ const speakerArray = [
             music, nature, divine femininity, and the complexities in Black 
             culture. Aramis has exhibited her colorful creations throughout 
             Washington state. She also painted the “V” in Seattle’s Black 
-            Lives Matter mural. This self
+            Lives Matter mural. This self taught, Neddy Award winning-artist 
+            lets her imagination be her guide.
         </p>
     },
     {
@@ -25,7 +26,8 @@ const speakerArray = [
             music, nature, divine femininity, and the complexities in Black 
             culture. Aramis has exhibited her colorful creations throughout 
             Washington state. She also painted the “V” in Seattle’s Black 
-            Lives Matter mural. This self
+            Lives Matter mural. This self taught, Neddy Award winning-artist 
+            lets her imagination be her guide.
         </p>
     }
 ]

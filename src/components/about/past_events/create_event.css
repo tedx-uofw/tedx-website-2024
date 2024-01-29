@@ -96,7 +96,7 @@
     }
 
     .last-event {
-        margin-bottom: 48px;
+        margin-bottom: 80px;
     }
 }
 
@@ -135,9 +135,5 @@
 
     .event-descr {
         font-size: 16px;
-    }
-
-    .last-event {
-        margin-bottom: 48px;
     }
 }

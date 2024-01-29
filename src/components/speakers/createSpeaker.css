@@ -42,6 +42,7 @@
     font-size: 20px;
     font-weight: 400;
     margin: -20px 0 -20px 0;
+    overflow: auto;
 }
 
 .last-person {
@@ -81,7 +82,7 @@
     }
  
     .last-person {
-        margin-bottom: 82px;
+        margin-bottom: 80px;
     }
  }
  
@@ -91,10 +92,6 @@
     .speaker-box {
         /* width: 393px; */
         width: 92%;
-    }
- 
-    .last-person {
-        margin-bottom: 80px;
     }
  }
  
