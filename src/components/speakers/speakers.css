@@ -31,3 +31,51 @@
 .performer-box {
     margin-top: 100px;
 }
+
+/* tablet */
+@media only screen and (max-width: 575px) {
+    .header-box {
+        /* width: 543px; */
+        width: 94%;
+    }
+
+    .header-content {
+        margin: 16px;
+    }
+
+    .star-img {
+        width: 32px;
+        height: 32px;
+        margin-right: 12px;
+    }
+
+    .header-text {
+        font-size: 32px;
+    }
+
+    .performer-box {
+        margin-top: 60px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 425px) {
+    .header-box {
+        /* width: 543px; */
+        width: 92%;
+    }
+
+    .header-content {
+        margin: 16px;
+    }
+
+    .star-img {
+        width: 20px;
+        height: 20px;
+        margin-right: 12px;
+    }
+
+    .header-text {
+        font-size: 20px;
+    }
+}
