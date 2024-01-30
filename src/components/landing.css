@@ -22,6 +22,12 @@
 
 }
 
+.crossroads-logo {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
 .landing-theme-date {
     color: var(white);
     font-size: 40px;
@@ -46,8 +52,11 @@
 }
 
 .crossroads-graphic {
+    display: flex;
     padding-top: 83.91px;
     padding-bottom: 194.97px;  
+    justify-content: center;
+
 }
 
 
@@ -151,6 +160,11 @@
     max-width: 100%;
 }
 
+.landing-venue-img-container {
+    width: 766px;
+    height: 536px;
+}
+
 .venue-text, .parking-text {
     color: var(--white);
     font-size: 20px;
@@ -172,18 +186,14 @@
 .landing-team-container {
     padding-bottom: 80px;
 }
-
-/*
-.landing-team-img-container {
-    display: flex;
-    width: 766px;
-    height: 100%;
-} */
+ .landing-team-img-container {
+    width: 899.27px;
+    height: 674.453px;
+ }
 
 .landing-team-contents-ctr {
     display: flex;
     width: 1406px;
-    align-items: center;
     gap: 40px;
     max-width: 100%;
 }
@@ -303,10 +313,6 @@
 
 .ticket-btn button:hover {
     color: #0B0D26;
-}
-
-.imgs img {
-    max-width: 100%;
 }
 
 
