@@ -94,21 +94,12 @@
     align-items: start;
   }
   .aboutus-header {
-    display: flex;
-    padding: 1rem;
-    align-items: center;
-    align-content: center;
-    gap: 1.25rem;
-    font-size: 1.5rem;
-    border-radius: 0.75rem;
-    border: 1px solid var(--Purble, #A5A5CC);
-    background: var(--off-black-40, rgba(30, 28, 34, 0.40));
     margin: 2rem 2rem 2rem 2rem;
   }
 }
 
 /* Additional responsive CSS for mobile: */
-@media screen and (min-width: 325px) {
+@media screen and (min-width: 325px) and (max-width: 575px){
   .content {
     margin: 2rem 2rem 2rem 2rem;
     gap: .5rem;
