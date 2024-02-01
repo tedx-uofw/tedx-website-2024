@@ -139,12 +139,13 @@ footer {
         order: 2;
     }
     .mobile-only {
-        display: block;
+        display: visible;
         opacity: 50%;
         margin-bottom: 0;
     }
 }
-
-.mobile-only {
-    display: none;
+@media screen and (min-width: 575px) {
+    .mobile-only {
+        display: none;
+    }
 }
