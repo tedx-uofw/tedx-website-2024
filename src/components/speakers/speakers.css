@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
 .header-box {
-    /* width: 1145px; */
+    max-width: 1145px;
     width: 67%;
+    min-width: 800px;
     border: 1px solid #A5A5CC;
     border-radius: 12px;
     background: var(--off-black-40, rgba(30, 28, 34, 0.40));
@@ -37,6 +38,7 @@
     .header-box {
         /* width: 543px; */
         width: 94%;
+        min-width: 0px;
     }
 
     .header-content {

@@ -1,6 +1,7 @@
 .speaker-box {
-    /* width: 1145px; */
+    max-width: 1145px;
     width: 67%;
+    min-width: 800px;
     height: 337px;
     /* height: auto; */
     margin: 24px auto 0 auto;
@@ -35,14 +36,16 @@
     font-size: 16px;
     font-weight: 400;
     margin: 16px 0 32px 0;
-    /* margin: 16px 0 32px 0; */
+    /* margin: 16px 0 12px 0; */
 }
 
 .speaker-descr {
     font-size: 20px;
     font-weight: 400;
-    margin: -20px 0 -20px 0;
+    /* margin: -20px 0 0 0; */
+    margin: 0;
     overflow: auto;
+    margin-block-start: -1em;
 }
 
 .last-person {
@@ -55,6 +58,7 @@
     .speaker-box {
         /* width: 543px; */
         width: 94%;
+        min-width: 0px;
         height: auto;
         flex-direction: column;
         margin: 20px auto 0 auto;
