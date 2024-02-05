@@ -51,7 +51,9 @@ from the button */
 #right-nav-links {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 15px;
+  /* width: 60%; */
 }
 
 .dropdown {
@@ -114,5 +116,9 @@ from the button */
 
 #navbar .ticket-btn button{
   padding: 0.8rem 1.3rem;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 90%;
+  margin-left: 10%;
 }
 
