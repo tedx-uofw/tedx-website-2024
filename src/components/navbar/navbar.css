@@ -4,10 +4,13 @@
   font-family: "Poppins", sans-serif;
   align-items: center;
   justify-content: space-between;
+  width: 90%;
+  position: fixed;
   padding-left: 6%;
+  overflow: hidden;
   padding-right: 6%;
   padding-top: 4.75%;
-  padding-bottom: 4.75%;
+  padding-bottom: 12%;
   font-size: 1.5rem;
   background: var(--Off-Black-Gradient, linear-gradient(180deg, #1E1C22 0%, rgba(0, 0, 0, 0.00) 88.59%));
   overflow: hidden;
