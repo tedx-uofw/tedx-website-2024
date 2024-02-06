@@ -45,7 +45,23 @@
     /* margin: -20px 0 0 0; */
     margin: 0;
     overflow: auto;
+
+    /*IE and Edge*/
+    -ms-overflow-style: none; 
+
+    /*Firefox*/
+    scrollbar-width: none; 
+
+    /* custom scrollbar */
+    scrollbar-color: grey;
+    scrollbar-width: thin;
+
     margin-block-start: -1em;
+}
+
+/*Chrome, Safari, and Opera*/
+.speaker-descr::-webkit-scrollbar {
+    display: none;
 }
 
 .last-person {
@@ -83,10 +99,6 @@
 
     .speaker-descr {
         font-size: 16px;
-    }
- 
-    .last-person {
-        margin-bottom: 80px;
     }
  }
  
