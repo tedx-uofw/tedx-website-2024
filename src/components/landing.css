@@ -1,4 +1,5 @@
 .landing-container {
+    padding-top: 30px;
     font-family: Poppins;
     color: #FBFBFB;
     gap: 100px;
@@ -23,10 +24,10 @@
 
 }
 
-.crossroads-logo {
+.crossroads-logo img{
     display: flex;
     justify-content: center;
-    max-width: 100%;
+    width: 81.3vw;
 }
 
 .landing-theme-date {
@@ -52,12 +53,12 @@
     font-weight: 600;
 }
 
-.crossroads-graphic {
+.crossroads-graphic img{
     display: flex;
     padding-top: 83.91px;
     padding-bottom: 194.97px;
     justify-content: center;
-
+    width: 99.7vw;
 }
 
 
@@ -150,6 +151,7 @@
 .schedule-divider {
     background: linear-gradient(to right, #90FFD4 -9.65%, #7ED4E1 8.3%, #6CABEE 30.35%, #A297F6 63.29%, #E57EFF 108.14%);
     height: 2px;
+    min-width: 346px;
 }
 
 /* Venue */
@@ -171,8 +173,7 @@
 }
 
 .venue-text, .parking-text {
-    color: var(--white);
-    font-size: 1.2rem;
+    font-size: 1.157vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -191,9 +192,8 @@
 .landing-team-container {
     padding-bottom: 80px;
 }
- .landing-team-img-container {
-    width: 899.27px;
-    height: 674.453px;
+ .landing-team-img-container img{
+    width: 40vw;
  }
 
 .landing-team-contents-ctr {
@@ -204,8 +204,7 @@
 }
 
 #landing-team-text {
-    color: var(--white);
-    font-size: 40px;
+    font-size: 2.3vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -320,28 +319,30 @@
 }
 
 
-@media only screen and (max-width: 1585px) {
-    .crossroads-graphic img {
-        width: 1585px;
-    }
+@media only screen and (max-width: 1600px) {
 
-    .landing-venue-img-container img{
-        width: 34vw;
-    }
+    /* Title */
 
-    .landing-team-img-container img{
-        width: 38vw;
-    }
+    /*Schedule*/
 
-    #landing-team-text {
-        font-size: 30px;
+    /*Venue*/
 
-    }
+
+    /*Meet the Team*/
     .meet-team-btn button {
         font-size: 20px;
         padding: 20px 32px;
         gap: 4px;
     }
+}
+
+@media only screen and (max-width: 1300px) {
+
+    /* Title */
+
+    /*Schedule*/
+
+    /*Venue*/
 }
 
 
