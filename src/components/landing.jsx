@@ -45,8 +45,8 @@ function Landing(){
 
                 <div className='landing-theme-content'>
                     <p>The intersection of ideas, the overlapping of concepts, and the reflection that
-                    can come<br/> when we are faced with a dilemma. It is a versatile theme that can be explored
-                    from a wide<br/> range of perspectives, including personal growth and innovation.</p>
+                    can come when we are faced with a dilemma. It is a versatile theme that can be explored
+                    from a wide range of perspectives, including personal growth and innovation.</p>
                     <p id='scroll-to-learn'>Scroll to learn more about the event!</p>
                 </div>
                 <div className='ticket-btn'>
@@ -60,15 +60,15 @@ function Landing(){
 
                 <div className='landing-schedule-container section-ctr'>
                     <div className='box'>
-                        <img src={starIcon} alt='Star Icon' />
+                        <img src={starIcon} alt='Star Icon' className='star-icon'/>
                         <h3 className='title'>SCHEDULE</h3>
                     </div>
 
                     <div className='schedule-items-ctr'>
                         <ul id='schedule-list'>
-                            {items.map((item) => 
-                            <Schedule name={item.name} 
-                            title={item.title} 
+                            {items.map((item) =>
+                            <Schedule name={item.name}
+                            title={item.title}
                             time={item.time} /> )}
                         </ul>
                     </div>
@@ -76,7 +76,7 @@ function Landing(){
 
                 <div className='landing-venue-container section-ctr'>
                     <div className='box'>
-                        <img src={starIcon} alt='Star Icon' />
+                        <img src={starIcon} alt='Star Icon' className='star-icon'/>
                         <h3 className='title'>VENUE</h3>
                     </div>
                     <div className='landing-venue-contents-ctr'>
@@ -99,7 +99,7 @@ function Landing(){
 
                 <div className='landing-team-container section-ctr'>
                     <div className='box'>
-                        <img src={starIcon} alt='Star Icon' />
+                        <img src={starIcon} alt='Star Icon' className='star-icon'/>
                         <h3 className='title'>MEET THE TEAM</h3>
                     </div>
                     <div className='landing-team-contents-ctr'>
@@ -111,7 +111,7 @@ function Landing(){
                             <div className='meet-team-btn'>
                             <button><a href='/team' className='meet-team-link'>MEET THE TEAM</a></button>
                             </div>
-                            
+
                         </div>
 
                     </div>

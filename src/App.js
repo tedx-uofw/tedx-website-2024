@@ -1,9 +1,6 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Particles from 'react-particles';
-//import {loadFull} from 'tsparticles';
-
 
 import Home from './components/home/home';
 import Navbar from './components/navbar/navbar';
