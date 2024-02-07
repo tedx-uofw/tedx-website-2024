@@ -74,7 +74,7 @@
 
 .links{
     color: var(--White, #FFF);
-    font-size: 20px;
+    font-size: 1.16vw;
     font-weight: 400;
 
 }
@@ -82,7 +82,6 @@
 .links:hover{
     background-color: #90FFD4;
     background-image: linear-gradient(60deg, #90FFD4, #67AFE0, #737CFE, #E57EFF);
-    /* background-size: 100%; */
     background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;

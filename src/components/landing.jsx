@@ -44,7 +44,7 @@ function Landing(){
                 </div>
 
                 <div className='landing-theme-content'>
-                    <p>The intersection of ideas, the overlapping of concepts, and the reflection that
+                    <p className='theme-intro'>The intersection of ideas, the overlapping of concepts, and the reflection that
                     can come when we are faced with a dilemma. It is a versatile theme that can be explored
                     from a wide range of perspectives, including personal growth and innovation.</p>
                     <p id='scroll-to-learn'>Scroll to learn more about the event!</p>
