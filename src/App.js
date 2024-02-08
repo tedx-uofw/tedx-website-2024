@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Particles from 'react-particles';
 
 import Home from './components/home/home';
 import Navbar from './components/navbar/navbar';
@@ -20,7 +21,7 @@ function App() {
         <div>
           <Navbar />
           <Routes>
-            <Route path="/" element = { <Home /> } />
+            <Route path="/" element ={ <Home /> } />
             <Route path="/sponsors" element = { <Sponsors /> } />
             <Route path="/about-tedx" element = { <AboutUs /> } />
             <Route path="/past-events" element = { <PastEvents /> } />
