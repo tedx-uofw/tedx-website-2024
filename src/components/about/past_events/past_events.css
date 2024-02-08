@@ -9,14 +9,20 @@
     margin: 244px auto 40px auto;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 1300px) {
     .heading {
-        width: 94%;
+        width: 83%;
         min-width: 0px;
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 1024px) {
+    .heading {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
     .heading {
         width: 92%;
         margin: 0 auto 20px auto;

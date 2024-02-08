@@ -47,30 +47,29 @@
     overflow: auto;
 
     /*IE and Edge*/
-    -ms-overflow-style: none; 
+    /* -ms-overflow-style: none;  */
 
     /*Firefox*/
-    scrollbar-width: none; 
+    /* scrollbar-width: none;  */
 
     /* custom scrollbar */
-    scrollbar-color: grey;
-    scrollbar-width: thin;
+    /* scrollbar-color: grey;
+    scrollbar-width: thin; */
 
     margin-block-start: -1em;
 }
 
 /*Chrome, Safari, and Opera*/
-.speaker-descr::-webkit-scrollbar {
+/* .speaker-descr::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .last-person {
     margin-bottom: 80px;
 }
 
-
 /* tablet */
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 1024px) {
     .speaker-box {
         /* width: 543px; */
         width: 94%;
@@ -104,7 +103,7 @@
  
  
  /* mobile */
- @media only screen and (max-width: 425px) {
+ @media only screen and (max-width: 450px) {
     .speaker-box {
         /* width: 393px; */
         width: 92%;
