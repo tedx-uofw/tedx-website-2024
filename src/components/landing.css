@@ -399,15 +399,6 @@
         gap: 20px;
     }
 
-    .landing-theme-date {
-        font-size: 14px;
-    }
-
-    .landing-theme-content {
-        font-size: 10px;
-        width: 400px;
-    }
-
     #scroll-to-learn {
         font-size: 10px;
     }
@@ -415,6 +406,11 @@
     .ticket-btn button {
         font-size: 12px;
         padding: 5px 16px;
+    }
+
+    .theme-intro {
+        padding-left: 0vw;
+        padding-right: 0vw;
     }
 
     /*Schedule*/
