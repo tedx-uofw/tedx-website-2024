@@ -8,7 +8,7 @@ import starLogo from "../../../assets/ChristmasStar.svg"
 function Team(props){
   const teamMembers = props.data?.map((item) => {
     return(
-      <TeamMember 
+      <TeamMember
       key={item.name}
       name={item.name}
       title={item.title}
@@ -21,14 +21,14 @@ function Team(props){
       <div id="team-container">
         <div className="team-info-container">
           <div className="team-box">
-            <img src={starLogo} alt="Star Logo" />
+            <img src={starLogo} alt="Star Logo" className="star-logo"/>
             <h2 className="team-header" id={props.name}>{props.name}</h2>
           </div>
-          
+
           <div className="team-member-list">
             {teamMembers}
           </div>
-          
+
         </div>
 
       </div>

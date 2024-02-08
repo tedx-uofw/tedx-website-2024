@@ -27,7 +27,7 @@ function App() {
             <Route path="/past-events" element = { <PastEvents /> } />
             <Route path="/team" element = { <AboutTeam /> } />
             <Route path="/speakers" element = { <Speakers />} />
-            <Route path="*" element={<div> 404 Not Found </div>}></Route>
+            {/*<Route path="*" element={<div> 404 Not Found </div>}></Route>*/}
           </Routes>
           <Footer />
         </div>

@@ -16,9 +16,22 @@
     border-radius: 11.769px;
     border: 1px solid #A5A5CC;
     background: rgba(30, 28, 34, 0.40);
+    align-items: center;
     display: flex;
     padding-left: 20px;
     gap: 20px;
     width: 91.5%;
+    height: 96px;
+    min-width: 400px;
     max-width: 1198px;
 }
+
+.star-logo {
+    width: 48px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+}
+
