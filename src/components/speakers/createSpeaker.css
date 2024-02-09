@@ -44,7 +44,8 @@
     font-weight: 400;
     /* margin: -20px 0 0 0; */
     margin: 0;
-    overflow: auto;
+    /* padding: 0; */
+    overflow: scroll;
 
     /*IE and Edge*/
     /* -ms-overflow-style: none;  */
