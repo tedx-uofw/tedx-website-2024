@@ -94,13 +94,12 @@
     border-radius: 11.769px;
     border: 1px solid #A5A5CC;
     background: rgba(30, 28, 34, 0.40);
-
     display: flex;
     align-content: center;
     padding-left: 20px;
     gap: 20px;
-    min-width: 400px;
     height: 96px;
+    min-width: 190px;
     align-self: stretch;
     flex-wrap: wrap;
 }
@@ -162,7 +161,7 @@
 .schedule-divider {
     background: linear-gradient(to right, #90FFD4 -9.65%, #7ED4E1 8.3%, #6CABEE 30.35%, #A297F6 63.29%, #E57EFF 108.14%);
     height: 2px;
-    min-width: 346px;
+    min-width: 190px;
 }
 
 /* Venue */
@@ -351,19 +350,28 @@
 
     /***************************************************/
     .landing-team-contents-ctr, .landing-venue-contents-ctr {
+        display: flex;
         flex-direction: column;
     }
 
     /*Venue*/
+
+    .landing-venue-contents-ctr {
+        align-items: center;
+    }
     .landing-venue-img-container img{
-        width: 61vw;
+        width: 60vw;
         align-items: center;
     }
 
     /*Team*/
     .landing-team-img-container img{
+        align-items: center;
         width: 61vw;
-        display: flex;
+    }
+
+    .landing-team-text-ctr {
+        align-items: flex-start;
     }
 
 }
@@ -391,6 +399,10 @@
         padding-left: 20px;
         gap: 20px;
         height: 65px;
+    }
+
+    .star-icon {
+        width: 2.78vw;
     }
 
     /* Title */
@@ -437,7 +449,8 @@
         gap: 20px;
     }
     .landing-venue-img-container img{
-        width: 73vw;
+        width: 65vw;
+        display: flex;
         align-items: center;
     }
 
@@ -462,6 +475,74 @@
         font-size: 12px;
         padding: 5px 16px;
     }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .landing-container {
+        padding-top: 50px;
+    }
+
+    /* Title */
+
+    .landing-theme-date {
+        font-size: 3.55vw;
+    }
+
+    .crossroads-logo img{
+        width: 78vw;
+    }
+
+    .landing-title {
+        margin-left: 36px;
+        margin-right: 36px;
+        gap: 0px;
+    }
+
+    .landing-theme-content {
+        font-size: 3.55vw;
+        padding-bottom: 10px;
+    }
+
+    .ticket-btn button{
+        padding: 2px 10px;
+    }
+
+    .crossroads-graphic img {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        width: 156.4vw;
+    }
+
+    /*Box*/
+    .title {
+        font-size: 20px;
+    }
+
+    .star-icon {
+        width: 4.44vw;
+    }
+
+    .box {
+        padding-left: 16px;
+        gap: 12px;
+        height: 52px;
+
+    }
+
+
+
+    /*Schedule*/
+
+
+    /***************************************************/
+
+
+    /*Venue*/
+
+
+    /*Team*/
+
 }
 
 
