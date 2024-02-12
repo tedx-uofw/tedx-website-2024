@@ -29,6 +29,10 @@ footer {
     flex-shrink: 0;
 }
 
+#blurb {
+    font-size: 1.25rem;
+}
+
 #pages {
     display: flex;
     align-items: flex-start;
@@ -123,7 +127,7 @@ footer {
     }
 }
 /* Additional responsive CSS for mobile */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 450px) {
     #logo {
         max-width: 10rem;
     }
@@ -143,8 +147,11 @@ footer {
         opacity: 50%;
         margin-bottom: 0;
     }
+    #blurb, #copyright, #pages a, #bottom a {
+        font-size: 1rem;
+    }
 }
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 450px) {
     .mobile-only {
         display: none;
     }

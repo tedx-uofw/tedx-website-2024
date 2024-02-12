@@ -11,6 +11,10 @@
   margin: 5rem 5rem 5rem 5rem;
 }
 
+#about_us {
+  margin-top: 15rem;
+}
+
 .content {
   display: flex;
   gap: 5rem;
@@ -31,16 +35,17 @@
 .content p {
   color: var(--White, #FFF);
   font-family: Poppins;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   max-width: 100%;
   height: fit-content;
+  align-self: center;
 }
 
 #about_us {
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
 }
 
 #links {
@@ -80,40 +85,49 @@
   }
   .content {
     flex-direction: column;
+    gap: 0rem;
   }
   #links {
     flex-direction: column;
-    align-items: start;
-    margin-left: 5rem;
     padding-bottom: none;
     gap: 1rem;
   }
   #links a {
     gap: 1rem;
-    font-size: x-large;
-    align-items: start;
   }
   .aboutus-header {
     margin: 2rem 2rem 2rem 2rem;
+  }
+  #about_us {
+    margin-top: 8rem;
   }
 }
 
 /* Additional responsive CSS for mobile: */
-@media screen and (min-width: 325px) and (max-width: 575px){
+@media screen and (max-width: 450px){
+  #about_us {
+    margin-top: 7rem;
+  }
   .content {
     margin: 2rem 2rem 2rem 2rem;
-    gap: .5rem;
   }
   .aboutus-header {
     font-size: 1rem;
   }
-  .content p {
-    font-size: smaller;
-  }
-  #links a {
-    font-size: smaller;
-  }
   #links img {
     max-height: 25px;
+  }
+  #about_us {
+    margin-top: 7rem;
+  }
+  #about_us p, a {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive CSS for laptops */
+@media screen and (max-width: 1300px) {
+  .content {
+    flex-direction: column;
   }
 }

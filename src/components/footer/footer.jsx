@@ -15,7 +15,11 @@ function Footer(){
           {/* 1st half of footer */}
           <div id="top">
             {/* Logo */}
-            <a href=""><img src={logo} alt="Logo of TEDxUofW" id="logo" hfref="/"></img></a>
+            <div class="section">
+              <a href=""><img src={logo} alt="Logo of TEDxUofW" id="logo" hfref="/"></img></a>
+              <p id="blurb">This independent TEDx event is operated under license from TED.</p>
+            </div>
+
             {/* Sitemap */}
             <div id="pages">
               {/* Events Section */}
