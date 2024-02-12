@@ -1,11 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import logo from "./nav-img/logo.png";
 import arrow from "./nav-img/arrow.png";
+import menu from "./nav-img/menu.png";
+import exit from "./nav-img/close.png";
+
+
 
 // import { useNavigate } from "react-router-dom";
 import "./navbar.css";
 
 function Navbar(){
+
+  const [isClicked, setClick] = useState(true);
 
   // let navigate = useNavigate();
   // const routeChange = (page) =>{
@@ -53,6 +59,20 @@ function Navbar(){
                 </div>
 
        </section>
+       <section id="small-screen">
+          <img id="side-menu" src={menu} onClick={() => {setClick(false)}} alt="side-menu-logo"/>
+          <div className={isClicked ? "side-menu-content" : "side-menu-content-clicked"}>
+            <div className='ticket-btn'>
+                <button id="nav-button">GET TICKETS</button>
+                <img id="exit-button" src={exit} onClick={() => {setClick(true)}} alt="exit-button"/>
+            </div>
+            <a href="/speakers">SPEAKERS</a>
+            <a href="/sponsors">SPONSORS</a>
+            <a href="/about-tedx">ABOUT US</a>
+            <a href="/team">TEAM</a>
+            <a href="/past-events">PAST EVENTS</a>
+          </div>
+        </section>
       </div>
   )
 }

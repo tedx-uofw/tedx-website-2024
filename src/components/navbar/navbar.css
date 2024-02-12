@@ -1,3 +1,5 @@
+
+
 #navbar {
   display: flex;
   flex-direction: row;
@@ -13,7 +15,6 @@
   padding-bottom: 12%;
   font-size: 1.5rem;
   background: var(--Off-Black-Gradient, linear-gradient(180deg, #1E1C22 0%, rgba(0, 0, 0, 0.00) 88.59%));
-  overflow: hidden;
 }
 
 /* make new section for non button links and adjust its width to move it away
@@ -43,6 +44,8 @@ from the button */
   align-items: center;
   width: 80%;
 }
+
+
 
 #right-nav {
   display: flex;
@@ -125,3 +128,71 @@ from the button */
   margin-left: 10%;
 }
 
+#small-screen {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  #small-screen {
+    display: block;
+    /* overflow: hidden; */
+    width: 60%;
+  }
+
+  #small-screen img {
+    height: 20px;
+    float: right;
+  }
+
+  #small-screen .ticket-btn button {
+    margin-left: 0px;
+    /* margin: 0.625rem; */
+    padding: 0.625rem;
+
+  }
+
+  #small-screen .ticket-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem;
+  }
+
+  #left-nav img {
+    width: 40%;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .side-menu-content {
+    display: none;
+    /* position: absolute; */
+    z-index: 10;
+  }
+
+  .side-menu-content-clicked a {
+    padding: 0.625rem;
+    text-decoration: none;
+  }
+
+  .side-menu-content-clicked {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    border: 1px solid var(--Purble, #A5A5CC);
+    background: var(--off-black-40, rgba(30, 28, 34, 0.40));
+    padding-bottom: 200px;
+    z-index: 1;
+    height: 100%;
+  }
+
+  #right-nav {
+    display: none;
+  }
+}
