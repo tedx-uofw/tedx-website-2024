@@ -101,7 +101,7 @@
     .section-links-content {
         display: flex;
         flex-direction: row;
-        gap: 00px;
+        gap: 0px;
     }
 
     .section-links {
