@@ -1,9 +1,14 @@
-import ExImg from "./speakersImg/Rectangle 24.png"
+import nohaPolack from "./speakersImg/nohaPolack.png"
+import emilyLagoAnderson from "./speakersImg/emilyLagoAnderson.png"
+import chiragShah from "./speakersImg/chiragShah.png"
+import zaryaRubin from "./speakersImg/zaryaRubin.png"
+import jeffNguyen from "./speakersImg/jeffNguyen1.png"
+import nashFung from "./speakersImg/nashFung.png"
 
 
 const speakerArray = [
     {
-        img: ExImg,
+        img: nohaPolack,
         name: "Dr. Noha Polack",
         title: "Board-Certified Pediatrician",
         description: <p>
@@ -15,7 +20,7 @@ const speakerArray = [
         </p>
     },
     {
-        img: ExImg,
+        img: emilyLagoAnderson,
         name: "Emily Lago Anderson",
         title: "Computer Engineer and Educator",
         description: <p>
@@ -27,7 +32,7 @@ const speakerArray = [
         </p>
     },
     {
-        img: ExImg,
+        img: chiragShah,
         name: "Chirag Shah",
         title: "University of Washington Professor",
         description: <p>
@@ -39,7 +44,7 @@ const speakerArray = [
         </p>
     },
     {
-        img: ExImg,
+        img: zaryaRubin,
         name: "Dr. Zarya Rubin",
         title: "Medicine Physician",
         description: <p>
@@ -51,7 +56,7 @@ const speakerArray = [
         </p>
     },
     {
-        img: ExImg,
+        img: jeffNguyen,
         name: "Jeff Nguyen",
         title: "BobaTalks",
         description: <p>
@@ -62,7 +67,7 @@ const speakerArray = [
         </p>
     },
     {
-        img: ExImg,
+        img: nashFung,
         name: "Nash Fung",
         title: "Keynote Speaker & Magician",
         description: <p>
