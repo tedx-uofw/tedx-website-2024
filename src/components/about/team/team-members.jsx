@@ -8,8 +8,7 @@ function TeamMember(props) {
             <div className="team-member-text">
                 <p className="team-member-name">{props.name}</p>
                 <p className="team-member-title">{props.title}</p>
-            </div>
-            
+            </div>    
         </div>
     );
 }

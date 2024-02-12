@@ -18,6 +18,7 @@ function AboutTeam() {
     return (
         <div class="about-team-container">
                 <div className="team-contents-container">
+                    <h1 className="page-title">MEET THE TEAM</h1>
                     <div className="section-links">
                             <h2 id="teams-title">TEAMS</h2>
                             <div className="section-links-content">
@@ -48,10 +49,7 @@ function AboutTeam() {
                             </div>
 
                     </div>
-                    <div className="contents-container">
-                        <h1 className="page-title">MEET THE TEAM</h1>
-                        <div className="mid-section-ctr">
-                            <div className="team-ctr">
+                    <div className="mid-section-ctr">       
                             <Team
                                 name="CO-PRESIDENTS"
                                 data={presData}
@@ -79,9 +77,7 @@ function AboutTeam() {
                             <Team
                                 name="SPEAKER SELECTION"
                                 data={speakerData}
-                                />
-                            </div>
-                        </div>
+                                />   
                     </div>
 
                 </div>

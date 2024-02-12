@@ -19,18 +19,13 @@ function Team(props){
 
   return (
       <div id="team-container">
-        <div className="team-info-container">
           <div className="team-box">
             <img src={starLogo} alt="Star Logo" className="star-logo"/>
             <h2 className="team-header" id={props.name}>{props.name}</h2>
           </div>
-
           <div className="team-member-list">
             {teamMembers}
           </div>
-
-        </div>
-
       </div>
   )
 }
