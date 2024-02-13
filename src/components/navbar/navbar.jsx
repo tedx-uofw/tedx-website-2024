@@ -21,11 +21,11 @@ function Navbar(){
 
 
   return (
-      <div id="navbar">
-       <section id="left-nav">
+      <div id={isClicked ? "navbar" : "navbar-with-side-menu"}>
+       <section id="left-nav" onClick={() => {setClick(true)}}>
 
-        <a id='logo' href="/">
-          <img id="nav-logo" src={logo} alt="tedx-logo"/>
+        <a id={isClicked ? "logo" : "logo-clicked"} href="/">
+          <img id={isClicked ? "nav-logo" : "nav-logo-clicked"} src={logo} alt="tedx-logo"/>
         </a>
        </section>
 
@@ -60,7 +60,7 @@ function Navbar(){
 
        </section>
        <section id="small-screen">
-          <img id="side-menu" src={menu} onClick={() => {setClick(false)}} alt="side-menu-logo"/>
+          <img id={isClicked ? "side-menu-icon" : "side-menu-icon-clicked"} src={menu} onClick={() => {setClick(false)}} alt="side-menu-icon"/>
           <div className={isClicked ? "side-menu-content" : "side-menu-content-clicked"}>
             <div className='ticket-btn'>
                 <button id="nav-button">GET TICKETS</button>

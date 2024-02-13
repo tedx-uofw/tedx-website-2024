@@ -139,6 +139,7 @@ from the button */
     display: block;
     /* overflow: hidden; */
     width: 60%;
+    height: 100%;
   }
 
   #small-screen img {
@@ -146,11 +147,15 @@ from the button */
     float: right;
   }
 
+  #side-menu-icon-clicked {
+    display: none;
+  }
+
   #small-screen .ticket-btn button {
     margin-left: 0px;
-    /* margin: 0.625rem; */
-    padding: 0.625rem;
-
+    font-size: 90%;
+    overflow: hidden;
+    white-space: nowrap;
   }
 
   #small-screen .ticket-btn {
@@ -158,10 +163,12 @@ from the button */
     align-items: center;
     justify-content: space-between;
     padding: 0.625rem;
+    padding-top: 2rem;
+    padding-right: 1.5rem;
   }
 
-  #left-nav img {
-    width: 40%;
+  #nav-logo {
+    width: 175px;
   }
 
   #navbar {
@@ -170,9 +177,27 @@ from the button */
     align-items: flex-start;
   }
 
+  #navbar-with-side-menu{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background: var(--Off-Black-Gradient, linear-gradient(180deg, #1E1C22 0%, rgba(0, 0, 0, 0.00) 88.59%));
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    font-size: 1.5rem;
+    z-index: 10;
+  }
+
+  #nav-logo-clicked {
+    padding-left: 10.5%;
+    padding-top: 8.5%;
+    opacity: 70%;
+    width: 175px;
+  }
+
   .side-menu-content {
     display: none;
-    /* position: absolute; */
     z-index: 10;
   }
 
@@ -187,8 +212,7 @@ from the button */
     border-radius: 0.5rem 0rem 0rem 0.5rem;
     border: 1px solid var(--Purble, #A5A5CC);
     background: var(--off-black-40, rgba(30, 28, 34, 0.40));
-    padding-bottom: 200px;
-    z-index: 1;
+    z-index: 2;
     height: 100%;
   }
 
@@ -196,3 +220,8 @@ from the button */
     display: none;
   }
 }
+
+/* for mobile
+  change tix btn + .side-menu-content-clicked a font sizing
+  change sizing of nav-logo + side-menu-icon
+  */
