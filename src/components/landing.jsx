@@ -39,7 +39,7 @@ function Landing(){
                 <div className='landing-theme-date'>
                     <p>04.13.2023 | 10:30 AM | Kane Hall</p>
                 </div>
-                <div className='crossroads-logo imgs'>
+                <div className='crossroads-logo'>
                     <img src={logo} alt='Crossroads' />
                 </div>
 
@@ -52,7 +52,7 @@ function Landing(){
                 <div className='ticket-btn'>
                     <button>GET TICKETS</button>
                 </div>
-                <div className='crossroads-graphic imgs'>
+                <div className='crossroads-graphic'>
                     <img src={graphic} alt='Crossroads Graphic'/>
                 </div>
             </div>
@@ -80,7 +80,7 @@ function Landing(){
                         <h3 className='title'>VENUE</h3>
                     </div>
                     <div className='landing-venue-contents-ctr'>
-                        <div className='landing-venue-img-container imgs'>
+                        <div className='landing-venue-img-container'>
                             <img src={kane} alt='Kane Hall Photo'/>
                         </div>
                         <div className='landing-venue-text-ctr'>
@@ -91,7 +91,7 @@ function Landing(){
                                     providing easy access to our intended audience. Additionally, the venue provides
                                     adequate accommodations for those in need of wheelchair seating or closed captions.</p>
                             <p className='parking-text'><a href='https://transportation.uw.edu/park/visitor'>Parking Information</a>
-                            | <a href='https://www.google.com/maps/place/Kane+Hall/@47.6566273,-122.3091503,15z/data=!4m6!3m5!1s0x549015bbf61d1867:0x39a352937b07450a!8m2!3d47.6566273!4d-122.3091503!16s%2Fg%2F11j111b43t?entry=ttu'>
+                              | <a href='https://www.google.com/maps/place/Kane+Hall/@47.6566273,-122.3091503,15z/data=!4m6!3m5!1s0x549015bbf61d1867:0x39a352937b07450a!8m2!3d47.6566273!4d-122.3091503!16s%2Fg%2F11j111b43t?entry=ttu'>
                                 Directions</a></p>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ function Landing(){
                         <h3 className='title'>MEET THE TEAM</h3>
                     </div>
                     <div className='landing-team-contents-ctr'>
-                        <div className='landing-team-img-container imgs'>
+                        <div className='landing-team-img-container'>
                             <img src={teamPhoto} alt='Team Photo'/>
                         </div>
                         <div className='landing-team-text-ctr'>

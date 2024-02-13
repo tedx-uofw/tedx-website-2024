@@ -205,6 +205,7 @@
 
 .landing-team-contents-ctr {
     display: flex;
+    width: 100%;
     gap: 40px;
 }
 
@@ -345,6 +346,10 @@
 
     /* Title */
 
+    .landing-theme-content, #scroll-to-learn {
+        font-size: 1.5vw;
+    }
+
     /*Schedule*/
 
 
@@ -359,15 +364,28 @@
     .landing-venue-contents-ctr {
         align-items: center;
     }
-    .landing-venue-img-container img{
-        width: 60vw;
+    .landing-venue-img-container {
+        width: 100%;
         align-items: center;
+    }
+    .landing-venue-img-container img{
+        width: 100%;
+    }
+
+    .venue-text, .parking-text {
+        font-size: 1.8vw;
     }
 
     /*Team*/
-    .landing-team-img-container img{
+
+    .landing-team-img-container {
+
+        display: flex;
         align-items: center;
-        width: 61vw;
+    }
+
+    .landing-team-img-container img{
+        width: 100%;
     }
 
     .landing-team-text-ctr {
@@ -425,6 +443,12 @@
         padding-right: 0vw;
     }
 
+    .crossroads-graphic img {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        width: 156.4vw;
+    }
+
     /*Schedule*/
 
     .single-schedule-item-ctr {
@@ -432,15 +456,15 @@
     }
 
     .items-time {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .items-name {
-        font-size: 16px;
+        font-size: 24px;
     }
 
     .items-title {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     /*Venue*/
@@ -449,13 +473,9 @@
         gap: 20px;
     }
     .landing-venue-img-container img{
-        width: 65vw;
+        width: 100%;
         display: flex;
         align-items: center;
-    }
-
-    .venue-text, .parking-text {
-        font-size: 12px;
     }
 
     /*Team*/
@@ -466,14 +486,9 @@
         width: 73vw;
         display: flex;
     }
-
-    #landing-team-text {
-        font-size: 16px;
-    }
-
     .meet-team-btn button{
-        font-size: 12px;
-        padding: 5px 16px;
+        font-size: 20px;
+        padding: 13px 20px;
     }
 }
 
@@ -540,8 +555,23 @@
 
     /*Venue*/
 
+    .venue-text, .parking-text a {
+        font-size: 3vw;
+    }
+
+    
+
 
     /*Team*/
+
+    #landing-team-text {
+        font-size: 3vw;
+    }
+
+    .meet-team-btn button{
+        font-size: 16px;
+        padding: 12px 12px;
+    }
 
 }
 
