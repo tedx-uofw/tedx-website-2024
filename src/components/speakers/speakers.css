@@ -30,7 +30,7 @@
 }
 
 .performer-box {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 /* tablet */
@@ -53,10 +53,6 @@
 
     .header-text {
         font-size: 32px;
-    }
-
-    .performer-box {
-        margin-top: 60px;
     }
 }
 
