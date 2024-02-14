@@ -1,8 +1,10 @@
-import React, {useState} from "react";
+import React, {useState } from "react";
 import logo from "./nav-img/logo.png";
 import arrow from "./nav-img/arrow.png";
 import menu from "./nav-img/menu.png";
 import exit from "./nav-img/close.png";
+// import line from "./nav-img/line.png";
+
 
 
 
@@ -19,6 +21,16 @@ function Navbar(){
   //   navigate(path);
   // }
 
+  // const [width, setWidth] = useState(window.innerWidth);
+
+
+    const handleResize = () => {
+      if(window.innerWidth > 1024) {
+        setClick(true);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
 
   return (
       <div id={isClicked ? "navbar" : "navbar-with-side-menu"}>
@@ -66,7 +78,7 @@ function Navbar(){
                 <button id="nav-button">GET TICKETS</button>
                 <img id="exit-button" src={exit} onClick={() => {setClick(true)}} alt="exit-button"/>
             </div>
-            <a href="/speakers">SPEAKERS</a>
+            <a id="first-link" href="/speakers">SPEAKERS</a>
             <a href="/sponsors">SPONSORS</a>
             <a href="/about-tedx">ABOUT US</a>
             <a href="/team">TEAM</a>

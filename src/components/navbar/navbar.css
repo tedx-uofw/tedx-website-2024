@@ -162,9 +162,11 @@ from the button */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.625rem;
+    padding-bottom: 1rem;
     padding-top: 2rem;
-    padding-right: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-bottom: 1px solid var(--Purble, #A5A5CC);
   }
 
   #nav-logo {
@@ -203,7 +205,12 @@ from the button */
 
   .side-menu-content-clicked a {
     padding: 0.625rem;
+    margin-left: 4px;
     text-decoration: none;
+  }
+
+  #first-link {
+    padding-top: 1.5rem;
   }
 
   .side-menu-content-clicked {
@@ -224,4 +231,8 @@ from the button */
 /* for mobile
   change tix btn + .side-menu-content-clicked a font sizing
   change sizing of nav-logo + side-menu-icon
+
+  general
+  add line under tix div
+  add animation for on click of icon
   */
