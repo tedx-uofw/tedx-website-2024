@@ -228,6 +228,41 @@ from the button */
   }
 }
 
+@media only screen and (max-width: 450px) {
+  #nav-logo {
+    width: 100px;
+  }
+
+  #nav-logo-clicked {
+    width: 100px;
+  }
+
+  #small-screen img {
+    height: 15px;
+    float: right;
+  }
+
+  #small-screen .ticket-btn button {
+    margin-left: 0px;
+    font-size: 65%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  #exit-button {
+    height: 7px;
+    /* width: 10px; */
+  }
+
+  .side-menu-content-clicked {
+    font-size: 80%;
+  }
+
+  .side-menu-content-clicked a {
+    font-size: 75%;
+  }
+}
+
 /* for mobile
   change tix btn + .side-menu-content-clicked a font sizing
   change sizing of nav-logo + side-menu-icon

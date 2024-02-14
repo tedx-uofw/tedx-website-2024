@@ -56,6 +56,16 @@
   display: none;
 }
 
+@media only screen and (max-width: 450px) {
+  #sponsors #sponsors-card h1 {
+    /* font-size: 32px; */
+    margin-left: 9%;
+  }
+
+  #sponsor-bucket {
+    padding-top: 1rem;
+  }
+}
 
 
 
