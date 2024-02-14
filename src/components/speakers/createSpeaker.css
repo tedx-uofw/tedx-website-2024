@@ -4,7 +4,7 @@
     min-width: 800px;
     height: 337px;
     /* height: auto; */
-    margin: 24px auto 0 auto;
+    margin: 20px auto 0 auto;
     border: 1px solid #A5A5CC;
     border-radius: 12px;
     background: var(--off-black-40, rgba(30, 28, 34, 0.40));
