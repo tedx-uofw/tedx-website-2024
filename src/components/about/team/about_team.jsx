@@ -18,38 +18,40 @@ function AboutTeam() {
     return (
         <div class="about-team-container">
                 <div className="team-contents-container">
-                    <h1 className="page-title">MEET THE TEAM</h1>
-                    <div className="section-links">
-                            <h2 id="teams-title">TEAMS</h2>
-                            <div className="section-links-content">
-                                <hr className="vertile-rule"></hr>
-                                <ul className="team-list-items">
-                                    <li>
-                                        <a href="#CO-PRESIDENTS" className="links">Co-Presidents</a>
-                                    </li>
-                                    <li>
-                                        <a href="#DESIGN" className="links">Design</a>
-                                    </li>
-                                    <li>
-                                        <a href="#WEB DEVELOPMENT" className="links">Web Dev</a>
-                                    </li>
-                                    <li>
-                                        <a href="#LOGISTICS" className="links">Logistics</a>
-                                    </li>
-                                    <li>
-                                        <a href="#MARKETING" className="links">Marketing</a>
-                                    </li>
-                                    <li>
-                                        <a href="#FINANCE" className="links">Finance</a>
-                                    </li>
-                                    <li>
-                                        <a href="#SPEAKER SELECTION" className="links">Speaker Selection</a>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div className="mobile-tab-scroll">
+                        <h1 className="page-title">MEET THE TEAM</h1>
+                        <div className="section-links">
+                                <h2 id="teams-title">TEAMS</h2>
+                                <div className="section-links-content">
+                                    <hr className="vertile-rule"></hr>
+                                    <ul className="team-list-items">
+                                        <li>
+                                            <a href="#CO-PRESIDENTS" className="links">Co-Presidents</a>
+                                        </li>
+                                        <li>
+                                            <a href="#DESIGN" className="links">Design</a>
+                                        </li>
+                                        <li>
+                                            <a href="#WEB DEVELOPMENT" className="links">Web Dev</a>
+                                        </li>
+                                        <li>
+                                            <a href="#LOGISTICS" className="links">Logistics</a>
+                                        </li>
+                                        <li>
+                                            <a href="#MARKETING" className="links">Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="#FINANCE" className="links">Finance</a>
+                                        </li>
+                                        <li>
+                                            <a href="#SPEAKER SELECTION" className="links">Speaker Selection</a>
+                                        </li>
+                                    </ul>
+                                </div>
 
+                        </div>
                     </div>
-                    <div className="mid-section-ctr">       
+                    <div className="mid-section-ctr">
                             <Team
                                 name="CO-PRESIDENTS"
                                 data={presData}
@@ -77,7 +79,7 @@ function AboutTeam() {
                             <Team
                                 name="SPEAKER SELECTION"
                                 data={speakerData}
-                                />   
+                                />
                     </div>
 
                 </div>
