@@ -50,7 +50,9 @@ function Landing(){
                     <p id='scroll-to-learn'>Scroll to learn more about the event!</p>
                 </div>
                 <div className='ticket-btn'>
-                    <button>GET TICKETS</button>
+                    <button>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLScFKzPkloRcReyNhadtJzJZ9HuH_g9o7tsom5HJczat4zWp0A/viewform' className='tickets-link'>GET TICKETS</a>
+                        </button>
                 </div>
                 <div className='crossroads-graphic'>
                     <img src={graphic} alt='Crossroads Graphic'/>

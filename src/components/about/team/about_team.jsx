@@ -20,7 +20,8 @@ function AboutTeam() {
                 <div className="team-contents-container">
                     <div className="mobile-tab-scroll">
                         <h1 className="page-title">MEET THE TEAM</h1>
-                        <div className="section-links">
+                        <div className="testing">
+                            <div className="section-links">
                                 <h2 id="teams-title">TEAMS</h2>
                                 <div className="section-links-content">
                                     <hr className="vertile-rule"></hr>
@@ -48,40 +49,40 @@ function AboutTeam() {
                                         </li>
                                     </ul>
                                 </div>
-
+                            </div>
+                        
+                            <div className="mid-section-ctr">
+                                    <Team
+                                        name="CO-PRESIDENTS"
+                                        data={presData}
+                                        />
+                                    <Team
+                                        name="DESIGN"
+                                        data={designData}
+                                        />
+                                    <Team
+                                        name="WEB DEVELOPMENT"
+                                        data={webdevData}
+                                        />
+                                    <Team
+                                        name="LOGISTICS"
+                                        data={logisticsData}
+                                        />
+                                    <Team
+                                        name="MARKETING"
+                                        data={marketingData}
+                                        />
+                                    <Team
+                                        name="FINANCE"
+                                        data={financeData}
+                                        />
+                                    <Team
+                                        name="SPEAKER SELECTION"
+                                        data={speakerData}
+                                        />
+                            </div>
                         </div>
                     </div>
-                    <div className="mid-section-ctr">
-                            <Team
-                                name="CO-PRESIDENTS"
-                                data={presData}
-                                />
-                            <Team
-                                name="DESIGN"
-                                data={designData}
-                                />
-                            <Team
-                                name="WEB DEVELOPMENT"
-                                data={webdevData}
-                                />
-                            <Team
-                                name="LOGISTICS"
-                                data={logisticsData}
-                                />
-                            <Team
-                                name="MARKETING"
-                                data={marketingData}
-                                />
-                            <Team
-                                name="FINANCE"
-                                data={financeData}
-                                />
-                            <Team
-                                name="SPEAKER SELECTION"
-                                data={speakerData}
-                                />
-                    </div>
-
                 </div>
         </div>
     );
