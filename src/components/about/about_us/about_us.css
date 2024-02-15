@@ -13,6 +13,8 @@
 
 #about_us {
   margin-top: 15rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
 }
 
 .content {
@@ -61,6 +63,7 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  font-size: 1.25rem;
 }
 
 #links img {
@@ -90,6 +93,8 @@
   #links {
     flex-direction: column;
     padding-bottom: none;
+    align-items: start;
+    margin-left: 1rem;
     gap: 1rem;
   }
   #links a {
@@ -100,6 +105,8 @@
   }
   #about_us {
     margin-top: 8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
 
@@ -116,6 +123,7 @@
   }
   #links img {
     max-height: 25px;
+    align-items: start;
   }
   #about_us {
     margin-top: 7rem;
