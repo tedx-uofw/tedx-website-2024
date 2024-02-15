@@ -17,7 +17,6 @@ function Footer(){
             {/* Logo */}
             <div class="section">
               <a href=""><img src={logo} alt="Logo of TEDxUofW" id="logo" hfref="/"></img></a>
-              <p id="blurb">This independent TEDx event is operated under license from TED.</p>
             </div>
 
             {/* Sitemap */}
@@ -42,7 +41,7 @@ function Footer(){
           {/* 2nd half of footer */}
           <div id="bottom">
             {/* Copyright */}
-            <p id="copyright">©TEDxUofW 2023 | Crossroads</p>
+            <p id="copyright">©TEDxUofW 2023 | Crossroads <span id="bar">|</span> <span id="blurb">This independent TEDx event is operated under license from TED.</span></p>
             {/* Logos */}
               <div class="mobile-only"><p>CONNECT WITH US:</p></div>
 <div id="icons">
