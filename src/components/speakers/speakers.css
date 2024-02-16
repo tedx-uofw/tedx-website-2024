@@ -7,7 +7,8 @@
     border: 1px solid #A5A5CC;
     border-radius: 12px;
     background: var(--off-black-40, rgba(30, 28, 34, 0.40));
-    margin: 276px auto 0 auto;
+    /* margin: 276px auto 0 auto; */
+    margin: 225px auto 0 auto;
 }
 
 .header-content {
@@ -33,12 +34,22 @@
     margin-top: 60px;
 }
 
+/* 1300px */
+@media only screen and (max-width: 1300px) {
+    .header-box {
+        /* margin-top: 16%; */
+        margin-top: 200px;
+    }
+}
+
 /* tablet */
 @media only screen and (max-width: 1024px) {
     .header-box {
         /* width: 543px; */
         width: 94%;
         min-width: 0px;
+        /* margin-top: 20%; */
+        margin-top: 125px;
     }
 
     .header-content {
@@ -61,6 +72,8 @@
     .header-box {
         /* width: 543px; */
         width: 92%;
+        /* margin-top: 15%; */
+        margin-top: 100px;
     }
 
     .header-content {
