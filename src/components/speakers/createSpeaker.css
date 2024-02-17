@@ -36,35 +36,33 @@
     font-size: 16px;
     font-weight: 400;
     margin: 16px 0 32px 0;
-    /* margin: 16px 0 12px 0; */
 }
 
 .speaker-descr-box {
     margin-bottom: 40px;
-    overflow: scroll;
+    overflow-y: auto;
 }
 
 .speaker-descr {
     font-size: 20px;
     font-weight: 400;
-
-    /*IE and Edge*/
-    /* -ms-overflow-style: none;  */
-
-    /*Firefox*/
-    /* scrollbar-width: none;  */
-
-    /* custom scrollbar */
-    /* scrollbar-color: grey;
-    scrollbar-width: thin; */
-
     margin-block-start: -1em;
 }
 
-/*Chrome, Safari, and Opera*/
-/* .speaker-descr::-webkit-scrollbar {
-    display: none;
-} */
+/* Scrollbar */
+.speaker-descr-box::-webkit-scrollbar {
+    width: 6px;
+    height: 12px;
+}
+    
+::-webkit-scrollbar-thumb {
+border-radius: 12px;
+background: #bababa;  
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #9f9f9f;  
+}
 
 .last-person {
     margin-bottom: 80px;
