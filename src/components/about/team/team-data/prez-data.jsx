@@ -3,18 +3,18 @@ import eddy from '../../../../assets/team-member-pics/eddy.png';
 const data =
 [
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "SAHANA SATEESH",
+        title: "Co-President | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "ARUSHI SHARMA",
+        title: "Co-President | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "DHRUTH KESANI",
+        title: "Co-President | MAJOR",
         img: eddy
     }
 ]

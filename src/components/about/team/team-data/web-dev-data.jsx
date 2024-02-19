@@ -3,23 +3,23 @@ import eddy from '../../../../assets/team-member-pics/eddy.png';
 const data =
 [
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "HARMONY SHIRK",
+        title: "Director | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "MELANIE MA",
+        title: "MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "SALMA ALY",
+        title: "MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "TASHFIA SHARMIN",
+        title: "MAJOR",
         img: eddy
     }
 ]

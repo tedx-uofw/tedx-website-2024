@@ -35,11 +35,7 @@ function AboutTeam() {
                                     <ul className="team-list-items">
                                         <li>
                                             <a href="#CO-PRESIDENTS"
-                                            className="links" onClick={e => {
-                                                let hero = document.getElementById("CO-PRESIDENTS");
-                                                e.preventDefault();  // Stop Page Reloading
-                                                hero && hero.scrollIntoView();
-                                                }}>Co-Presidents</a>
+                                            className="links">Co-Presidents</a>
                                         </li>
                                         <li>
                                             <a href="#DESIGN" className="links">Design</a>

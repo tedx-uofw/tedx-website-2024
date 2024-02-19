@@ -3,52 +3,42 @@ import eddy from '../../../../assets/team-member-pics/eddy.png';
 const data =
 [
     {
-        name: "NAME",
+        name: "ANUSHKA NAYAK",
+        title: "Director | MAJOR",
+        img: eddy
+    },
+    {
+        name: "BRADY IMPERIAL",
+        title: "Director | MAJOR",
+        img: eddy
+    },
+    {
+        name: "ALAN FAN",
         title: "POSITION | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
+        name: "TATIANA M. M. BENEVIDES",
         title: "POSITION | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
+        name: "DIYA PATEL",
         title: "POSITION | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
+        name: "MOA SEGERHOLT",
         title: "POSITION | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
+        name: "RACHEL LAU",
         title: "POSITION | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
-        img: eddy
-    },
-    {
-        name: "NAME",
-        title: "POSITION | MAJOR",
-        img: eddy
-    },
-    {
-        name: "NAME",
-        title: "POSITION | MAJOR",
-        img: eddy
-    },
-    {
-        name: "NAME",
-        title: "POSITION | MAJOR",
-        img: eddy
-    },
-    {
-        name: "NAME",
+        name: "ARYAN SHARMA",
         title: "POSITION | MAJOR",
         img: eddy
     }

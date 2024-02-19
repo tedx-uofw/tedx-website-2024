@@ -3,33 +3,33 @@ import eddy from '../../../../assets/team-member-pics/eddy.png';
 const data =
 [
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "MADELYN LEE",
+        title: "Director | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "RONAN PIZEL",
+        title: "MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "STEPHANIE CHOU",
+        title: "MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "EDDY PENG",
+        title: "MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "EMILY HAO",
+        title: "MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
+        name: "MICHELLE NGUYEN",
+        title: "MAJOR",
         img: eddy
     }
 ]

@@ -3,42 +3,32 @@ import eddy from '../../../../assets/team-member-pics/eddy.png';
 const data =
 [
     {
-        name: "NAME",
+        name: "KATE KODAMA",
+        title: "Director | MAJOR",
+        img: eddy
+    },
+    {
+        name: "LILY KASIC",
         title: "POSITION | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
+        name: "FLORENCIA CHUNG",
         title: "POSITION | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
+        name: "RYAN VU",
         title: "POSITION | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
+        name: "SIMRAN KAUR",
         title: "POSITION | MAJOR",
         img: eddy
     },
     {
-        name: "NAME",
-        title: "POSITION | MAJOR",
-        img: eddy
-    },
-    {
-        name: "NAME",
-        title: "POSITION | MAJOR",
-        img: eddy
-    },
-    {
-        name: "NAME",
-        title: "POSITION | MAJOR",
-        img: eddy
-    },
-    {
-        name: "NAME",
+        name: "GRACE SHIM",
         title: "POSITION | MAJOR",
         img: eddy
     }
