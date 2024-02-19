@@ -5,6 +5,7 @@
     border-radius: 8px;
     border: 1px solid #A5A5CC;
     background: rgba(30, 28, 34, 0.40);
+    overflow: hidden;
 
 }
 
@@ -27,8 +28,11 @@
 
 .team-member-img {
     width: 272px;
+    height: 272px;
     flex-shrink: 0;
     border-radius: 8px;
+    object-fit: cover;
+
 }
 
 @media only screen and (max-width: 1024px) {

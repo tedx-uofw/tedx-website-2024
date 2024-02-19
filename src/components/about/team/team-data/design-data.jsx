@@ -1,4 +1,8 @@
 import eddy from '../../../../assets/team-member-pics/eddy.png';
+import ronan from '../../../../assets/team-member-pics/ronan.jpg';
+import stephanie from '../../../../assets/team-member-pics/stephanie.jpg';
+import emily from '../../../../assets/team-member-pics/emilyh.jpg';
+import michelle from '../../../../assets/team-member-pics/michelle.jpg';
 
 const data =
 [
@@ -10,12 +14,12 @@ const data =
     {
         name: "RONAN PIZEL",
         title: "MAJOR",
-        img: eddy
+        img: ronan
     },
     {
         name: "STEPHANIE CHOU",
         title: "MAJOR",
-        img: eddy
+        img: stephanie
     },
     {
         name: "EDDY PENG",
@@ -25,12 +29,12 @@ const data =
     {
         name: "EMILY HAO",
         title: "MAJOR",
-        img: eddy
+        img: emily
     },
     {
         name: "MICHELLE NGUYEN",
         title: "MAJOR",
-        img: eddy
+        img: michelle
     }
 ]
 export default data;
