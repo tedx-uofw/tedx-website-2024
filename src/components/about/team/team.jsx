@@ -18,10 +18,10 @@ function Team(props){
   })
 
   return (
-      <div id="team-container">
+      <div className="team-container" id={props.name}>
           <div className="team-box">
             <img src={starLogo} alt="Star Logo" className="star-logo"/>
-            <h2 className="team-header" id={props.name}>{props.name}</h2>
+            <h2 className="team-header" >{props.name}</h2>
           </div>
           <div className="team-member-list">
             {teamMembers}

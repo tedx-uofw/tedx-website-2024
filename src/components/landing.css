@@ -284,11 +284,12 @@ a:link, a:visited, a:active, a:hover {
     border: none;
     outline: none;
     position: relative;
-    z-index: 1;
+    z-index: 0;
     border-radius: 100px;
     background: var(--Button-Aurora);
     color: white;
     cursor: pointer;
+
 }
 
 .meet-team-link:link {

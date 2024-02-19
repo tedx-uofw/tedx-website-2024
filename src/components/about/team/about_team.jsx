@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Team from "../team/team";
 
 import "./about_team.css"
@@ -13,7 +13,14 @@ import speakerData from "../team/team-data/speaker-selec-data"
 
 
 
+
 function AboutTeam() {
+
+    useEffect(() => {
+        let url = window.location.href.split("#");
+        let element = document.getElementById(url);
+        element && element.scrollIntoView({ behavior: "smooth", block: "start"});
+      }, []);
 
     return (
         <div class="about-team-container">
@@ -27,7 +34,12 @@ function AboutTeam() {
                                     <hr className="vertile-rule"></hr>
                                     <ul className="team-list-items">
                                         <li>
-                                            <a href="#CO-PRESIDENTS" className="links">Co-Presidents</a>
+                                            <a href="#CO-PRESIDENTS"
+                                            className="links" onClick={e => {
+                                                let hero = document.getElementById("CO-PRESIDENTS");
+                                                e.preventDefault();  // Stop Page Reloading
+                                                hero && hero.scrollIntoView();
+                                                }}>Co-Presidents</a>
                                         </li>
                                         <li>
                                             <a href="#DESIGN" className="links">Design</a>
@@ -50,7 +62,7 @@ function AboutTeam() {
                                     </ul>
                                 </div>
                             </div>
-                        
+
                             <div className="mid-section-ctr">
                                     <Team
                                         name="CO-PRESIDENTS"

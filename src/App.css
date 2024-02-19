@@ -11,17 +11,17 @@ body,
 
 .App {
     background-size: cover;
-    background-color: black;
+    background-color: #0B0D26;
     color: white;
 }
 
 :root {
     --white: #FFFFFF;
     --Button-Aurora: linear-gradient(
-        90deg, 
-        #90FFD4 0%, 
-        #67AFE0 33.06%, 
-        #737CFE 65.67%, 
+        90deg,
+        #90FFD4 0%,
+        #67AFE0 33.06%,
+        #737CFE 65.67%,
         #E57EFF 100%
         );
 
