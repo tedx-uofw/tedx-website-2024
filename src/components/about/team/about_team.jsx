@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Team from "../team/team";
 
 import "./about_team.css"
@@ -15,12 +15,15 @@ import speakerData from "../team/team-data/speaker-selec-data"
 
 
 function AboutTeam() {
+    const pres = useRef(null);
+    const design = useRef(null);
+    const webDev = useRef(null);
+    const logistics = useRef(null);
+    const marketing = useRef(null);
+    const finance = useRef(null);
+    const speakerSelec = useRef(null);
 
-    useEffect(() => {
-        let url = window.location.href.split("#");
-        let element = document.getElementById(url);
-        element && element.scrollIntoView({ behavior: "smooth", block: "start"});
-      }, []);
+
 
     return (
         <div class="about-team-container">
