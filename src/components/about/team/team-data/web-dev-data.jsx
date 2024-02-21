@@ -12,7 +12,7 @@ const data =
     },
     {
         name: "MELANIE MA",
-        title: "Infomatics",
+        title: "Informatics",
         img: melanie
     },
     {
