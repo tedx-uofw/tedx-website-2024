@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useCallback } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import AnimatedBackground from './background';
 
 
 import Home from './components/home/home';
@@ -17,6 +18,7 @@ import AboutTeam from './components/about/team/about_team';
 function App() {
   return (
     <div className="App">
+      <AnimatedBackground />
       <Router>
         <div>
           <Navbar />
