@@ -6,17 +6,19 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/home/home';
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
+import AnimatedBackground from './background';
 
 import Speakers from './components/speakers/speakers';
 import Sponsors from './components/sponsors/sponsors';
 import AboutUs from './components/about/about_us/about_us';
 import PastEvents from './components/about/past_events/past_events';
-import AboutTeam from './components/about/team/about_team';
+import AboutTeam from './components/about/team/about_team.tsx'
 
 
 function App() {
   return (
     <div className="App">
+      <AnimatedBackground />
       <Router>
         <div>
           <Navbar />

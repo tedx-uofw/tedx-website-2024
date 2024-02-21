@@ -1,15 +1,15 @@
 import React, { useEffect, useRef } from "react";
-import Team from "../team/team";
+import Team from "./team";
 
 import "./about_team.css"
 
-import presData from "../team/team-data/prez-data"
-import designData from "../team/team-data/design-data"
-import webdevData from "../team/team-data/web-dev-data"
-import logisticsData from "../team/team-data/logistics-data"
-import marketingData from "../team/team-data/marketing-data"
-import financeData from "../team/team-data/finance-data"
-import speakerData from "../team/team-data/speaker-selec-data"
+import presData from "./team-data/prez-data"
+import designData from "./team-data/design-data"
+import webdevData from "./team-data/web-dev-data"
+import logisticsData from "./team-data/logistics-data"
+import marketingData from "./team-data/marketing-data"
+import financeData from "./team-data/finance-data"
+import speakerData from "./team-data/speaker-selec-data"
 
 
 
@@ -23,10 +23,8 @@ function AboutTeam() {
     const finance = useRef(null);
     const speakerSelec = useRef(null);
 
-
-
     return (
-        <div class="about-team-container">
+        <div className="about-team-container">
                 <div className="team-contents-container">
                     <div className="mobile-tab-scroll">
                         <h1 className="page-title">MEET THE TEAM</h1>
@@ -35,12 +33,20 @@ function AboutTeam() {
                                 <h2 id="teams-title">TEAMS</h2>
                                 <div className="section-links-content">
                                     <hr className="vertile-rule"></hr>
-                                    <ul className="team-list-items">
-                                        <li>
-                                            <a href="#CO-PRESIDENTS"
-                                            className="links">Co-Presidents</a>
+                                    <ul className="team-list-items" onClick={(event: React.SyntheticEvent) => {
+                                        event.preventDefault();
+                                        const target = event.target as HTMLAnchorElement;
+                                        const id = target.getAttribute('href')?.replace('#', '');
+                                        const element = document.getElementById(String(id));
+                                        element?.scrollIntoView({
+                                            behavior: 'smooth'
+                                        })
+
+                                    }}>
+                                        <li ref={pres}>
+                                            <a href="#CO-PRESIDENTS" className="links">Co-Presidents</a>
                                         </li>
-                                        <li>
+                                        <li ref={design}>
                                             <a href="#DESIGN" className="links">Design</a>
                                         </li>
                                         <li>

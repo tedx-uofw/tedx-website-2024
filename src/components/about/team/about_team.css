@@ -7,7 +7,7 @@
     line-height: 104.5%; /* 41.8px */
     letter-spacing: 0.8px;
     display: flex;
-    padding-left: 150px;
+    padding-left: 270px;
 }
 
 /* Team Container */
@@ -24,7 +24,7 @@
 
     padding-left: 160px;
     padding-right: 250px;
-    padding-top: 250px;
+    padding-top: 200px;
 }
 
 .testing {
@@ -50,8 +50,10 @@
 .section-links {
     display: flex;
     flex-direction: column;
-
+    position: fixed;
 }
+
+
 
 .vertile-rule {
     margin: 0;
@@ -68,7 +70,7 @@
 
 .links{
     color: var(--White, #FFF);
-    font-size: 1.16vw;
+    font-size: 20px;
     font-weight: 400;
 
 }
@@ -91,7 +93,7 @@
 .mid-section-ctr {
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
+    padding-left: 270px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -125,7 +127,7 @@
         flex-direction: column;
         padding-top: 0px;
         overflow-x: scroll;
-        position: inherit;
+        position: static;
     }
 
     .section-links::-webkit-scrollbar {

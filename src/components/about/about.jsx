@@ -2,7 +2,7 @@ import React from "react";
 
 import AboutUs from "./about_us/about_us";
 import PastEvents from "./past_events/past_events";
-import AboutTeam from "./team/about_team";
+import AboutTeam from "./team/about_team.tsx";
 
 
 function About(){
