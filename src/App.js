@@ -7,7 +7,6 @@ import AnimatedBackground from './background';
 import Home from './components/home/home';
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
-import AnimatedBackground from './background';
 
 import Speakers from './components/speakers/speakers';
 import Sponsors from './components/sponsors/sponsors';

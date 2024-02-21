@@ -127,7 +127,7 @@
         flex-direction: column;
         padding-top: 0px;
         overflow-x: scroll;
-        position: static;
+        position: relative;
     }
 
     .section-links::-webkit-scrollbar {
