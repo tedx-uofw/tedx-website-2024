@@ -1,6 +1,7 @@
 .team-member-ctr {
     display: flex;
     flex-direction: column;
+    width: 272px;
     gap: 10px;
     border-radius: 8px;
     border: 1px solid #A5A5CC;

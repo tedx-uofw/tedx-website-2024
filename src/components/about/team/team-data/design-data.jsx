@@ -13,27 +13,27 @@ const data =
     },
     {
         name: "RONAN PIZEL",
-        title: "MAJOR",
+        title: "Intended ___",
         img: ronan
     },
     {
         name: "STEPHANIE CHOU",
-        title: "MAJOR",
+        title: "Interaction Design",
         img: stephanie
     },
     {
         name: "EDDY PENG",
-        title: "MAJOR",
+        title: "Informatics",
         img: eddy
     },
     {
         name: "EMILY HAO",
-        title: "MAJOR",
+        title: "VCD & Informatics",
         img: emily
     },
     {
         name: "MICHELLE NGUYEN",
-        title: "MAJOR",
+        title: "Intended Informatics",
         img: michelle
     }
 ]

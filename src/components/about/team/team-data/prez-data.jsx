@@ -6,17 +6,17 @@ const data =
 [
     {
         name: "SAHANA SATEESH",
-        title: "Co-President | MAJOR",
+        title: "Co-President | Bioengineering",
         img: sahana
     },
     {
         name: "ARUSHI SHARMA",
-        title: "Co-President | MAJOR",
+        title: "Co-President | Information Systems & Marketing",
         img: arushi
     },
     {
         name: "DHRUTH KESANI",
-        title: "Co-President | MAJOR",
+        title: "Co-President | Informatics ",
         img: eddy
     }
 ]

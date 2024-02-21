@@ -26,7 +26,7 @@ const data =
         img: alan
     },
     {
-        name: "TATIANA M. M. BENEVIDES",
+        name: "TATIANA MIRANDA",
         title: "POSITION | MAJOR",
         img: tatiana
     },

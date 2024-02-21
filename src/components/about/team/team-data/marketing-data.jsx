@@ -1,35 +1,46 @@
 import eddy from '../../../../assets/team-member-pics/eddy.png';
+import karen from '../../../../assets/team-member-pics/karen.jpeg';
+import katherine from '../../../../assets/team-member-pics/katherine.jpeg';
+import anya from '../../../../assets/team-member-pics/anya.jpeg';
+import noa from '../../../../assets/team-member-pics/noa.jpeg';
+import shinjini from '../../../../assets/team-member-pics/shinjini.jpeg';
+import kayla from '../../../../assets/team-member-pics/kayla.jpeg';
 
 const data =
 [
     {
         name: "KAREN E. SALAZAR",
-        title: "Director | MAJOR",
-        img: eddy
+        title: "Director | Marketing & Entrepreneurship",
+        img: karen
     },
     {
         name: "KATHERINE PHAM",
-        title: "POSITION | MAJOR",
-        img: eddy
+        title: "Marketing",
+        img: katherine
     },
     {
         name: "ANYA PAN",
-        title: "POSITION | MAJOR",
-        img: eddy
+        title: "Pre-sciences",
+        img: anya
     },
     {
         name: "NOA AVITAN",
-        title: "POSITION | MAJOR",
-        img: eddy
+        title: "Marketing & Intended Informatics",
+        img: noa
     },
     {
         name: "SHINJINI M. MUSTAFI",
-        title: "POSITION | MAJOR",
-        img: eddy
+        title: "Business Administration",
+        img: shinjini
     },
     {
         name: "KAYLA VO",
-        title: "POSITION | MAJOR",
+        title: "Human Resources & Marketing",
+        img: kayla
+    }, 
+    {
+        name: "AVA LOUISE WRIGHT",
+        title: "",
         img: eddy
     },
 ]

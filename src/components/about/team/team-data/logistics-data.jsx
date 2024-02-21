@@ -10,32 +10,32 @@ const data =
 [
     {
         name: "KATE KODAMA",
-        title: "Director | MAJOR",
+        title: "Director | Intended Informatics",
         img: kate
     },
     {
         name: "LILY KASIC",
-        title: "POSITION | MAJOR",
+        title: "Business Administration",
         img: lily
     },
     {
         name: "FLORENCIA CHUNG",
-        title: "POSITION | MAJOR",
+        title: "Intended Informatics",
         img: florencia
     },
     {
         name: "RYAN VU",
-        title: "POSITION | MAJOR",
+        title: "Informatics",
         img: ryan
     },
     {
         name: "SIMRAN KAUR",
-        title: "POSITION | MAJOR",
+        title: "Informatics",
         img: simran
     },
     {
         name: "GRACE SHIM",
-        title: "POSITION | MAJOR",
+        title: "Marketing & Information Systems",
         img: grace
     }
 ]

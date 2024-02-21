@@ -9,27 +9,27 @@ const data =
 [
     {
         name: "LEAH MATHEW",
-        title: "Director | MAJOR",
+        title: "Director | Public Health",
         img: leah
     },
     {
         name: "EVELYN HOOTMAN",
-        title: "Director | MAJOR",
+        title: "Director | International Relations, Business Minor",
         img: evelyn
     },
     {
         name: "MAHIMA VADLAMANI",
-        title: "MAJOR",
+        title: "Finance & Information Systems",
         img: mahima
     },
     {
         name: "LILLIAN TRAN",
-        title: "MAJOR",
+        title: "Finance & Accounting",
         img: lillian
     },
     {
         name: "NOLAN KIM",
-        title: "MAJOR",
+        title: "Finance",
         img: nolan
     }
 ]
