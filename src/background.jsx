@@ -52,6 +52,12 @@ function AnimatedBackground() {
             green: 75,
             blue: 212,
             alpha: 0.40
+        },
+        {
+          red: 229,
+          green: 126,
+          blue: 255,
+          alpha: 0.40
         }
       ];
 
@@ -118,14 +124,14 @@ function AnimatedBackground() {
 
     function init() {
         particleArray = [];
-        sizeArray = [1160, 1325, 740, 768, 740, 1160, 1160];
+        sizeArray = [1160, 1325, 740, 768, 740, 1160, 1160, 1325];
 
-        for (let i=0; i < 7; i++) {
+        for (let i = 0; i < 8; i++) {
         let size = sizeArray[i] / 5;
         let x = Math.random() * (window.innerWidth - size * 2);
         let y = Math.random() * (window.innerHeight - size * 2);
-        let directionX = 0.5;
-        let directionY = 0.5;
+        let directionX = 0.5 - Math.random() * 0.2;
+        let directionY = 0.5 - Math.random() * 0.2;
         let { red, green, blue, alpha } = particles[i];
         particleArray.push(new Particle(x, y, directionX, directionY, size, red, green, blue, alpha));       
         }

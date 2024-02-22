@@ -64,12 +64,6 @@
     border-radius: 0px 12px 12px 0px;
 }
 
-@-moz-document url-prefix(){
-    .event-img {
-        width: 50%;
-    }
-}
-
 .last-event {
     margin-bottom: 80px;
 }
