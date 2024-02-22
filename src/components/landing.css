@@ -4,6 +4,7 @@ a:link, a:visited, a:active, a:hover {
 }
 
 .landing-container {
+    position: relative;
     padding-top: 30px;
     font-family: Poppins;
     color: #FBFBFB;
