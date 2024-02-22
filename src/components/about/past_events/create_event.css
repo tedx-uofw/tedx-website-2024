@@ -14,6 +14,7 @@
     padding: 40px;
     display: flex;
     flex-direction: column;
+    border-right: 1px solid var(--Purble, #A5A5CC);;
 }
 
 .logistics-text {
@@ -60,7 +61,12 @@
     /* width: 718px; */
     width: 50%;
     border-radius: 0px 12px 12px 0px;
-    border-left: 1px;
+}
+
+@-moz-document url-prefix(){
+    .event-img {
+        width: 50%;
+    }
 }
 
 .last-event {

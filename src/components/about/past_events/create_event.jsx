@@ -20,7 +20,7 @@ function CreateEvent(props) {
             </div>
               <img className="event-img" src={props.img} alt={props.title}/>
           </div>
-          {props.title === "DO YOU HAVE A MINUTE" && <div className="last-event"></div>}
+          {props.title === "MOONSHOT" && <div className="last-event"></div>}
         </section>
     )
 }
