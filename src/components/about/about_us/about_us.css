@@ -80,7 +80,12 @@
   align-items: start;
   padding: 0;
 }
-
+/* Responsive CSS for large desktops: */
+@media screen and (min-width: 1200px) and (max-width: 1530px) {
+  .content img {
+    max-width: 50%;
+  }
+}
 /* Responsive CSS for tablets: */
 @media screen and (max-width: 1024px) {
   #links a:hover {
@@ -89,6 +94,9 @@
   .content {
     flex-direction: column;
     gap: 0rem;
+  }
+  .content img {
+    max-width: fit-content;
   }
   #links {
     flex-direction: column;
