@@ -19,7 +19,8 @@
 }
 
 .speaker-content {
-    margin: 40px 40px 0 40px;
+    /* margin: 40px 0 0 40px; */
+    padding: 40px 0 40px 40px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -29,24 +30,28 @@
 .speaker-name {
     font-size: 24px;
     font-weight: 600;
-    margin: -3px 0 -6px 0;
+    margin: -3px 40px -6px 0;
 }
 
 .speaker-title {
     font-size: 16px;
     font-weight: 400;
-    margin: 16px 0 32px 0;
+    margin: 16px 40px 32px 0;
+    /* margin-top: 16px; */
 }
 
 .speaker-descr-box {
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     overflow-y: auto;
+    margin-right: 10px;
 }
 
 .speaker-descr {
+    margin-top: auto;
     font-size: 16px;
     font-weight: 400;
-    margin-block-start: -1em;
+    /* margin-block-start: -1em; */
+    margin-right: 22px;
 }
 
 /* Scrollbar */
