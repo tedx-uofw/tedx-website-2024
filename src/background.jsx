@@ -124,8 +124,8 @@ function AnimatedBackground() {
         let size = sizeArray[i] / 7;
         let x = Math.random() * (window.innerWidth - size * 2);
         let y = Math.random() * (window.innerHeight - size * 2);
-        let directionX = (Math.random() * 0.4) - 0.2;
-        let directionY = (Math.random() * 0.4) - 0.2;
+        let directionX = (Math.random() * 0.5) - 0.2;
+        let directionY = (Math.random() * 0.5) - 0.2;
         let { red, green, blue, alpha } = particles[i];
         particleArray.push(new Particle(x, y, directionX, directionY, size, red, green, blue, alpha));       
         }
