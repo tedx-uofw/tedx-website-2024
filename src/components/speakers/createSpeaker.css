@@ -44,24 +44,24 @@
 }
 
 .speaker-descr {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     margin-block-start: -1em;
 }
 
 /* Scrollbar */
 .speaker-descr-box::-webkit-scrollbar {
-    width: 6px;
+    width: 8px;
     height: 12px;
 }
     
 ::-webkit-scrollbar-thumb {
 border-radius: 12px;
-background: #bababa;  
+background: #909090;  
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: #9f9f9f;  
+background: white;  
 }
 
 .last-person {
