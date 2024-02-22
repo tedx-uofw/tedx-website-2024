@@ -14,7 +14,8 @@
     padding: 40px;
     display: flex;
     flex-direction: column;
-    border-right: 1px solid var(--Purble, #A5A5CC);;
+    border-right: 1px solid var(--Purble, #A5A5CC);
+    width: 50%;
 }
 
 .logistics-text {
