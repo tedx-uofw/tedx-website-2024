@@ -20,53 +20,74 @@
 
 .speaker-content {
     /* margin: 40px 0 0 40px; */
-    padding: 40px 0 40px 40px;
+    /* padding: 40px 0 40px 40px; */
+    /* margin: 10px 10px 40px 40px; */
+    /* padding: 40px 22px 40px 40px; */
+    padding: 40px 22px 0 40px;
+    margin-right: 10px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-content: center;
     height: auto;
+    overflow-y: auto;
 }
 
 .speaker-name {
+    /* margin: 40px 0 0 40px; */
     font-size: 24px;
     font-weight: 600;
-    margin: -3px 40px -6px 0;
+    margin: -3px 0 -6px 0;
+    /* margin-top: -0.5em; */
 }
 
 .speaker-title {
     font-size: 16px;
     font-weight: 400;
-    margin: 16px 40px 32px 0;
+    margin: 16px 0 32px 0;
     /* margin-top: 16px; */
 }
 
 .speaker-descr-box {
     /* margin-bottom: 40px; */
-    overflow-y: auto;
-    margin-right: 10px;
+    /* overflow-y: auto; */
+    /* margin-right: 10px; */
+    /* margin-bottom: 40px; */
 }
 
 .speaker-descr {
-    margin-top: auto;
+    /* margin-top: auto; */
     font-size: 16px;
     font-weight: 400;
-    /* margin-block-start: -1em; */
-    margin-right: 22px;
+    margin-block-start: -1em;
+    margin-bottom: -16px;
+    /* margin-right: 22px; */
+    /* margin-bottom: 40px; */
 }
 
 /* Scrollbar */
-.speaker-descr-box::-webkit-scrollbar {
+.speaker-content::-webkit-scrollbar {
     width: 8px;
-    height: 12px;
+    height: 6px;
 }
     
-::-webkit-scrollbar-thumb {
+.speaker-content::-webkit-scrollbar-thumb {
 border-radius: 12px;
-background: #909090;  
+background: #A5A5CC;  
 }
 
-::-webkit-scrollbar-thumb:hover {
+.speaker-content::-webkit-scrollbar-thumb:hover {
 background: white;  
+}
+
+.speaker-content::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 200px; 
+}
+
+.speaker-content::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
 }
 
 .last-person {
