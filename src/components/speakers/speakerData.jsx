@@ -72,7 +72,7 @@ const speakerArray = [
         title: "Keynote Speaker & Magician",
         description: <p>
             Nash Fung is a keynote speaker & magician who empowers his audiences 
-            through his engaging keynotes. Drawing from his 16 + years of experience 
+            through his engaging keynotes. Drawing from his 16+ years of experience 
             as a crisis line volunteer, he now unveils the curtain on the magic of 
             empathetic communication, teaching leaders how to lead with empathy and 
             make others feel heard, understood, valued, and empowered.
