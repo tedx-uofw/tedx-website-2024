@@ -3,6 +3,8 @@ import logo from "./nav-img/logo.png";
 import arrow from "./nav-img/arrow.png";
 import menu from "./nav-img/menu.png";
 import exit from "./nav-img/close.png";
+import arrowColor from "./nav-img/arrow-color.png";
+
 // import line from "./nav-img/line.png";
 
 
@@ -14,6 +16,11 @@ import "./navbar.css";
 function Navbar(){
 
   const [isClicked, setClick] = useState(true);
+  const [isHovered, setHover] = useState(false);
+
+  function routeToTicketLink () {
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScFKzPkloRcReyNhadtJzJZ9HuH_g9o7tsom5HJczat4zWp0A/viewform";
+  }
 
   // let navigate = useNavigate();
   // const routeChange = (page) =>{
@@ -47,10 +54,10 @@ function Navbar(){
           <a class="right-nav" id="first-link" href="/speakers">SPEAKERS</a>
           <a class="right-nav" href="/sponsors">SPONSORS</a>
 
-          <div class="dropdown">
+          <div class="dropdown" onMouseEnter={() => {setHover(true)}} onMouseLeave ={() => {setHover(false)}}>
             <section id="dropdown-arrow">
               <p class="drop-cover">ABOUT</p>
-              <img className="arrow" src= {arrow} alt="arrow"/>
+              <img className="arrow" src= {isHovered ? arrowColor : arrow} alt="arrow"/>
             </section>
             <div className="dropdown-content">
               <a href="/about-tedx">ABOUT US</a>
@@ -67,7 +74,7 @@ function Navbar(){
 
         {/* add on click functionality when tix page up */}
         <div className='ticket-btn'>
-                    <button id="nav-button">GET TICKETS</button>
+                    <button id="nav-button" onClick={routeToTicketLink}>GET TICKETS</button>
                 </div>
 
        </section>
