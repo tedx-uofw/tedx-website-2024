@@ -1,3 +1,7 @@
+.team-container {
+    position: relative;
+}
+
 .team-member-list {
     display: flex;
     gap: 19px;

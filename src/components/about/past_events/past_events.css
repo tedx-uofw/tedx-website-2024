@@ -1,3 +1,7 @@
+#past_events {
+    position: relative;
+}
+
 .heading {
     display: flex;
     padding: 10px 0px;

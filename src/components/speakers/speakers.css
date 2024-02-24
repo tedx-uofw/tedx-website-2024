@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
+#speakers {
+    position: relative;
+}
 .header-box {
     max-width: 1145px;
     width: 67%;
