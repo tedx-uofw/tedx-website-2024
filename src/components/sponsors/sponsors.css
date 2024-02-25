@@ -6,7 +6,8 @@
 #sponsor-bucket {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  /* width: 90%; */
   flex-wrap: wrap;
   gap: 2.5rem;
   padding-bottom: 9rem;
@@ -33,16 +34,20 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: auto;
 }
 
 #sponsors #sponsors-card h1 {
   font-size: 32px;
-  margin-left: 6%;
+  /* margin-left: 6%; */
 }
 
 #sponsors {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  /* margin-left: 5rem; */
+  margin-left: 5%;
+
 }
 
 .sponsor-box:hover {
@@ -57,15 +62,61 @@
   display: none;
 }
 
-@media only screen and (max-width: 450px) {
-  #sponsors #sponsors-card h1 {
-    /* font-size: 32px; */
-    margin-left: 9%;
+@media only screen and (max-width: 1024px) {
+  #sponsors {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
   }
 
   #sponsor-bucket {
     padding-top: 1rem;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  #sponsors {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+  }
+
+  #sponsor-bucket {
+    padding-top: 1rem;
+  }
+
+  .sponsor-box {
+    width: 33.17675rem;
+    height: 25.07544rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sponsor-box {
+    width: 21.5rem;
+    height: 16.25rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  #sponsors {
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+
+  }
+
+  #sponsor-bucket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #sponsors #sponsors-card h1 {
+    margin-left: 25px;
+  }
+
 }
 
 
