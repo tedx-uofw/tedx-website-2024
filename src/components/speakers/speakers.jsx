@@ -26,6 +26,7 @@ function Speakers(){
             img={speaker.img}
             name={speaker.name}
             title={speaker.title}
+            talk={speaker.talk}
             description={speaker.description}
           />
         ))}

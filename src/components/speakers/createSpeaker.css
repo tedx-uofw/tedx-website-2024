@@ -3,7 +3,6 @@
     width: 67%;
     min-width: 800px;
     height: 337px;
-    /* height: auto; */
     margin: 20px auto 0 auto;
     border: 1px solid #A5A5CC;
     border-radius: 12px;
@@ -19,20 +18,14 @@
 }
 
 .speaker-content {
-    /* padding: 0 22px 0 40px;
-    padding-left: 40px;
-    margin-right: 10px;
-    margin-bottom: 40px;
-    margin-top: 40px; */
-
-    margin: 40px 10px 40px 40px;
+    margin: 0 10px 40px 40px;
     padding-right: 22px;
-
     display: flex;
     flex-direction: column;
     align-content: center;
     height: auto;
     overflow-y: auto;
+    -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
     transition: all 0.4s ease-out;
     -webkit-transition: all 0.4s ease-out;
 }
@@ -40,34 +33,34 @@
 .speaker-name {
     font-size: 24px;
     font-weight: 600;
-    margin: -3px 0 -6px 0;
+    margin: 37px 0 -9px 0;
 }
 
 .speaker-title {
     font-size: 16px;
     font-weight: 400;
-    margin: 16px 0 32px 0;
+    font-style: italic;
+    margin: 16px 0 16px 0;
+}
+
+.speaker-talk {
+    font-size: 16px;
+    font-weight: 700;
+    margin: -5px 0 40px 0;
 }
 
 .speaker-descr {
     font-size: 16px;
     font-weight: 400;
     margin-block-start: -1em;
-    /* margin-bottom: 25px; */
     line-height: 175%;
 }
 
 .speaker-content:hover {
-    /* padding-top: 8px; */
-    margin-top: 0;
-    /* margin-top: 30px; */
     margin-bottom: 0;
+    -webkit-mask-image: none;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
-}
-
-.speaker-name:hover {
-    margin-top: 40px;
 }
 
 /* Scrollbar */
@@ -83,7 +76,6 @@
 .speaker-content::-webkit-scrollbar-thumb {
     border-radius: 12px;
     background: transparent;
-    /* background: #A5A5CC; */
 }
 
 .speaker-content::-webkit-scrollbar-thumb:hover {
@@ -132,12 +124,21 @@
         overflow-y: hidden;
         transition: none;
         -webkit-transition: none;
+        -webkit-mask-image: none;
+    }
+
+    .speaker-name {
+        margin-top: 0;
     }
 
     .speaker-title {
         font-size: 16px;
         font-weight: 400;
-        margin: 16px 0 32px 0;
+        margin: 8px 0 8px 0;
+    }
+
+    .speaker-talk {
+        margin-bottom: 32px;
     }
 
     .speaker-descr {
@@ -146,7 +147,7 @@
     }
 
     .speaker-content:hover {
-        margin-bottom: 0px;
+        margin-bottom: 24px;
         transition: none;
         -webkit-transition: none;
     }
