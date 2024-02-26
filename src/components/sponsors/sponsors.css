@@ -26,6 +26,18 @@
   background: var(--off-black-40, rgba(30, 28, 34, 0.40));
 }
 
+
+
+#sponsors img {
+  max-width: 15rem;
+  max-height: 15rem;
+}
+
+.sponsor-box:hover {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
 .sponsor-box p {
   margin: 0.3rem;
 }
