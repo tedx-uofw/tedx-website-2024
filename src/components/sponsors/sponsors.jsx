@@ -26,7 +26,6 @@ function Sponsors(){
       <div id="sponsors-card">
         <h1>OUR SPONSORS</h1>
           <div id="sponsor-bucket">
-
             <a href="http://www.asuw.org/">
             <section className="sponsor-box"
                 onMouseEnter={() => {setHover(false); setMyText('info info info info info info info info info info info info info info info info info info info info')}}
