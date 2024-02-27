@@ -30,6 +30,7 @@ function AboutTeam() {
                         <h1 className="page-title">MEET THE TEAM</h1>
                         <div className="testing">
                             <div className="section-links">
+                                <h1 className="page-title2">MEET THE TEAM</h1>
                                 <h2 id="teams-title">TEAMS</h2>
                                 <div className="section-links-content">
                                     <hr className="vertile-rule"></hr>
