@@ -42,6 +42,10 @@
   margin: 0.3rem;
 }
 
+#long-text {
+  margin-top: 3rem;
+}
+
 #sponsors-card {
   display: flex;
   flex-direction: column;

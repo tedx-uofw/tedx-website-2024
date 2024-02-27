@@ -51,7 +51,8 @@ function Navbar(){
        <section id="right-nav">
         {/* links to all other pages */}
         <section id="right-nav-links">
-          <a class="right-nav" id="first-link" href="/speakers">SPEAKERS</a>
+          <a class="right-nav" id="first-link" href="/">HOME</a>
+          <a class="right-nav" href="/speakers">SPEAKERS</a>
           <a class="right-nav" href="/sponsors">SPONSORS</a>
 
           <div class="dropdown" onMouseEnter={() => {setHover(true)}} onMouseLeave ={() => {setHover(false)}}>

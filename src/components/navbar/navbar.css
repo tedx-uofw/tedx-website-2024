@@ -12,7 +12,7 @@
   padding-left: 6%;
   overflow: hidden;
   padding-right: 6%;
-  padding-top: 4.75%;
+  padding-top: 1.5%;
   padding-bottom: 12%;
   font-size: 1.5rem;
   background: var(--Off-Black-Gradient, linear-gradient(180deg, #1E1C22 0%, rgba(0, 0, 0, 0.00) 88.59%));
@@ -44,9 +44,14 @@ from the button */
 #left-nav {
   align-items: center;
   width: 80%;
+  /* margin-top: 2.5%; */
+  padding-top: 10px;
+
 }
 
-
+#nav-logo {
+  width: 170px;
+}
 
 #right-nav {
   display: flex;
@@ -59,7 +64,7 @@ from the button */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 15px;
+  padding-top: 10px;
   /* width: 60%; */
 }
 
@@ -122,11 +127,17 @@ from the button */
 }
 
 #navbar .ticket-btn button{
-  padding: 0.8rem 1.3rem;
-  overflow: hidden;
+  padding: 0.6rem 1.5rem;
+  /* overflow: hidden; */
   white-space: nowrap;
   font-size: 90%;
   margin-left: 10%;
+}
+
+.ticket-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #small-screen {
