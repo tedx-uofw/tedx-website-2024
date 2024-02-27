@@ -1,10 +1,10 @@
-import eddy from '../../../../assets/team-member-pics/eddy.png';
-import karen from '../../../../assets/team-member-pics/karen.jpeg';
+import karen from '../../../../assets/team-member-pics/karen.jpg';
 import katherine from '../../../../assets/team-member-pics/katherine.jpeg';
 import anya from '../../../../assets/team-member-pics/anya.jpeg';
 import noa from '../../../../assets/team-member-pics/noa.jpeg';
 import shinjini from '../../../../assets/team-member-pics/shinjini.jpeg';
 import kayla from '../../../../assets/team-member-pics/kayla.jpeg';
+import ava from '../../../../assets/team-member-pics/ava.jpg';
 
 const data =
 [
@@ -40,8 +40,8 @@ const data =
     }, 
     {
         name: "AVA LOUISE WRIGHT",
-        title: "",
-        img: eddy
+        title: "Public Health",
+        img: ava
     },
 ]
 export default data;

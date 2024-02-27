@@ -9,6 +9,7 @@ function CreateSpeaker(props) {
             <div className="speaker-content">
               <p className="speaker-name">{props.name}</p>
               <p className="speaker-title">{props.title}</p>
+              <p className="speaker-talk">{props.talk}</p>
               <p className="speaker-descr">{props.description}</p>              
             </div>
           </div>

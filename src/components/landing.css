@@ -119,8 +119,8 @@ a:link, a:visited, a:active, a:hover {
 .single-schedule-item-ctr {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     gap: 60px;
+
 }
 
 .schedule-items {

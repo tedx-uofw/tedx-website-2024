@@ -29,9 +29,20 @@ function Schedule(props) {
 
 function Landing(){
     const items = [
-        {name: 'SUSIE SHARPE', title: 'Artist & Internal Medicine Physician', time: "10:00AM-11:00AM"},
-        {name: 'your mom', title: 'banker', time: "11:00AM-12:00PM"},
-        {name: 'your mom', title: 'banker', time: "11:00AM-12:00PM"}
+        {name: 'INTRO', title: '??', time: "10:30AM-10:45AM"},
+        {name: 'EMILY LAGO ANDERSON', title: '??', time: "10:50AM-11:05AM"},
+        {name: 'CHIRAG SHAH', title: '??', time: "11:10AM-11:25AM"},
+        {name: 'VOCAL JAZZ', title: '??', time: "11:30AM-11:45AM"},
+        {name: 'DR. POLACK', title: '??', time: "11:50AM-12:05PM"},
+        {name: 'RAFFLE', title: '??', time: "12:10PM-12:25PM"},
+        {name: 'LUNCH', title: '??', time: "12:30PM-1:25PM"},
+        {name: 'NASH FUNG', title: '??', time: "1:30PM-1:55PM"},
+        {name: 'DR. RUBIN', title: '??', time: "2:00PM-2:15PM"},
+        {name: 'TRADITIONAL CHINESE DANCE', title: '??', time: "2:20PM-2:35PM"},
+        {name: 'JEFF', title: '??', time: "2:40PM-2:55PM"},
+        {name: 'RAFFLE', title: '??', time: "3:00PM-3:15PM"},
+        {name: 'NETWORKING SESSION', title: '??', time: "3:20PM-3:55PM"},
+        {name: 'CLOSE', title: '??', time: "4:00PM"}
     ];
     return (
         <div className = "landing-container">

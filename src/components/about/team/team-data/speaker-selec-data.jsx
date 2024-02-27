@@ -12,27 +12,27 @@ const data =
 [
     {
         name: "ANUSHKA NAYAK",
-        title: "Director | MAJOR",
+        title: "Director | Informatics",
         img: anushka
     },
     {
         name: "BRADY IMPERIAL",
-        title: "Director | MAJOR",
+        title: "Director | Natural Resources and Environmental Management",
         img: brady
     },
     {
         name: "ALAN FAN",
-        title: "POSITION | MAJOR",
+        title: "Computer Science",
         img: alan
     },
     {
         name: "TATIANA MIRANDA",
-        title: "POSITION | MAJOR",
+        title: "MA Hispanic Studies",
         img: tatiana
     },
     {
         name: "DIYA PATEL",
-        title: "POSITION | MAJOR",
+        title: "Biochemistry",
         img: diya
     },
     {
@@ -42,12 +42,12 @@ const data =
     },
     {
         name: "RACHEL LAU",
-        title: "POSITION | MAJOR",
+        title: "Finance",
         img: rachel
     },
     {
         name: "ARYAN SHARMA",
-        title: "POSITION | MAJOR",
+        title: "Computer Science",
         img: aryan
     }
 ]

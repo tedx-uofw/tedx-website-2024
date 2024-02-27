@@ -3,17 +3,18 @@ import ronan from '../../../../assets/team-member-pics/ronan.jpg';
 import stephanie from '../../../../assets/team-member-pics/stephanie.jpg';
 import emily from '../../../../assets/team-member-pics/emilyh.jpg';
 import michelle from '../../../../assets/team-member-pics/michelle.jpg';
+import madelyn from '../../../../assets/team-member-pics/madelyn.png';
 
 const data =
 [
     {
         name: "MADELYN LEE",
         title: "Director | MAJOR",
-        img: eddy
+        img: madelyn
     },
     {
         name: "RONAN PIZEL",
-        title: "Intended ___",
+        title: "Sociology",
         img: ronan
     },
     {

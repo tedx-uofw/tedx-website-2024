@@ -74,13 +74,27 @@
     .event-box {
         width: 83%;
         flex-direction: column-reverse;
-        min-width: 0px;
+        min-width: 0;
+    }
+
+    .event-content {
+        width: 100%;
+        padding: 0;
+        border: 0;
+    }
+
+    .event-logistics {
+        margin: 33.16px 33.16px 0 33.16px;
+    }
+
+    .event-info {
+        margin: 0 33.16px 33.16px 33.16px;
     }
 
     .event-img {
         width: 100%;
         border-radius: 12px 12px 0 0;
-        border: 0 0 1px 0;
+        border-bottom: 1px solid var(--Purble, #A5A5CC);
     }
 }
 
@@ -88,10 +102,6 @@
     .event-box {
         /* width: 543px; */
         width: 94%;
-    }
-
-    .event-content {
-        padding: 33.16px;
     }
 
     .star-img {
@@ -120,8 +130,12 @@
         border: 0 0 1px 0;
     }
 
-    .event-content {
-        padding: 24px;
+    .event-logistics {
+        margin: 24px 24px 0 24px;
+    }
+
+    .event-info {
+        margin: 0 24px 24px 24px;
     }
 
     .star-img {
