@@ -44,7 +44,7 @@ function Footer(){
             <p id="copyright">©TEDxUofW 2023 | Crossroads <span id="bar">|</span> <span id="blurb">This independent TEDx event is operated under license from TED.</span></p>
             {/* Logos */}
               <div class="mobile-only"><p>CONNECT WITH US:</p></div>
-<div id="icons">
+            <div id="icons">
               {/* Mail */}
               <a href=""><img src={email}></img></a>
               {/* Facebook */}
