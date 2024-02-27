@@ -157,6 +157,7 @@ from the button */
   #small-screen img {
     height: 20px;
     float: right;
+    padding-top: 20px;
   }
 
   #side-menu-icon-clicked {
@@ -181,9 +182,9 @@ from the button */
     border-bottom: 1px solid var(--Purble, #A5A5CC);
   }
 
-  #nav-logo {
-    width: 175px;
-  }
+  /* #nav-logo {
+    width: 170px;
+  } */
 
   #navbar {
     display: flex;
@@ -251,6 +252,7 @@ from the button */
 
   #small-screen img {
     height: 15px;
+    padding-top: 15px;
     float: right;
   }
 
