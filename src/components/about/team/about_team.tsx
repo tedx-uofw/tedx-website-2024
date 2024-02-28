@@ -11,18 +11,7 @@ import marketingData from "./team-data/marketing-data"
 import financeData from "./team-data/finance-data"
 import speakerData from "./team-data/speaker-selec-data"
 
-
-
-
 function AboutTeam() {
-    const pres = useRef(null);
-    const design = useRef(null);
-    const webDev = useRef(null);
-    const logistics = useRef(null);
-    const marketing = useRef(null);
-    const finance = useRef(null);
-    const speakerSelec = useRef(null);
-
     return (
         <div className="about-team-container">
                 <div className="team-contents-container">
@@ -40,14 +29,15 @@ function AboutTeam() {
                                         const id = target.getAttribute('href')?.replace('#', '');
                                         const element = document.getElementById(String(id));
                                         element?.scrollIntoView({
+                                            block: 'start',
+                                            inline: 'center',
                                             behavior: 'smooth'
                                         })
-
                                     }}>
-                                        <li ref={pres}>
+                                        <li>
                                             <a href="#CO-PRESIDENTS" className="links">Co-Presidents</a>
                                         </li>
-                                        <li ref={design}>
+                                        <li>
                                             <a href="#DESIGN" className="links">Design</a>
                                         </li>
                                         <li>

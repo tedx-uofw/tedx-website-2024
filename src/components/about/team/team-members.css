@@ -1,55 +1,54 @@
 .team-member-ctr {
     display: flex;
     flex-direction: column;
-    width: 272px;
-    gap: 10px;
-    border-radius: 8px;
-    border: 1px solid #A5A5CC;
+    width: 17rem;
+    gap: 0.625rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #A5A5CC;
     background: rgba(30, 28, 34, 0.40);
     overflow: hidden;
 
 }
 
 .team-member-text {
-    padding-bottom: 12px;
-    padding-right: 2.3px;
+    padding-bottom: 0.75rem;
+    padding-right: 0.144rem;
 }
 
 .team-member-name, .team-member-title {
     font-weight: 400;
-    padding-left: 12px;
+    padding-left: 0.75rem;
 }
 
 .team-member-name {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .team-member-title {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .team-member-img {
-    width: 272px;
-    height: 272px;
+    width: 17rem;
+    height: 17rem;
     flex-shrink: 0;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     object-fit: cover;
 
 }
 
 @media only screen and (max-width: 1024px) {
     .team-member-ctr {
-        width: 100%;
-        gap: 10px;
+        gap: 0.625rem;
     }
 
     .team-member-img {
         width: 100%;
-        max-width: 543px;
+        max-width: 33.938rem;
     }
 
     .team-member-img img{
         width: 53.3%;
-        max-width: 543px;
+        max-width: 33.938rem;
     }
 }

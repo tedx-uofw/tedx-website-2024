@@ -1,13 +1,13 @@
 /*Title*/
 
 .page-title {
-    padding-bottom: 10px;
-    font-size: 40px;
+    padding-bottom: 0.625rem;
+    font-size: 2.5rem;
     font-weight: 600;
     line-height: 104.5%; /* 41.8px */
-    letter-spacing: 0.8px;
+    letter-spacing: 0.05rem;
     display: flex;
-    padding-left: 270px;
+    padding-left: 16.875rem;
     position: relative;
 }
 
@@ -27,9 +27,9 @@
     display: flex;
     flex-direction: column;
 
-    padding-left: 160px;
-    padding-right: 250px;
-    padding-top: 200px;
+    padding-left: 10rem;
+    padding-right: 16.625rem;
+    padding-top: 6.25rem;
 }
 
 .testing {
@@ -40,14 +40,14 @@
 /* Section Links */
 
 #teams-title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
 .section-links-content {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
     white-space: nowrap;
 
 }
@@ -55,7 +55,7 @@
 .section-links {
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: relative;
 }
 
 
@@ -67,15 +67,15 @@
 .team-list-items {
     display: flex;
     flex-direction: column;
-    padding-left: 0px;
+    padding-left: 0rem;
     list-style: none;
-    gap: 10px;
+    gap: 0.625rem;
 
 }
 
 .links{
     color: var(--White, #FFF);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
 
 }
@@ -98,8 +98,17 @@
 .mid-section-ctr {
     display: flex;
     flex-direction: column;
-    padding-left: 270px;
+    padding-left: 4.375rem;
+    height: 43.75rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
+
+.mid-section-ctr::-webkit-scrollbar {
+    display: none;
+  }
 
 @media only screen and (max-width: 1024px) {
 
@@ -108,11 +117,11 @@
     }
 
     .page-title2 {
-        padding-bottom: 10px;
-        font-size: 40px;
+        padding-bottom: 0.625rem;
+        font-size: 2.5rem;
         font-weight: 600;
         line-height: 104.5%;
-        letter-spacing: 0.8px;
+        letter-spacing: 0.05rem;
         display: flex;
         position: relative;
 
@@ -123,9 +132,9 @@
     }
 
     .about-team-container {
-        padding-left: 16px;
-        padding-right: 16px;
-        padding-top: 140px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 8.75rem;
     }
 
     .vertile-rule {
@@ -139,14 +148,14 @@
     .section-links-content {
         display: flex;
         flex-direction: row;
-        gap: 0px;
+        gap: 0rem;
         overflow-x: scroll;
     }
 
     .section-links {
         display: flex;
         flex-direction: column;
-        padding-top: 0px;
+        padding-top: 0rem;
         position: relative;
         z-index: 1;
     }
@@ -163,8 +172,8 @@
     .team-list-items {
         display: flex;
         flex-direction: row;
-        gap: 20px;
-        padding-left: 0px;
+        gap: 1.25rem;
+        padding-left: 0rem;
         list-style: none;
 
     }
@@ -173,19 +182,19 @@
         display: flex;
         flex-wrap: nowrap;
         color: var(--White, #FFF);
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 400;
-        width: 179px;
+        width: 11.188rem;
         justify-content: center;
     }
 
     .links:link {
         display: flex;
-        padding: 16px;
+        padding: 1rem;
         align-items: center;
-        gap: 16px;
+        gap: 1rem;
         text-decoration: none;
-        border-radius: 8px;
+        border-radius: 0.5rem;
         background: rgba(30, 28, 34, 0.40);
     }
 
@@ -198,11 +207,11 @@
       }
 
     .page-title {
-        padding-left: 0px;
+        padding-left: 0rem;
     }
 
     .mid-section-ctr {
-        padding-left: 0px;
+        padding-left: 0rem;
         padding-top: 2rem;
 
         align-items: center;
@@ -221,18 +230,18 @@
 @media only screen and (max-width: 450px) {
 
     .about-team-container {
-        padding-top: 100px;
+        padding-top: 6.25rem;
     }
 
     .page-title {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .links {
-        font-size: 16px;
-        width: 150px;
+        font-size: 1rem;
+        width: 9.375rem;
         justify-content: center;
-        height: 20px;
+        height: 1.25rem;
     }
 
 }
