@@ -23,6 +23,7 @@
   gap: 5rem;
   margin: 0rem 5rem 0rem 5rem;
 }
+
 .star-img {
   width: 3rem;
   height: 3rem;
@@ -31,8 +32,16 @@
 
 .content img {
   border-radius: 0.75rem;
-  max-width: 100%;
-  height: fit-content;
+  max-width: 90%;
+  float: left;
+}
+
+#about_tedxuofw img {
+  height: auto;
+}
+
+#about_tedx, #about_ted img {
+  height: min-content;
 }
 
 .content p {
@@ -148,3 +157,32 @@
     flex-direction: column;
   }
 }
+
+/* #about_ted p {
+  /* float: right;
+  /* margin: 5px; 
+  overflow: hidden; 
+  margin-left: 55%;
+  /* width: 50%;
+}
+
+#about_ted .content img {
+  width: 50%;
+  float: left;
+  /* margin-right: 1.25rem;
+} */
+
+/* #about_ted {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about_ted .content {
+  flex: 1 1 auto;
+}
+
+#about_ted .content img {
+  width: 50%;
+  /* border-radius: 0.75rem;
+  max-width: 90%;
+} */
