@@ -48,7 +48,7 @@ function Landing(){
         <div className = "landing-container">
             <div className='landing-title'>
                 <div className='landing-theme-date'>
-                    <p>04.13.2023 | 10:30 AM | Kane Hall</p>
+                    <p>04.13.2023 | 10:30 AM | Kane Hall | Seatlle, WA</p>
                 </div>
                 <div className='crossroads-logo'>
                     <img src={logo} alt='Crossroads' />

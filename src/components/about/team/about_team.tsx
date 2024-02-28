@@ -27,11 +27,16 @@ function AboutTeam() {
                                         event.preventDefault();
                                         const target = event.target as HTMLAnchorElement;
                                         const id = target.getAttribute('href')?.replace('#', '');
+                                        console.log(id);
+                                        const yOffset = -10;
                                         const element = document.getElementById(String(id));
+                                        let y = yOffset
+                                        if (element) {
+                                            y = element.getBoundingClientRect().top + yOffset;
+                                        }
                                         element?.scrollIntoView({
                                             block: 'start',
-                                            inline: 'center',
-                                            behavior: 'smooth'
+                                            behavior: 'smooth',
                                         })
                                     }}>
                                         <li>
