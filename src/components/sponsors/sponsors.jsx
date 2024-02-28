@@ -79,7 +79,7 @@ function Sponsors(){
             </a>
 
 
-            <a href="http://www.asuw.org/">
+            <a href="https://www.washington.edu/brand/about/">
             <section className="sponsor-box"
               onMouseEnter={() => {setHover5(false); setMyText5('University Marketing & Communications (UMAC) is the University of Washington’s central branding, marketing and communications office. Based within University Advancement, UMAC brings together talented staff from across a range of marketing and communications disciplines in support of the UW’s highest priorities. At the center of our work is the Boundless brand, reflecting the optimistic spirit and extensive positive impact of the University on our students’ lives and on communities near and far.')}}
               onMouseLeave={() => {setHover5(true); setMyText5('')}}
