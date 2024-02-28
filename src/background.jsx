@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './background.css'; // Import the CSS for the animated background
+import './background.css';
 
 function AnimatedBackground() {
   useEffect(() => {
@@ -9,7 +9,6 @@ function AnimatedBackground() {
     canvas.height = window.innerHeight;
     let particleArray;
     let sizeArray;
-    // let blob;
 
     const particles = [
         {
@@ -49,12 +48,6 @@ function AnimatedBackground() {
             alpha: 0.40
         },
         {
-            red: 46,
-            green: 75,
-            blue: 212,
-            alpha: 0.40
-        },
-        {
           red: 229,
           green: 126,
           blue: 255,
@@ -74,47 +67,12 @@ function AnimatedBackground() {
       this.alpha = alpha;
     }
 
-    // Particle.prototype.draw = function() {
-    //     ctx.save(); // Save the current drawing state
-    //     ctx.beginPath();
-    //     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-    //     ctx.fillStyle = 'transparent'; // Set the fill color to transparent
-    //     ctx.fill();
-    //     ctx.filter = 'blur(200px)'; // Apply the blur filter
-    //     ctx.clip(); // Clip the drawing area
-    //     const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height); // Create a linear gradient
-    //     gradient.addColorStop(0, `rgba(46, 75, 212, 0.40)`); // Add color stops to the gradient
-    //     gradient.addColorStop(1, `rgba(198, 115, 252, 0.40)`);
-    //     ctx.fillStyle = gradient; // Set the fill style to the gradient
-    //     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-    //     ctx.fill(); // Fill the shape with the gradient
-    //     ctx.restore(); // Restore the saved drawing state
-    // }
-
     Particle.prototype.draw = function() {
       ctx.beginPath();
       ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
       ctx.fillStyle = `rgba(${this.red}, ${this.green}, ${this.blue}, ${this.alpha}`;
       ctx.fill();
     }
-
-    // Particle.prototype.draw = function() {
-    //   const img = new Image();
-    //   img.src = this.svgPath;
-    //   img.onload = function() {
-    //     ctx.drawImage(img, this.x, this.y, this.size, this.size);
-    //   }.bind(this);
-    // }
-
-    // Particle.prototype.draw = function() {
-    //     ctx.save(); // Save the current drawing state
-    //     ctx.filter = 'blur(200px)'; // Apply the blur filter
-    //     ctx.beginPath();
-    //     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-    //     ctx.fillStyle = `rgba(${this.red}, ${this.green}, ${this.blue}, ${this.alpha})`;
-    //     ctx.fill();
-    //     ctx.restore(); // Restore the saved drawing state
-    //   }
 
     Particle.prototype.update = function() {
       if (this.x + this.size > canvas.width || this.x - this.size < 0) {
@@ -130,17 +88,15 @@ function AnimatedBackground() {
 
     function init() {
         particleArray = [];
-        sizeArray = [1160, 1325, 740, 768, 740, 1160, 1160, 1325];
-        // blob = ['./blueBlob.svg', './purpleBlob1.svg', './purpleBlob2.svg', './greenBlob.svg', './purpleBlob3.svg', './purpleBlob4.svg', './purpleBlob5.svg'];
+        sizeArray = [1160, 1325, 740, 768, 740, 1160, 1325];
 
-        for (let i = 0; i < 8; i++) {
-          let size = sizeArray[i] / 5;
+        for (let i = 0; i < 7; i++) {
+          let size = sizeArray[i] / 6;
           let x = Math.random() * (window.innerWidth - size * 2);
           let y = Math.random() * (window.innerHeight - size * 2);
-          let directionX = 0.5 - Math.random() * 0.2;
-          let directionY = 0.5 - Math.random() * 0.2;
+          let directionX = 0.5 - Math.random() * 0.1;
+          let directionY = 0.5 - Math.random() * 0.1;
           let { red, green, blue, alpha } = particles[i];
-          // let svgPath = blob[i];
           particleArray.push(new Particle(x, y, directionX, directionY, size, red, green, blue, alpha));       
         }
     }
@@ -156,16 +112,16 @@ function AnimatedBackground() {
     init();
     animate();
 
-    window.addEventListener('resize', function() {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-      init();
-    });
+    // window.addEventListener('resize', function() {
+    //   canvas.width = window.innerWidth;
+    //   canvas.height = window.innerHeight;
+    //   init();
+    // });
 
-    // Clean up function
-    return () => {
-      window.removeEventListener('resize', () => { });
-    };
+    // // Clean up function
+    // return () => {
+    //   window.removeEventListener('resize', () => { });
+    // };
   }, []); // Empty dependency array to run the effect only once
 
   return (
