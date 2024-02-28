@@ -157,6 +157,9 @@ from the button */
   #small-screen img {
     height: 20px;
     float: right;
+  }
+
+  #side-menu-icon{
     padding-top: 20px;
   }
 
@@ -190,6 +193,7 @@ from the button */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    /* position: relative; */
   }
 
   #navbar-with-side-menu{
@@ -206,9 +210,9 @@ from the button */
 
   #nav-logo-clicked {
     padding-left: 10.5%;
-    padding-top: 8.5%;
+    padding-top: 2.55%;
     opacity: 70%;
-    width: 175px;
+    width: 170px;
   }
 
   .side-menu-content {
