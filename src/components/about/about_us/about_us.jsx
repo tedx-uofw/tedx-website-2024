@@ -22,9 +22,15 @@ function AboutUs(){
           </div>
           <div class="content">
             <img src={ted} alt="TED Logo: Ideas worth spreading"></img>
-            <p>TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in 
-              California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual 
-              TED conferences invite the world's leading thinkers and doers to Vancouver, British Columbia to speak for 18 minutes or less.</p>
+            <p>TED is on a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact. Our organization is devoted to curiosity, reason, wonder and the pursuit of knowledge — without an agenda. 
+              We welcome people from every discipline and culture who seek a deeper understanding of the world and connection with others, and we invite everyone to engage with ideas and activate them in your community.
+              TED began in 1984 as a conference where Technology, Entertainment and Design converged, but today it spans a multitude of worldwide communities and initiatives exploring everything from science and business to education, 
+              arts and global issues. In addition to the hundreds of TED Talks curated from our annual conferences and published on TED.com, we produce original podcasts, short video series, animated educational lessons 
+              (TED-Ed) and TV programs that are translated into more than 100 languages and distributed via partnerships around the world. Each year, more than 3,000 independently run TEDx events bring people together to share 
+              ideas and bridge divides in communities on every continent. Through the Audacious Project, TED has helped catalyze more than $3 billion in funding for projects that seek to make the world more beautiful, sustainable and just. 
+              In 2020, TED launched Countdown, an initiative to accelerate solutions to the climate crisis and mobilize a movement for a net-zero future. View a full list of TED’s many programs and initiatives.
+              <br></br><br></br>TED is owned by a nonprofit, nonpartisan foundation. Our aim is to help create a future worth pursuing for all.
+              <br></br><br></br>Follow TED on Twitter, Facebook, Instagram, TikTok and on LinkedIn.</p>
           </div>
         </div>
 

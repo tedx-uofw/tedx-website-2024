@@ -116,6 +116,7 @@ footer {
     /* width: 17.25rem; */
     align-items: center;
     /* gap: 3rem; */
+    background-color: transparent;
 }
 
 #icons a:hover {
