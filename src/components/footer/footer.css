@@ -15,11 +15,11 @@ footer {
 
 #top {
     display: flex;
-    padding: 4rem 6.25rem;
+    margin: 2rem 7rem;
     justify-content: space-between;
-    align-items: flex-start;
+    /* align-items: flex-start;
     align-content: flex-start;
-    row-gap: 3.75rem;
+    row-gap: 3rem; */
     align-self: stretch;
     flex-wrap: wrap;
 }
@@ -37,7 +37,7 @@ footer {
 #pages {
     display: flex;
     align-items: flex-start;
-    gap: 2.75rem;
+    gap: 2rem;
 }
 
 #pages a:hover {
@@ -83,11 +83,11 @@ footer {
 
 #bottom {
     display: flex;
-    padding: 1.25rem 6.25rem 2rem 6.25rem;
+    margin: 2rem 7rem;
     justify-content: space-between;
     /* align-items: center;
     align-content: center; */
-    row-gap: 2rem;
+    /* row-gap: 2rem; */
     align-self: stretch;
     flex-wrap: wrap;
 }
