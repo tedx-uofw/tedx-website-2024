@@ -9,9 +9,9 @@ import nashFung from "./speakersImg/nashFung.png"
 const speakerArray = [
     {
         img: nohaPolack,
-        name: "Dr. Noha Polack",
-        title: "Board-Certified Pediatrician",
-        talk: "The Road to Success Is Easier Than You Think",
+        name: "Noha Polack, MD, FAAP",
+        title: "Pediatrician",
+        talk: "Recognizing the Weight Bias Within",
         description: <p>
             Dr. Noha Polack is a board-certified pediatrician who specializes 
             in helping teens and pre-teens with body image and weight issues. 
@@ -23,8 +23,8 @@ const speakerArray = [
     {
         img: emilyLagoAnderson,
         name: "Emily Lago Anderson",
-        title: "Computer Engineer and Educator",
-        talk: "The Road to Success Is Easier Than You Think",
+        title: "Engineer and Educational Equity Activist",
+        talk: "The Purpose in Daydreaming",
         description: <p>
             Emily Lago Anderson is a computer engineer and educator with a passion 
             for eradicating the racial equity gap in tech. She is pursuing her M.Ed. 
@@ -35,9 +35,9 @@ const speakerArray = [
     },
     {
         img: chiragShah,
-        name: "Chirag Shah",
-        title: "University of Washington Professor",
-        talk: "The Road to Success Is Easier Than You Think",
+        name: "Chirag Shah, PhD",
+        title: "Professor in Information School",
+        talk: "Humanity at the Crossroads of What AI Could, Should, and Would Do",
         description: <p>
             Chirag Shah is a Professor at the University of Washington. He is the 
             Founding Director of InfoSeeking Lab and Founding Co-Director of the 
@@ -48,9 +48,9 @@ const speakerArray = [
     },
     {
         img: zaryaRubin,
-        name: "Dr. Zarya Rubin",
-        title: "Medicine Physician",
-        talk: "The Road to Success Is Easier Than You Think",
+        name: "Zarya Rubin, MD",
+        title: "Functional Medicine Physician",
+        talk: "Four Words That Can Protect You From Burnout",
         description: <p>
             Dr. Zarya Rubin is a Harvard-educated functional medicine physician, 
             keynote speaker, and burnout expert. She helps high-achieving women 
@@ -62,8 +62,8 @@ const speakerArray = [
     {
         img: jeffNguyen,
         name: "Jeff Nguyen",
-        title: "BobaTalks",
-        talk: "The Road to Success Is Easier Than You Think",
+        title: "Founder @ BobaTalks",
+        talk: "Clarity Amidst Crossroads: Navigating Your North Star",
         description: <p>
             Jeff Nguyen is most known for his work with BobaTalks, a nonprofit that 
             helps students navigate the early career ambiguities of their lives. He 
@@ -74,8 +74,8 @@ const speakerArray = [
     {
         img: nashFung,
         name: "Nash Fung",
-        title: "Keynote Speaker & Magician",
-        talk: "The Road to Success Is Easier Than You Think",
+        title: "Keystone Speaker & Magician",
+        talk: "Unlocking the Magic to Providing Better Emotional Support",
         description: <p>
             Nash Fung is a keynote speaker & magician who empowers his audiences 
             through his engaging keynotes. Drawing from his 16+ years of experience 
