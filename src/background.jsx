@@ -112,16 +112,16 @@ function AnimatedBackground() {
     init();
     animate();
 
-    // window.addEventListener('resize', function() {
-    //   canvas.width = window.innerWidth;
-    //   canvas.height = window.innerHeight;
-    //   init();
-    // });
+    window.addEventListener('resize', function() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      init();
+    });
 
-    // // Clean up function
-    // return () => {
-    //   window.removeEventListener('resize', () => { });
-    // };
+    // Clean up function
+    return () => {
+      window.removeEventListener('resize', () => { });
+    };
   }, []); // Empty dependency array to run the effect only once
 
   return (
