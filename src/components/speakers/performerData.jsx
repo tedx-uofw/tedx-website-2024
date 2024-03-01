@@ -4,7 +4,7 @@ import ExImg from "./speakersImg/Rectangle 24.png"
 const performerArray = [
     {
         img: ExImg,
-        name: "Susie Sharpe",
+        name: "Vocal Jazz @ UW",
         title: "Visual artist & Muralist",
         description: <p>
             Aramis O. Hamer is a visual artist and muralist in Seattle, WA. 
@@ -18,7 +18,7 @@ const performerArray = [
     },
     {
         img: ExImg,
-        name: "Aramis O. Hamer",
+        name: "Traditional Chinese Dance @ UW",
         title: "Visual artist & Muralist",
         description: <p>
             Aramis O. Hamer is a visual artist and muralist in Seattle, WA. 

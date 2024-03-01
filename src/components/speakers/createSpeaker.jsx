@@ -13,7 +13,7 @@ function CreateSpeaker(props) {
               <p className="speaker-descr">{props.description}</p>              
             </div>
           </div>
-          {props.name === "Aramis O. Hamer" && <div className="last-person"></div>}
+          {props.name === "Traditional Chinese Dance @ UW" && <div className="last-person"></div>}
         </section>
     )
 }
