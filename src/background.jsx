@@ -12,39 +12,39 @@ function AnimatedBackground() {
 
     const particles = [
         {
-            red: 46,
-            green: 75,
-            blue: 212,
-            alpha: 0.40
-        },
-        {
-            red: 109,
-            green: 172,
-            blue: 238,
-            alpha: 0.72
-        },
-        {
             red: 238,
             green: 181,
             blue: 149,
-            alpha: 0.50
+            alpha: 0.4
         },
         {
-            red: 98,
-            green: 245,
-            blue: 166,
-            alpha: 0.40
+            red: 226,
+            green: 156,
+            blue: 180,
+            alpha: 0.4
         },
         {
-            red: 238,
-            green: 181,
-            blue: 149,
-            alpha: 0.50
+            red: 197,
+            green: 95,
+            blue: 255,
+            alpha: 0.4
         },
         {
-            red: 46,
-            green: 75,
-            blue: 212,
+            red: 72,
+            green: 157,
+            blue: 241,
+            alpha: 0.4
+        },
+        {
+            red: 0,
+            green: 180,
+            blue: 251,
+            alpha: 0.4
+        },
+        {
+            red: 0,
+            green: 241,
+            blue: 249,
             alpha: 0.40
         },
         {

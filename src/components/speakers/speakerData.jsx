@@ -2,7 +2,7 @@ import nohaPolack from "./speakersImg/nohaPolack.png"
 import emilyLagoAnderson from "./speakersImg/emilyLagoAnderson.png"
 import chiragShah from "./speakersImg/chiragShah.png"
 import zaryaRubin from "./speakersImg/zaryaRubin.png"
-import jeffNguyen from "./speakersImg/jeffNguyen1.png"
+import jeffNguyen from "./speakersImg/jeffNguyen2.png"
 import nashFung from "./speakersImg/nashFung.png"
 
 
