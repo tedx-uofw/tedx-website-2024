@@ -29,26 +29,27 @@ function Schedule(props) {
 
 function Landing(){
     const items = [
-        {name: 'INTRO', title: '??', time: "10:30AM-10:45AM"},
-        {name: 'EMILY LAGO ANDERSON', title: '??', time: "10:50AM-11:05AM"},
-        {name: 'CHIRAG SHAH', title: '??', time: "11:10AM-11:25AM"},
-        {name: 'VOCAL JAZZ', title: '??', time: "11:30AM-11:45AM"},
-        {name: 'DR. POLACK', title: '??', time: "11:50AM-12:05PM"},
-        {name: 'RAFFLE', title: '??', time: "12:10PM-12:25PM"},
-        {name: 'LUNCH', title: '??', time: "12:30PM-1:25PM"},
-        {name: 'NASH FUNG', title: '??', time: "1:30PM-1:55PM"},
-        {name: 'DR. RUBIN', title: '??', time: "2:00PM-2:15PM"},
-        {name: 'TRADITIONAL CHINESE DANCE', title: '??', time: "2:20PM-2:35PM"},
-        {name: 'JEFF', title: '??', time: "2:40PM-2:55PM"},
-        {name: 'RAFFLE', title: '??', time: "3:00PM-3:15PM"},
-        {name: 'NETWORKING SESSION', title: '??', time: "3:20PM-3:55PM"},
-        {name: 'CLOSE', title: '??', time: "4:00PM"}
+        {name: 'CONFERENCE BEGINS', title: '', time: "10:30AM-10:45AM"},
+        {name: 'EMILY LAGO ANDERSON - The Purpose in Daydreaming', title: 'Engineer and Educational Equity Activist', time: "10:50AM-11:05AM"},
+        {name: 'CHIRAG SHAH, PhD - What AI Could, Should, and Would Do', title: 'Professor in Information School', time: "11:10AM-11:25AM"},
+        {name: 'VOCAL JAZZ @ UW', title: 'Performance', time: "11:30AM-11:45AM"},
+        {name: 'NOHA POLACK, MD, FAAP - Recognizing the Weight Bias Within', title: 'Pediatrician', time: "11:50AM-12:05PM"},
+        {name: 'RAFFLE DRAW 1', title: '', time: "12:10PM-12:25PM"},
+        {name: 'INTERMISSION', title: '', time: "12:30PM-1:30PM"},
+        {name: 'NASH FUNG - Unlock the Magic to Providing Better Emotional Support', title: 'Keystone Speaker & Magician', time: "1:40PM-1:55PM"},
+        {name: 'ZARYA RUBIN, MD - Four Words That Can Protect You From Burnout', title: 'Functional Medicine Physician', time: "2:00PM-2:15PM"},
+        {name: 'TRADITIONAL CHINESE DANCE @ UW', title: 'Performance', time: "2:20PM-2:35PM"},
+        {name: 'JEFF NGUYEN - Clarity Amidst Crossroads: Navigating Your North Star', title: 'Founder @ BobaTalks', time: "2:40PM-2:55PM"},
+        {name: 'RAFFLE DRAW 2', title: '', time: "3:00PM-3:15PM"},
+        {name: 'NETWORKING SESSION', title: '', time: "3:20PM-3:55PM"},
+        {name: 'END OF CONFERENCE', title: '', time: "4:00PM-4:10PM"}
     ];
+
     return (
         <div className = "landing-container">
             <div className='landing-title'>
                 <div className='landing-theme-date'>
-                    <p>04.13.2023 | 10:30 AM | Kane Hall | Seatlle, WA</p>
+                    <p>04.13.2023 | 10:30 AM | Kane Hall | Seattle, WA</p>
                 </div>
                 <div className='crossroads-logo'>
                     <img src={logo} alt='Crossroads' />
