@@ -34,7 +34,14 @@
 }
 
 .performer-box {
-    margin-top: 60px;
+    max-width: 1145px;
+    width: 67%;
+    min-width: 800px;
+    border: 1px solid #A5A5CC;
+    border-radius: 12px;
+    background: var(--off-black-40, rgba(30, 28, 34, 0.40));
+    /* margin: 276px auto 0 auto; */
+    margin: 60px auto 0 auto;
 }
 
 /* 1300px */
@@ -50,7 +57,7 @@
     .header-box {
         /* width: 543px; */
         width: 94%;
-        min-width: 0px;
+        min-width: 0;
         /* margin-top: 20%; */
         margin-top: 125px;
     }
@@ -67,6 +74,11 @@
 
     .header-text {
         font-size: 32px;
+    }
+
+    .performer-box {
+        width: 94%;
+        min-width: 0;
     }
 }
 
