@@ -39,7 +39,7 @@ function Sponsors(){
   return (
       <div id="sponsors">
       <div id="sponsors-card">
-        <h1>THANK YOU TO OUR SPONSORS!</h1>
+        <h1>OUR SPONSORS</h1>
           <div id="sponsor-bucket">
 
             <a href="https://hub.washington.edu/">
