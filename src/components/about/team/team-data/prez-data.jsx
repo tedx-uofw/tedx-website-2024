@@ -1,6 +1,6 @@
-import eddy from '../../../../assets/team-member-pics/eddy.png';
 import sahana from '../../../../assets/team-member-pics/sahana.jpg';
 import arushi from '../../../../assets/team-member-pics/arushi.jpg';
+import dhruth from '../../../../assets/team-member-pics/dhruth.jpg';
 
 const data =
 [
@@ -17,7 +17,7 @@ const data =
     {
         name: "DHRUTH KESANI",
         title: "Co-President | Informatics ",
-        img: eddy
+        img: dhruth
     }
 ]
 export default data;
