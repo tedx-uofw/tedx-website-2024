@@ -95,7 +95,8 @@ footer {
 #icons {
     display: flex;
     gap: 1rem;
-    margin-right: 1rem;
+    margin-right: 0.7rem;
+    
 }
 
 #icons a {

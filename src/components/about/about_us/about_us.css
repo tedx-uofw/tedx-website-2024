@@ -4,7 +4,7 @@
   align-items: center;
   align-content: center;
   gap: 1.25rem;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   border-radius: 0.75rem;
   border: 1px solid var(--Purble, #A5A5CC);
   background: var(--off-black-40, rgba(30, 28, 34, 0.40));
@@ -25,7 +25,7 @@
 .content {
   /* display: flex; */
   gap: 5rem;
-  margin: 0rem 5rem 0rem 5rem;
+  margin: 0rem 5rem;
 }
 
 .star-img {
@@ -37,7 +37,7 @@
 .content img {
   border-radius: 0.75rem;
   max-width: 100%;
-  /* float: left; */
+  float: left;
 }
 
 #about_tedxuofw img {
@@ -51,7 +51,7 @@
 .content p {
   color: var(--White, #FFF);
   font-family: Poppins;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   font-style: normal;
   font-weight: 400;
   max-width: 100%;
@@ -76,13 +76,14 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  font-size: 1.25rem;
+  gap: 0.5rem;
+  /* font-size: 1.25rem; */
 }
 
 #links img {
   display: flex;
-  height: 35px;
+  height: 32px;
+  width: 32px;
 }
 
 #links a:hover {
@@ -94,6 +95,11 @@
   align-items: start;
   padding: 0;
 }
+
+.desktop-only {
+  display: visible;
+}
+
 /* Responsive CSS for large desktops: */
 @media screen and (min-width: 1200px) and (max-width: 1530px) {
   .content img {
@@ -133,6 +139,9 @@
     margin-left: 2rem;
     margin-right: 2rem;
   }
+  .desktop-only {
+    display: none;
+  }
 }
 
 /* Additional responsive CSS for mobile: */
@@ -143,9 +152,9 @@
   .content {
     margin: 2rem 2rem 2rem 2rem;
   }
-  .aboutus-header {
+  /* .aboutus-header {
     font-size: 1rem;
-  }
+  } */
   #links img {
     max-height: 25px;
     align-items: start;
@@ -153,9 +162,9 @@
   #about_us {
     margin-top: 7rem;
   }
-  #about_us p, a {
+  /* #about_us p, a {
     font-size: 1rem;
-  }
+  } */
 }
 
 /* Responsive CSS for laptops */
@@ -166,33 +175,79 @@
 }
 
 #about_us .content img {
-  float: left;
   margin-right: 20px;
-  margin-bottom: 20px;
 }
-
-/*
-#about_ted .content img {
-  width: 50%;
-  float: left;
-  /* margin-right: 1.25rem;
-} */
-
-/* #about_ted {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#about_ted .content {
-  flex: 1 1 auto;
-}
-
-#about_ted .content img {
-  width: 50%;
-  /* border-radius: 0.75rem;
-  max-width: 90%;
-} */
 
 .content a:hover {
   opacity: 50%;
+}
+
+#about_ted p {
+  padding-left: 22px;
+  padding-right: 22px;
+  align-content: center;
+  height: auto;
+  overflow: scroll;
+  /* -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent); */
+  transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  scrollbar-color: #A5A5CC;
+  height: 250px;
+  border: 1px solid #A5A5CC;
+  border-radius: 12px;
+  background: var(--off-black-40, rgba(30, 28, 34, 0.40));
+  scrollbar-color: #A5A5CC;
+}
+
+/* 
+#about_ted p {
+  /* margin-block-start: -1em;
+  line-height: 175%;
+}
+#about_ted p:hover{
+  margin-bottom: 0;
+  -webkit-mask-image: none;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+} */
+
+/* Scrollbar  */
+#about_ted p::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+
+#about_ted p:hover::-webkit-scrollbar-thumb {
+  background: #A5A5CC;
+}
+  
+#about_ted p::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background: transparent;
+}
+
+#about_ted p::-webkit-scrollbar-thumb:hover {
+  background: white;  
+}
+
+#about_ted p::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+#about_ted p::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+}
+
+#about_ted p:hover::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  #about_ted .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
 }

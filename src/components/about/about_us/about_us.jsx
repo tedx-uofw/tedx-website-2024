@@ -1,9 +1,9 @@
 import React from "react";
 
 import star from "./assets/Star.svg";
-import ted from "./assets/ted.png";
-import tedx from "./assets/tedx.png";
-import tedxuofw from "./assets/tedxuofw.png";
+import ted from "./assets/aboutted.png";
+import tedx from "./assets/abouttedx.png";
+import tedxuofw from "./assets/whatistedx.png";
 import email from "./assets/Email.svg";
 import facebook from "./assets/Facebook.svg";
 import instagram from "./assets/Instagram.svg";
@@ -42,7 +42,7 @@ function AboutUs(){
         <div id="about_tedx">
           <div class="aboutus-header">
             <img src={star} className="star-img" alt="Christmas Star"></img>
-            <h1>ABOUT TEDx, x = independently organized event</h1>
+            <h1>ABOUT TEDx<span class="desktop-only">, x = independently organized event</span></h1>
           </div>
           <div class="content">
             <img src={tedx} alt="TEDx Logo"></img>
