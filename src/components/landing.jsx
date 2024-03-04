@@ -39,7 +39,7 @@ function Landing(){
         {name: 'NASH FUNG - Unlock the Magic to Providing Better Emotional Support', title: 'Keystone Speaker & Magician', time: "1:40PM-1:55PM"},
         {name: 'ZARYA RUBIN, MD - Four Words That Can Protect You From Burnout', title: 'Functional Medicine Physician', time: "2:00PM-2:15PM"},
         {name: 'TRADITIONAL CHINESE DANCE @ UW', title: 'Performance', time: "2:20PM-2:35PM"},
-        {name: 'JEFF NGUYEN - Clarity Amidst Crossroads: Navigating Your North Star', title: 'Founder @ BobaTalks', time: "2:40PM-2:55PM"},
+        {name: 'JEFF NGUYEN - Finding Clarity: Navigating Your North Star', title: 'Founder @ BobaTalks', time: "2:40PM-2:55PM"},
         {name: 'RAFFLE DRAW 2', title: '', time: "3:00PM-3:15PM"},
         {name: 'NETWORKING SESSION', title: '', time: "3:20PM-3:55PM"},
         {name: 'END OF CONFERENCE', title: '', time: "4:00PM-4:10PM"}
