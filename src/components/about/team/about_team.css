@@ -58,18 +58,14 @@
     position: relative;
 }
 
-
-
-.vertile-rule {
-    margin: 0;
-}
-
 .team-list-items {
     display: flex;
     flex-direction: column;
     padding-left: 0rem;
     list-style: none;
     gap: 0.625rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
 
 }
 
