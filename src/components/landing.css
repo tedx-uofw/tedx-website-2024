@@ -166,7 +166,7 @@ a:link, a:visited, a:active, a:hover {
     font-family: Poppins;
     font-size: 1.5rem;
     font-weight: 600;
-    margin-top: 0.4rem;
+    margin-top: 1rem;
     margin-bottom: 0rem;
 }
 
@@ -480,7 +480,7 @@ a:link, a:visited, a:active, a:hover {
 
     .items-name {
         font-size: 1.5rem;
-        margin-top: 1.25rem;
+        margin-top: 0.75rem;
     }
 
     .talk-title {
