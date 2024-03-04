@@ -105,6 +105,9 @@
   #links a:hover {
     opacity: 100%;
   }
+  .content a:hover {
+    opacity: 100%;
+  }
   .content {
     flex-direction: column;
     gap: 0rem;
@@ -189,3 +192,7 @@
   /* border-radius: 0.75rem;
   max-width: 90%;
 } */
+
+.content a:hover {
+  opacity: 50%;
+}

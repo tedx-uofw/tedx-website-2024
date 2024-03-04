@@ -33,7 +33,8 @@ function AboutUs(){
               ideas and bridge divides in communities on every continent. Through the Audacious Project, TED has helped catalyze more than $3 billion in funding for projects that seek to make the world more beautiful, sustainable and just. 
               In 2020, TED launched Countdown, an initiative to accelerate solutions to the climate crisis and mobilize a movement for a net-zero future. View a full list of TED’s many programs and initiatives.
               <br></br><br></br>TED is owned by a nonprofit, nonpartisan foundation. Our aim is to help create a future worth pursuing for all.
-              <br></br><br></br>Follow TED on Twitter, Facebook, Instagram, TikTok and on LinkedIn.</p>
+              <br></br><br></br>Follow TED on <a href="https://twitter.com/TEDTalks">Twitter</a>, <a href="https://www.facebook.com/TED">Facebook</a>, 
+              <a href="https://www.instagram.com/ted/"> Instagram</a>, <a href="https://www.tiktok.com/@tedtoks">TikTok</a> and on <a href="https://www.linkedin.com/company/ted-conferences/">LinkedIn</a>.</p>
           </div>
         </div>
 
@@ -72,15 +73,15 @@ function AboutUs(){
           </div>
             <div id="links">
                 {/* Mail */}
-                <a href=""><img src={email}></img>tedxuofw@uw.edu</a>
+                <a href="mailto:tedxuofw@uw.edu"><img src={email}></img>tedxuofw@uw.edu</a>
                 {/* Instagram */}
-                <a href=""><img src={instagram}></img>@tedxuofw</a>
+                <a href="https://www.instagram.com/tedxuofw/"><img src={instagram}></img>@tedxuofw</a>
                 {/* TikTok */}
-                <a href=""><img src={tiktok}></img>@tedxuofw</a>                
+                <a href="https://www.tiktok.com/@tedxuofw"><img src={tiktok}></img>@tedxuofw</a>                
                 {/* Facebook */}
-                <a href=""><img src={facebook}></img>@tedxuofw</a>
+                <a href="https://www.facebook.com/TEDxUofW"><img src={facebook}></img>@tedxuofw</a>
                 {/* LinkedIn */}
-                <a href=""><img src={linkedin}></img>@tedxuofw</a>
+                <a href="https://www.linkedin.com/company/tedxuofw/mycompany/"><img src={linkedin}></img>@tedxuofw</a>
               </div>
         </div>
       </div>
