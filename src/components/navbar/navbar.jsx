@@ -95,7 +95,8 @@ function Navbar(){
                 <button id="nav-button">GET TICKETS</button>
                 <img id="exit-button" src={exit} onClick={() => {setClick(true)}} alt="exit-button"/>
             </div>
-            <a id="first-link" href="/speakers">SPEAKERS</a>
+            <a id="first-link" href="/">HOME</a>
+            <a href="/speakers">SPEAKERS</a>
             <a href="/sponsors">SPONSORS</a>
             <a href="/about-tedx">ABOUT US</a>
             <a href="/team">TEAM</a>
