@@ -1,9 +1,10 @@
 import ExImg from "./speakersImg/Rectangle 24.png"
+import vocalJazz from "./speakersImg/vocalJazz.png"
 
 
 const performerArray = [
     {
-        img: ExImg,
+        img: vocalJazz,
         name: "Vocal Jazz at UW",
         description: <p>
             Vocal Jazz at UW is a student run choral group. Vocal Jazz at UW 
