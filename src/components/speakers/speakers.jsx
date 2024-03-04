@@ -2,6 +2,7 @@ import React from "react";
 import "./speakers.css";
 import star from "./speakersImg/ChristmasStar.png";
 import CreateSpeaker from "./createSpeaker.jsx";
+import CreatePerformer from "./createPerformer.jsx";
 import speakerData from './speakerData.jsx';
 import performerData from './performerData.jsx';
 
@@ -31,7 +32,7 @@ function Speakers(){
           />
         ))}
 
-        <div className="header-box performer-box">
+        <div className="performer-box">
           <div className="header-content">
             <img src={star} className="star-img" alt="Christmas Star"/>
             <p className="header-text">PERFORMERS</p>
@@ -39,11 +40,10 @@ function Speakers(){
         </div>
 
         {performerInfo.map(performer => (
-          <CreateSpeaker
+          <CreatePerformer
             key={performer.id}
             img={performer.img}
             name={performer.name}
-            title={performer.title}
             description={performer.description}
           />
         ))}

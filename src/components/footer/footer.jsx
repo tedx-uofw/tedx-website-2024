@@ -46,15 +46,15 @@ function Footer(){
               <div class="mobile-only"><p>CONNECT WITH US:</p></div>
             <div id="icons">
               {/* Mail */}
-              <a href=""><img src={email}></img></a>
+              <a href="mailto:tedxuofw@uw.edu"><img src={email}></img></a>
               {/* Facebook */}
-              <a href=""><img src={facebook}></img></a>
+              <a href="https://www.facebook.com/TEDxUofW"><img src={facebook}></img></a>
               {/* Instagram */}
-              <a href=""><img src={instagram}></img></a>
+              <a href="https://www.instagram.com/tedxuofw/"><img src={instagram}></img></a>
               {/* TikTok */}
-              <a href=""><img src={tiktok}></img></a>
+              <a href="https://www.tiktok.com/@tedxuofw"><img src={tiktok}></img></a>
               {/* LinkedIn */}
-              <a href=""><img src={linkedin}></img></a>
+              <a href="https://www.linkedin.com/company/tedxuofw/mycompany/"><img src={linkedin}></img></a>
             </div>
           </div>
         </footer>

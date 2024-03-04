@@ -4,7 +4,7 @@
   align-items: center;
   align-content: center;
   gap: 1.25rem;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   border-radius: 0.75rem;
   border: 1px solid var(--Purble, #A5A5CC);
   background: var(--off-black-40, rgba(30, 28, 34, 0.40));
@@ -25,7 +25,7 @@
 .content {
   /* display: flex; */
   gap: 5rem;
-  margin: 0rem 5rem 0rem 5rem;
+  margin: 0rem 5rem;
 }
 
 .star-img {
@@ -37,21 +37,21 @@
 .content img {
   border-radius: 0.75rem;
   max-width: 100%;
-  /* float: left; */
+  float: left;
 }
 
-#about_tedxuofw img {
+/* #about_tedxuofw img {
   height: auto;
 }
 
 #about_tedx, #about_ted img {
   height: min-content;
-}
+} */
 
 .content p {
   color: var(--White, #FFF);
   font-family: Poppins;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   font-style: normal;
   font-weight: 400;
   max-width: 100%;
@@ -61,7 +61,6 @@
 
 #about_us {
   flex-direction: column;
-  /* align-items: flex-start; */
 }
 
 #links {
@@ -69,20 +68,21 @@
   color: white;
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 5rem;
+  /* padding-bottom: 2rem; */
+  margin: 2rem 2rem 2rem 2rem;
 }
 
 #links a {
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  font-size: 1.25rem;
+  gap: 0.5rem;
 }
 
 #links img {
   display: flex;
-  height: 35px;
+  height: 32px;
+  width: 32px;
 }
 
 #links a:hover {
@@ -94,15 +94,28 @@
   align-items: start;
   padding: 0;
 }
+
+.desktop-only {
+  display: visible;
+}
+
 /* Responsive CSS for large desktops: */
 @media screen and (min-width: 1200px) and (max-width: 1530px) {
   .content img {
     max-width: 50%;
   }
 }
+@media screen and (min-width: 450px) {
+  .mobile {
+    display: none;
+  }
+}
 /* Responsive CSS for tablets: */
 @media screen and (max-width: 1024px) {
   #links a:hover {
+    opacity: 100%;
+  }
+  .content a:hover {
     opacity: 100%;
   }
   .content {
@@ -116,8 +129,9 @@
     flex-direction: column;
     padding-bottom: none;
     align-items: start;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     gap: 1rem;
+    margin: 3rem 3rem 3rem 3rem;
   }
   #links a {
     gap: 1rem;
@@ -130,6 +144,9 @@
     margin-left: 2rem;
     margin-right: 2rem;
   }
+  .desktop-only {
+    display: none;
+  }
 }
 
 /* Additional responsive CSS for mobile: */
@@ -140,9 +157,6 @@
   .content {
     margin: 2rem 2rem 2rem 2rem;
   }
-  .aboutus-header {
-    font-size: 1rem;
-  }
   #links img {
     max-height: 25px;
     align-items: start;
@@ -150,8 +164,11 @@
   #about_us {
     margin-top: 7rem;
   }
-  #about_us p, a {
-    font-size: 1rem;
+  #about_ted .scroll {
+    display: none;
+  }
+  .mobile {
+    display: visible;
   }
 }
 
@@ -163,29 +180,62 @@
 }
 
 #about_us .content img {
-  float: left;
   margin-right: 20px;
-  margin-bottom: 20px;
 }
 
-/*
-#about_ted .content img {
-  width: 50%;
-  float: left;
-  /* margin-right: 1.25rem;
-} */
-
-/* #about_ted {
-  display: flex;
-  flex-wrap: wrap;
+.content a:hover {
+  opacity: 50%;
 }
 
-#about_ted .content {
-  flex: 1 1 auto;
+#about_ted .scroll {
+  padding-left: 22px;
+  padding-right: 22px;
+  align-content: center;
+  /* height: auto; */
+  overflow: scroll;
+  transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  max-height: 385px;
+  border: 1px solid #A5A5CC;
+  border-radius: 12px;
+  background: var(--off-black-40, rgba(30, 28, 34, 0.40));
+  scrollbar-color: #A5A5CC;
+  flex: 1;
 }
 
-#about_ted .content img {
-  width: 50%;
-  /* border-radius: 0.75rem;
-  max-width: 90%;
-} */
+@media screen and (max-width: 1524px) {
+  #about_ted .scroll {
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 1201px) {
+  #about_ted .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+  #about_ted .scroll {
+    max-height: 227px;
+  }
+  #about_ted .content img {
+    margin-right: 0;
+  }
+  .content {
+    display: flex;
+    gap: 0;
+  }
+  .content img {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .content img {
+    float: none;
+  }
+.aboutus-header {
+    text-align: center;
+    gap: 0;
+  }
+}

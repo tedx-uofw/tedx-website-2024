@@ -7,14 +7,15 @@
   font-family: "Poppins", sans-serif;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
   position: fixed;
   padding-left: 6%;
+  width: 88%;
   overflow: hidden;
   padding-right: 6%;
   padding-top: 1.5%;
-  padding-bottom: 12%;
+  padding-bottom: 8%;
   font-size: 1.5rem;
+  transition: top 0.3s;
   background: var(--Off-Black-Gradient, linear-gradient(180deg, #1E1C22 0%, rgba(0, 0, 0, 0.00) 88.59%));
 }
 
@@ -65,6 +66,7 @@ from the button */
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
+  gap: 1.25rem;
   /* width: 60%; */
 }
 
@@ -93,23 +95,28 @@ from the button */
   flex-direction: column;
   display: none;
   position: absolute;
-  z-index: 1;
-  padding-top: 35px;
+  z-index: 2;
+  margin-top: 35px;
+ /* new box styling */
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--Purble, #A5A5CC);
+  background: var(--Background-Dark-Blue, #0B0D26);
 }
 
 .dropdown-content a {
   display: block;
 }
 
-.hover-dropdown-content {
+/* .hover-dropdown-content {
   display: flex;
   flex-direction: column;
-}
+} */
 
 #right-nav a {
   text-decoration: none;
   color: #FFF;
-  margin-right: 1.25rem;
+  /* margin-right: 1.25rem; */
 }
 
 .dropdown:hover .dropdown-content {
@@ -131,7 +138,8 @@ from the button */
   /* overflow: hidden; */
   white-space: nowrap;
   font-size: 90%;
-  margin-left: 10%;
+  margin-left: 3.5rem;
+  margin-right: 0.5rem;
 }
 
 .ticket-btn {
@@ -154,8 +162,8 @@ from the button */
     height: 100%;
   }
 
-  #small-screen img {
-    height: 20px;
+  #small-screen svg {
+    /* height: 20px; */
     float: right;
   }
 

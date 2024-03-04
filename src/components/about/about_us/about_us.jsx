@@ -1,9 +1,9 @@
 import React from "react";
 
 import star from "./assets/Star.svg";
-import ted from "./assets/ted.png";
-import tedx from "./assets/tedx.png";
-import tedxuofw from "./assets/tedxuofw.png";
+import ted from "./assets/aboutted.png";
+import tedx from "./assets/abouttedx.png";
+import tedxuofw from "./assets/whatistedx.png";
 import email from "./assets/Email.svg";
 import facebook from "./assets/Facebook.svg";
 import instagram from "./assets/Instagram.svg";
@@ -22,10 +22,11 @@ function AboutUs(){
           </div>
           <div class="content">
             <img src={ted} alt="TED Logo: Ideas worth spreading"></img>
-            {/* <p>TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in 
+            <p class="mobile">TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in 
               California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual 
-              TED conferences invite the world's leading thinkers and doers to Vancouver, British Columbia to speak for 18 minutes or less.</p> */}
-            <p>TED is on a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact. Our organization is devoted to curiosity, reason, wonder and the pursuit of knowledge — without an agenda. 
+              TED conferences invite the world's leading thinkers and doers to Vancouver, British Columbia to speak for 18 minutes or less.</p>
+            
+            <p class="scroll">TED is on a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact. Our organization is devoted to curiosity, reason, wonder and the pursuit of knowledge — without an agenda. 
               We welcome people from every discipline and culture who seek a deeper understanding of the world and connection with others, and we invite everyone to engage with ideas and activate them in your community.
               TED began in 1984 as a conference where Technology, Entertainment and Design converged, but today it spans a multitude of worldwide communities and initiatives exploring everything from science and business to education, 
               arts and global issues. In addition to the hundreds of TED Talks curated from our annual conferences and published on TED.com, we produce original podcasts, short video series, animated educational lessons 
@@ -33,7 +34,8 @@ function AboutUs(){
               ideas and bridge divides in communities on every continent. Through the Audacious Project, TED has helped catalyze more than $3 billion in funding for projects that seek to make the world more beautiful, sustainable and just. 
               In 2020, TED launched Countdown, an initiative to accelerate solutions to the climate crisis and mobilize a movement for a net-zero future. View a full list of TED’s many programs and initiatives.
               <br></br><br></br>TED is owned by a nonprofit, nonpartisan foundation. Our aim is to help create a future worth pursuing for all.
-              <br></br><br></br>Follow TED on Twitter, Facebook, Instagram, TikTok and on LinkedIn.</p>
+              <br></br><br></br>Follow TED on <a href="https://twitter.com/TEDTalks">Twitter</a>, <a href="https://www.facebook.com/TED">Facebook</a>, 
+              <a href="https://www.instagram.com/ted/"> Instagram</a>, <a href="https://www.tiktok.com/@tedtoks">TikTok</a> and on <a href="https://www.linkedin.com/company/ted-conferences/">LinkedIn</a>.</p>
           </div>
         </div>
 
@@ -41,7 +43,7 @@ function AboutUs(){
         <div id="about_tedx">
           <div class="aboutus-header">
             <img src={star} className="star-img" alt="Christmas Star"></img>
-            <h1>ABOUT TEDx, x = independently organized event</h1>
+            <h1>ABOUT TEDx<span class="desktop-only">, x = independently organized event</span></h1>
           </div>
           <div class="content">
             <img src={tedx} alt="TEDx Logo"></img>
@@ -72,15 +74,15 @@ function AboutUs(){
           </div>
             <div id="links">
                 {/* Mail */}
-                <a href=""><img src={email}></img>tedxuofw@uw.edu</a>
+                <a href="mailto:tedxuofw@uw.edu"><img src={email}></img>tedxuofw@uw.edu</a>
                 {/* Instagram */}
-                <a href=""><img src={instagram}></img>@tedxuofw</a>
+                <a href="https://www.instagram.com/tedxuofw/"><img src={instagram}></img>@tedxuofw</a>
                 {/* TikTok */}
-                <a href=""><img src={tiktok}></img>@tedxuofw</a>                
+                <a href="https://www.tiktok.com/@tedxuofw"><img src={tiktok}></img>@tedxuofw</a>                
                 {/* Facebook */}
-                <a href=""><img src={facebook}></img>@tedxuofw</a>
+                <a href="https://www.facebook.com/TEDxUofW"><img src={facebook}></img>@tedxuofw</a>
                 {/* LinkedIn */}
-                <a href=""><img src={linkedin}></img>@tedxuofw</a>
+                <a href="https://www.linkedin.com/company/tedxuofw/mycompany/"><img src={linkedin}></img>@tedxuofw</a>
               </div>
         </div>
       </div>

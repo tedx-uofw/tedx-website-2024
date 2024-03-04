@@ -8,19 +8,6 @@ import nashFung from "./speakersImg/nashFung.png"
 
 const speakerArray = [
     {
-        img: nohaPolack,
-        name: "Noha Polack, MD, FAAP",
-        title: "Pediatrician",
-        talk: "Recognizing the Weight Bias Within",
-        description: <p>
-            Dr. Noha Polack is a board-certified pediatrician who specializes 
-            in helping teens and pre-teens with body image and weight issues. 
-            She empowers them to help them love their bodies and take control 
-            of their health journey. She teaches professionals/parents to communicate 
-            positive messages about health instead of focusing on weight.
-        </p>
-    },
-    {
         img: emilyLagoAnderson,
         name: "Emily Lago Anderson",
         title: "Engineer and Educational Equity Activist",
@@ -47,6 +34,32 @@ const speakerArray = [
         </p>
     },
     {
+        img: nohaPolack,
+        name: "Noha Polack, MD, FAAP",
+        title: "Pediatrician",
+        talk: "Recognizing the Weight Bias Within",
+        description: <p>
+            Dr. Noha Polack is a board-certified pediatrician who specializes 
+            in helping teens and pre-teens with body image and weight issues. 
+            She empowers them to help them love their bodies and take control 
+            of their health journey. She teaches professionals/parents to communicate 
+            positive messages about health instead of focusing on weight.
+        </p>
+    },
+    {
+        img: nashFung,
+        name: "Nash Fung",
+        title: "Keystone Speaker & Magician",
+        talk: "Unlocking the Magic to Providing Better Emotional Support",
+        description: <p>
+            Nash Fung is a keynote speaker & magician who empowers his audiences 
+            through his engaging keynotes. Drawing from his 16+ years of experience 
+            as a crisis line volunteer, he now unveils the curtain on the magic of 
+            empathetic communication, teaching leaders how to lead with empathy and 
+            make others feel heard, understood, valued, and empowered.
+        </p>
+    },
+    {
         img: zaryaRubin,
         name: "Zarya Rubin, MD",
         title: "Functional Medicine Physician",
@@ -69,19 +82,6 @@ const speakerArray = [
             helps students navigate the early career ambiguities of their lives. He 
             spends most of my time taking photos, planning weddings, and helping 
             students figure out their lives, one boba chat at a time.
-        </p>
-    },
-    {
-        img: nashFung,
-        name: "Nash Fung",
-        title: "Keystone Speaker & Magician",
-        talk: "Unlocking the Magic to Providing Better Emotional Support",
-        description: <p>
-            Nash Fung is a keynote speaker & magician who empowers his audiences 
-            through his engaging keynotes. Drawing from his 16+ years of experience 
-            as a crisis line volunteer, he now unveils the curtain on the magic of 
-            empathetic communication, teaching leaders how to lead with empathy and 
-            make others feel heard, understood, valued, and empowered.
         </p>
     }
 ]
