@@ -3,7 +3,7 @@ import React from "react";
 import star from "./assets/Star.svg";
 import ted from "./assets/aboutted.png";
 import tedx from "./assets/abouttedx.png";
-import tedxuofw from "./assets/whatistedx.png";
+import tedxuofw from "./assets/tedxuw.png";
 import email from "./assets/Email.svg";
 import facebook from "./assets/Facebook.svg";
 import instagram from "./assets/Instagram.svg";

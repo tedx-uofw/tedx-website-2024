@@ -10,12 +10,23 @@
   background: var(--off-black-40, rgba(30, 28, 34, 0.40));
   margin: 5rem 5rem 5rem 5rem;
 }
+
+.aboutus-header h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
 #about_ted {
   margin-top: none;
 }
 
 #about_us {
-  margin-top: 7%;
+  margin-top: 5%;
   margin-left: 7rem;
   margin-right: 7rem;
   position: relative;
@@ -39,14 +50,6 @@
   max-width: 100%;
   float: left;
 }
-
-/* #about_tedxuofw img {
-  height: auto;
-}
-
-#about_tedx, #about_ted img {
-  height: min-content;
-} */
 
 .content p {
   color: var(--White, #FFF);
@@ -147,15 +150,20 @@
   .desktop-only {
     display: none;
   }
+  .aboutus-header h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
 }
 
 /* Additional responsive CSS for mobile: */
 @media screen and (max-width: 450px){
-  #about_us {
-    margin-top: 7rem;
-  }
   .content {
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 1rem 1rem 1rem 1rem;
   }
   #links img {
     max-height: 25px;
@@ -169,6 +177,24 @@
   }
   .mobile {
     display: visible;
+  }
+  .aboutus-header h1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .aboutus-header .star-img {
+    height: 20px;
+    width: 20px;
+  }
+  .aboutus-header {
+    margin: 1rem 1rem 1rem 1rem;
+  }
+  #links {
+    margin: 2rem 3rem 3rem 1rem;
   }
 }
 
@@ -235,7 +261,15 @@
     float: none;
   }
 .aboutus-header {
-    text-align: center;
+    /* text-align: center; */
     gap: 0;
   }
+  #about_tedxuofw .content img {
+    margin-bottom: 0px;
+  }
+}
+
+#about_tedxuofw .content img{
+  max-width: 100%;
+  margin-bottom: 20px;
 }
