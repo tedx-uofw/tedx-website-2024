@@ -43,6 +43,15 @@ function Navbar(){
     }
   }
 
+  // const sponsorResize = () => {
+  //   let firstSponsorBox = document.getElementById("first-box");
+  //   let rect = firstSponsorBox.getBoundingClientRect();
+  //   let xPos = rect.left;
+  //   console.log(xPos);
+  //   let sponsorsHeader = document.getElementById("sponsors-header");
+  //   sponsorsHeader.style.marginLeft = xPos + "px";
+  // };
+
     const handleResize = () => {
       if(window.innerWidth > 1024) {
         setClick(true);
@@ -50,6 +59,7 @@ function Navbar(){
     };
 
     window.addEventListener('resize', handleResize);
+    // window.addEventListener('load', sponsorResize);
 
   return (
       <div id={isClicked ? "navbar" : "navbar-with-side-menu"}>

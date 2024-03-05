@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useLayoutEffect} from "react";
 import temp from "./sponsors-img/temp.png";
 import uwaa from "./sponsors-img/UWAA.jpg";
 import wsecu from "./sponsors-img/WSECU.png";
@@ -32,18 +32,22 @@ function Sponsors(){
   const [isHovered8, setHover8] = useState(true);
   const [isHovered9, setHover9] = useState(true);
 
-  const handleResize = () => {
-    let firstSponsorBox = document.getElementById("first-box");
-    let rect = firstSponsorBox.getBoundingClientRect();
-    let xPos = rect.left;
-    console.log(xPos);
-    let sponsorsHeader = document.getElementById("sponsors-header");
-    sponsorsHeader.style.marginLeft = xPos + "px";
-  };
+  useLayoutEffect(() => {
+    const handleResize = () => {
+        let firstSponsorBox = document.getElementById("first-box");
+        let rect = firstSponsorBox.getBoundingClientRect();
+        let xPos = rect.left;
+        let sponsorsHeader = document.getElementById("sponsors-header");
+        sponsorsHeader.style.marginLeft = xPos + "px";
+    };
 
-  window.addEventListener('resize', handleResize);
-  window.addEventListener('load', handleResize);
+    handleResize();
+    window.addEventListener('resize', handleResize);
 
+    return () => {
+        window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
 
   return (

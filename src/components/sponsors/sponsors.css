@@ -51,17 +51,21 @@
   flex-direction: column;
   justify-content: center;
   width: auto;
+  /* margin-left: 2%;
+  margin-right: 2%; */
 }
 
 #sponsors-header {
   font-size: 32px;
-  margin-left: 95px;
+  /* margin-left: 5.4%; */
 }
 
 #sponsors {
   display: flex;
   /* justify-content: center; */
-  /* margin-left: 5rem; */
+  /* margin-left: 5.4%; */
+
+
 }
 
 .sponsor-box:hover {
