@@ -11,7 +11,7 @@ function CreatePerformer(props) {
               <p className="performer-descr">{props.description}</p>              
             </div>
           </div>
-          {props.name === "Traditional Chinese Dance @ UW" && <div className="last-person"></div>}
+          {props.name === "Traditional Chinese Dance at UW" && <div className="last-person"></div>}
         </section>
     )
 }

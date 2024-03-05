@@ -27,17 +27,30 @@ function Navbar(){
   //   navigate(path);
   // }
 
+
+
   // const [width, setWidth] = useState(window.innerWidth);
   let prevScroll = window.scrollY;
   window.onscroll = function() {
     let scroll = window.scrollY;
-    if (prevScroll > scroll) {
-      document.getElementById("navbar").style.top = "0";
-    } else {
-      document.getElementById("navbar").style.top = "-100px";
+    if(document.getElementById("navbar") !== null) {
+      if (prevScroll > scroll ) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-150px";
+      }
+      prevScroll = scroll;
     }
-    prevScroll = scroll;
   }
+
+  // const sponsorResize = () => {
+  //   let firstSponsorBox = document.getElementById("first-box");
+  //   let rect = firstSponsorBox.getBoundingClientRect();
+  //   let xPos = rect.left;
+  //   console.log(xPos);
+  //   let sponsorsHeader = document.getElementById("sponsors-header");
+  //   sponsorsHeader.style.marginLeft = xPos + "px";
+  // };
 
     const handleResize = () => {
       if(window.innerWidth > 1024) {
@@ -46,6 +59,7 @@ function Navbar(){
     };
 
     window.addEventListener('resize', handleResize);
+    // window.addEventListener('load', sponsorResize);
 
   return (
       <div id={isClicked ? "navbar" : "navbar-with-side-menu"}>
