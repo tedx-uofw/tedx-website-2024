@@ -34,8 +34,8 @@ function Navbar(){
   window.onscroll = function() {
     let scroll = window.scrollY;
     if(document.getElementById("navbar") !== null) {
-      if (prevScroll > scroll ) {
-        document.getElementById("navbar").style.top = "0";
+      if (prevScroll > scroll || scroll <= 0) {
+        document.getElementById("navbar").style.top = "0px";
       } else {
         document.getElementById("navbar").style.top = "-150px";
       }
