@@ -36,11 +36,14 @@ function Sponsors(){
     let firstSponsorBox = document.getElementById("first-box");
     let rect = firstSponsorBox.getBoundingClientRect();
     let xPos = rect.left;
+    console.log(xPos);
     let sponsorsHeader = document.getElementById("sponsors-header");
     sponsorsHeader.style.marginLeft = xPos + "px";
   };
 
   window.addEventListener('resize', handleResize);
+  window.addEventListener('load', handleResize);
+
 
 
   return (

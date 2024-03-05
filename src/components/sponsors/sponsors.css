@@ -53,9 +53,9 @@
   width: auto;
 }
 
-#sponsors #sponsors-card h1 {
+#sponsors-header {
   font-size: 32px;
-  /* margin-left: 5%; */
+  margin-left: 95px;
 }
 
 #sponsors {
