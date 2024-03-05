@@ -27,16 +27,20 @@ function Navbar(){
   //   navigate(path);
   // }
 
+
+
   // const [width, setWidth] = useState(window.innerWidth);
   let prevScroll = window.scrollY;
   window.onscroll = function() {
     let scroll = window.scrollY;
-    if (prevScroll > scroll) {
-      document.getElementById("navbar").style.top = "0";
-    } else {
-      document.getElementById("navbar").style.top = "-100px";
+    if(document.getElementById("navbar") !== null) {
+      if (prevScroll > scroll ) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-100px";
+      }
+      prevScroll = scroll;
     }
-    prevScroll = scroll;
   }
 
     const handleResize = () => {

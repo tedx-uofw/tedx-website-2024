@@ -164,11 +164,8 @@ from the button */
 
   #small-screen svg {
     /* height: 20px; */
+    /* width: 30%; */
     float: right;
-  }
-
-  #side-menu-icon{
-    padding-top: 20px;
   }
 
   #side-menu-icon-clicked {
@@ -200,7 +197,7 @@ from the button */
   #navbar {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     /* position: relative; */
   }
 
@@ -262,10 +259,8 @@ from the button */
     width: 100px;
   }
 
-  #small-screen img {
-    height: 15px;
-    padding-top: 15px;
-    float: right;
+  svg {
+    width: 15%;
   }
 
   #small-screen .ticket-btn button {

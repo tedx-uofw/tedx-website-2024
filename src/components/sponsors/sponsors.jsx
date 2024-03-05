@@ -8,9 +8,6 @@ import bouldering from "./sponsors-img/bouldering.png";
 import wLogo from "./sponsors-img/W-Logo.png";
 import gpss from "./sponsors-img/GPSS.jpg";
 
-
-
-
 import "./sponsors.css";
 
 function Sponsors(){
@@ -35,14 +32,26 @@ function Sponsors(){
   const [isHovered8, setHover8] = useState(true);
   const [isHovered9, setHover9] = useState(true);
 
+  const handleResize = () => {
+    let firstSponsorBox = document.getElementById("first-box");
+    let rect = firstSponsorBox.getBoundingClientRect();
+    let xPos = rect.left;
+    let sponsorsHeader = document.getElementById("sponsors-header");
+    sponsorsHeader.style.marginLeft = xPos + "px";
+  };
+
+  window.addEventListener('resize', handleResize);
+
 
   return (
       <div id="sponsors">
       <div id="sponsors-card">
-        <h1>OUR SPONSORS</h1>
+        <h1 id="sponsors-header">OUR SPONSORS</h1>
           <div id="sponsor-bucket">
+          {/* <div id="cards"> */}
 
-            <a href="https://hub.washington.edu/">
+
+            <a href="https://hub.washington.edu/" id="first-box">
             <section className="sponsor-box"
                 onMouseEnter={() => {setHover(false); setMyText('The HUB supports the Husky Experience by enhancing UW community, providing a dynamic event center, and fostering student engagement. The HUB provided support on all printed and online promotional materials.')}}
                 onMouseLeave={() => {setHover(true); setMyText('')}}
@@ -126,7 +135,6 @@ function Sponsors(){
               <img className={isHovered9 ? "sponsor-logo" : "hover-sponsor-logo"} src={wsecu} alt="sponsor-logo"/>
             </section>
             </a>
-
 
           </div>
         </div>
