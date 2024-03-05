@@ -9,7 +9,6 @@
   flex-direction: row;
   align-self: flex-start;
   justify-content: center;
-  /* width: 90%; */
   flex-wrap: wrap;
   gap: 2.5rem;
   padding-bottom: 9rem;
@@ -23,6 +22,7 @@
   justify-content: center;
   text-align: center;
   align-items: center;
+  overflow: hidden;
   border-radius: 0.75rem;
   border: 1px solid var(--Purble, #A5A5CC);
   background: var(--off-black-40, rgba(30, 28, 34, 0.40));
@@ -51,21 +51,14 @@
   flex-direction: column;
   justify-content: center;
   width: auto;
-  /* margin-left: 2%;
-  margin-right: 2%; */
 }
 
 #sponsors-header {
   font-size: 32px;
-  /* margin-left: 5.4%; */
 }
 
 #sponsors {
   display: flex;
-  /* justify-content: center; */
-  /* margin-left: 5.4%; */
-
-
 }
 
 .sponsor-box:hover {
@@ -84,7 +77,6 @@
   #sponsors {
     display: flex;
     justify-content: center;
-    /* margin-left: 5%; */
   }
 
   #sponsor-bucket {

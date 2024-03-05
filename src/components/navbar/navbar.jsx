@@ -37,7 +37,7 @@ function Navbar(){
       if (prevScroll > scroll ) {
         document.getElementById("navbar").style.top = "0";
       } else {
-        document.getElementById("navbar").style.top = "-100px";
+        document.getElementById("navbar").style.top = "-150px";
       }
       prevScroll = scroll;
     }
