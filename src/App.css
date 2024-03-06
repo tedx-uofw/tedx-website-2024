@@ -16,7 +16,6 @@ body,
 }
 
 :root {
-    --white: #FFFFFF;
     --Button-Aurora: linear-gradient(
         90deg,
         #90FFD4 0%,

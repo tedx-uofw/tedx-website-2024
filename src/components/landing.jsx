@@ -66,6 +66,7 @@ function Landing(){
                 <div className='ticket-btn'>
                     <button className='btn'>
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLScFKzPkloRcReyNhadtJzJZ9HuH_g9o7tsom5HJczat4zWp0A/viewform' className='tickets-link'>GET TICKETS</a>
+                        
                         </button>
                 </div>
                 <div className='crossroads-graphic'>
