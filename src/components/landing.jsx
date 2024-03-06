@@ -64,7 +64,7 @@ function Landing(){
                     <p id='scroll-to-learn'>Scroll to learn more about the event!</p>
                 </div>
                 <div className='ticket-btn'>
-                    <button>
+                    <button className='btn'>
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLScFKzPkloRcReyNhadtJzJZ9HuH_g9o7tsom5HJczat4zWp0A/viewform' className='tickets-link'>GET TICKETS</a>
                         </button>
                 </div>
@@ -148,7 +148,7 @@ function Landing(){
                         <div className='landing-team-text-ctr'>
                             <p id='landing-team-text'>Learn more about the team behind the conference!</p>
                             <div className='meet-team-btn'>
-                            <button><a href='/team' className='meet-team-link'>MEET THE TEAM</a></button>
+                            <button className='btn'><a href='/team' className='meet-team-link'>MEET THE TEAM</a></button>
                             </div>
 
                         </div>
