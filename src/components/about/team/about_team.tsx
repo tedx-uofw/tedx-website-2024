@@ -11,12 +11,14 @@ import marketingData from "./team-data/marketing-data"
 import financeData from "./team-data/finance-data"
 import speakerData from "./team-data/speaker-selec-data"
 
+declare const window: Window;
+
 function AboutTeam() {
     return (
         <div className="about-team-container">
                 <div className="team-contents-container">
                     <div className="mobile-tab-scroll">
-                        <h1 className="page-title">MEET THE TEAM</h1>
+
                         <div className="testing">
                             <div className="section-links">
                                 <h1 className="page-title2">MEET THE TEAM</h1>
@@ -27,7 +29,6 @@ function AboutTeam() {
                                         event.preventDefault();
                                         const target = event.target as HTMLAnchorElement;
                                         const id = target.getAttribute('href')?.replace('#', '');
-                                        console.log(id);
                                         const yOffset = -10;
                                         const element = document.getElementById(String(id));
                                         let y = yOffset
@@ -65,6 +66,7 @@ function AboutTeam() {
                             </div>
 
                             <div className="mid-section-ctr">
+                            <h1 className="page-title">MEET THE TEAM</h1>
                                     <Team
                                         name="CO-PRESIDENTS"
                                         data={presData}

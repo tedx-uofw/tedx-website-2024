@@ -7,7 +7,6 @@
     line-height: 104.5%; /* 41.8px */
     letter-spacing: 0.05rem;
     display: flex;
-    padding-left: 16.875rem;
     position: relative;
 }
 
@@ -231,7 +230,7 @@
 
     .page-title2 {
         font-size: 1.5rem;
-        padding-bottom: 0rem;
+        padding-bottom: 1rem;
         margin-bottom: 0rem;
     }
 

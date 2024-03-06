@@ -8,8 +8,7 @@ a:link, a:visited, a:active, a:hover {
     padding-top: 1.875rem;
     color: #FBFBFB;
     gap: 6.25rem;
-    margin-top: 6%;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .info-section-ctr {
@@ -186,8 +185,8 @@ a:link, a:visited, a:active, a:hover {
     border: transparent;
 }
 
-/* Venue */
-.landing-venue-contents-ctr {
+/* Venue & What is TEDx */
+.landing-venue-contents-ctr, .landing-tedx-contents-ctr{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -195,12 +194,12 @@ a:link, a:visited, a:active, a:hover {
 
 }
 
-.landing-venue-img-container img{
+.landing-venue-img-container img, .landing-tedx-img-container img{
     width: 40vw;
     border-radius: 1.25rem;
 }
 
-.venue-text, .parking-text {
+.venue-text, .parking-text, .tedx-text {
     font-size: 1.157vw;
     font-style: normal;
     font-weight: 400;
@@ -369,26 +368,32 @@ a:link, a:visited, a:active, a:hover {
 
 
     /***************************************************/
-    .landing-team-contents-ctr, .landing-venue-contents-ctr {
+    .landing-team-contents-ctr, .landing-venue-contents-ctr, .landing-tedx-contents-ctr {
         display: flex;
         flex-direction: column;
     }
 
-    /*Venue*/
+    /*Venue & Tedx*/
 
-    .landing-venue-contents-ctr {
+    .landing-venue-contents-ctr, .landing-tedx-contents-ctr {
         align-items: center;
     }
-    .landing-venue-img-container {
+    .landing-venue-img-container, .landing-tedx-img-container {
         width: 100%;
         align-items: center;
     }
-    .landing-venue-img-container img{
+    .landing-venue-img-container img, .landing-tedx-img-container img{
         width: 100%;
     }
 
-    .venue-text, .parking-text {
+    .venue-text, .parking-text, .tedx-text {
         font-size: 1.8vw;
+    }
+
+    /* TEDx*/
+
+    .landing-tedx-contents-ctr {
+        gap: 1rem;
     }
 
     /*Team*/
@@ -495,10 +500,10 @@ a:link, a:visited, a:active, a:hover {
 
     /*Venue*/
 
-    .landing-venue-contents-ctr {
+    .landing-venue-contents-ctr, .landing-tedx-contents-ctr {
         gap: 1.25rem;
     }
-    .landing-venue-img-container img{
+    .landing-venue-img-container img, .landing-tedx-img-container img{
         width: 100%;
         display: flex;
         align-items: center;
@@ -591,7 +596,7 @@ a:link, a:visited, a:active, a:hover {
 
     /*Venue*/
 
-    .venue-text, .parking-text a {
+    .venue-text, .parking-text a, .tedx-text {
         font-size: 3vw;
     }
 
