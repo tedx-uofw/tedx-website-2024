@@ -244,7 +244,7 @@ a:link, a:visited, a:active, a:hover {
     linear-gradient(rgb(38, 38, 38) 0 0) padding-box,
     linear-gradient(to right, #90ffd4, #67afe0, #737cfe, #e57eff) border-box;
     color: #313149;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-radius:50px;
     display: inline-block;
     height: 53px;
@@ -315,7 +315,7 @@ a:link, a:visited, a:active, a:hover {
     linear-gradient(rgb(38, 38, 38) 0 0) padding-box,
     linear-gradient(to right, #90ffd4, #67afe0, #737cfe, #e57eff) border-box;
     color: #313149;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-radius:50px;
     display: inline-block;
     height: 53px;
