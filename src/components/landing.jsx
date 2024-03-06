@@ -106,7 +106,7 @@ function Landing(){
                                 <p className='venue-text'>Kane Hall is also in a centralized location on campus,
                                     providing easy access to our intended audience. Additionally, the venue provides
                                     adequate accommodations for those in need of wheelchair seating or closed captions.</p>
-                            <p className='parking-text'><a href='https://transportation.uw.edu/park/visitor'>Parking Information</a>
+                            <p className='parking-text'><a href='https://transportation.uw.edu/park/visitor'>Parking Information </a>
                               | <a href='https://www.google.com/maps/place/Kane+Hall/@47.6566273,-122.3091503,15z/data=!4m6!3m5!1s0x549015bbf61d1867:0x39a352937b07450a!8m2!3d47.6566273!4d-122.3091503!16s%2Fg%2F11j111b43t?entry=ttu'>
                                 Directions</a></p>
                         </div>

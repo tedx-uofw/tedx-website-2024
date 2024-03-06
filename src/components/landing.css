@@ -8,11 +8,8 @@ a:link, a:visited, a:active, a:hover {
     padding-top: 1.875rem;
     color: #FBFBFB;
     gap: 6.25rem;
-<<<<<<< HEAD
     margin-top: 6%;
-=======
     margin-top: 5%;
->>>>>>> 48e918054c891b546dbb47c3884bddd31c649a5c
 }
 
 .info-section-ctr {
@@ -186,6 +183,7 @@ a:link, a:visited, a:active, a:hover {
     background: linear-gradient(to right, #90FFD4 -9.65%, #7ED4E1 8.3%, #6CABEE 30.35%, #A297F6 63.29%, #E57EFF 108.14%);
     height: 0.125rem;
     min-width: 11.875rem;
+    border: transparent;
 }
 
 /* Venue */
