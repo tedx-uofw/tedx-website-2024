@@ -14,10 +14,6 @@ function Navbar(){
   const [isClicked, setClick] = useState(true);
   const [isHovered, setHover] = useState(false);
 
-  function routeToTicketLink () {
-    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScFKzPkloRcReyNhadtJzJZ9HuH_g9o7tsom5HJczat4zWp0A/viewform";
-  }
-
   // let navigate = useNavigate();
   // const routeChange = (page) =>{
   //   let path = "/" + page;
@@ -38,6 +34,27 @@ function Navbar(){
       prevScroll = scroll;
     }
   }
+
+  let touchStartY = 0;
+
+  window.addEventListener("touchstart", function(event) {
+    touchStartY = event.touches[0].clientY;
+  });
+  window.addEventListener("touchmove", function(event) {
+    let touchEndY = event.touches[0].clientY;
+    let scroll = window.scrollY;
+    if (touchEndY < touchStartY) {
+      // Scrolling down
+      document.getElementById("navbar").style.top = "-150px";
+    } else {
+      // Scrolling up
+      if (scroll <= 0) {
+        document.getElementById("navbar").style.top = "0px";
+      } else {
+        document.getElementById("navbar").style.top = "-150px";
+      }
+    }
+  });
 
     const handleResize = () => {
       if(window.innerWidth > 1024) {
