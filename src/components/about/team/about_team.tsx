@@ -10,6 +10,7 @@ import logisticsData from "./team-data/logistics-data"
 import marketingData from "./team-data/marketing-data"
 import financeData from "./team-data/finance-data"
 import speakerData from "./team-data/speaker-selec-data"
+import roData from "./team-data/ro-data"
 
 declare const window: Window;
 
@@ -94,6 +95,10 @@ function AboutTeam() {
                                     <Team
                                         name="SPEAKER SELECTION"
                                         data={speakerData}
+                                        />
+                                    <Team
+                                        name="SPECIAL THANKS"
+                                        data={roData}
                                         />
                             </div>
                         </div>

@@ -1,9 +1,9 @@
-#sponsors {
+#friends {
   margin-top: 7%;
   position: relative;
 }
 
-#sponsor-bucket {
+#friends-bucket {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -15,7 +15,7 @@
   padding-top: 2.0rem;
 }
 
-.sponsor-box {
+.friends-box {
   display: flex;
   width: 21.5rem;
   height: 16.25rem;
@@ -28,17 +28,17 @@
   background: var(--off-black-40, rgba(30, 28, 34, 0.40));
 }
 
-#sponsors img {
+#friends img {
   max-width: 15rem;
   max-height: 15rem;
 }
 
-.sponsor-box:hover {
+.friends-box:hover {
   overflow-y: scroll;
   scrollbar-width: none;
 }
 
-.sponsor-box p {
+.friends-box p {
   margin: 0.3rem;
 }
 
@@ -46,22 +46,22 @@
   margin-top: 3rem;
 }
 
-#sponsors-card {
+#friends-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: auto;
 }
 
-#sponsors-header {
+#friends-header {
   font-size: 32px;
 }
 
-#sponsors {
+#friends {
   display: flex;
 }
 
-.sponsor-box:hover {
+.friends-box:hover {
   background-color: rgb(16, 5, 40);
   transition: background-color .5s ease-out;
   -moz-transition: background-color .5s ease-out;
@@ -69,49 +69,49 @@
   -o-transition: background-color .5s ease-out;
 }
 
-.hover-sponsor-logo {
+.hover-friends-logo {
   display: none;
 }
 
 @media only screen and (max-width: 1024px) {
-  #sponsors {
+  #friends {
     display: flex;
     justify-content: center;
   }
 
-  #sponsor-bucket {
+  #friends-bucket {
     padding-top: 1rem;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  #sponsors {
+  #friends {
     margin-top: 70px;
   }
 
-  #sponsor-bucket {
+  #friends-bucket {
     padding-top: 1rem;
   }
 
-  .sponsor-box {
+  .friends-box {
     width: 33.17675rem;
     height: 25.07544rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .sponsor-box {
+  .friends-box {
     width: 25.5rem;
     height: 20.25rem;
   }
 }
 
 @media only screen and (max-width: 450px) {
-  #sponsors {
+  #friends {
     margin-top: 10%;
   }
 
-  .sponsor-box {
+  .friends-box {
     width: 21.5rem;
     height: 16.25rem;
   }
