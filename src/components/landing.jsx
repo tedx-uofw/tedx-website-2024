@@ -5,6 +5,7 @@ import logo from '../assets/landing-page-pics/CROSSROADS.png';
 import graphic from '../assets/landing-page-pics/crossroads-graphic.png';
 import kane from '../assets/landing-page-pics/kane-hall.png';
 import teamPhoto from '../assets/landing-page-pics/teamPhoto.jpg';
+import tedxPhoto from '../assets/landing-page-pics/tedx.png';
 
 import starIcon from '../assets/ChristmasStar.svg';
 
@@ -63,8 +64,9 @@ function Landing(){
                     <p id='scroll-to-learn'>Scroll to learn more about the event!</p>
                 </div>
                 <div className='ticket-btn'>
-                    <button>
+                    <button className='btn'>
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLScFKzPkloRcReyNhadtJzJZ9HuH_g9o7tsom5HJczat4zWp0A/viewform' className='tickets-link'>GET TICKETS</a>
+                        
                         </button>
                 </div>
                 <div className='crossroads-graphic'>
@@ -106,9 +108,31 @@ function Landing(){
                                 <p className='venue-text'>Kane Hall is also in a centralized location on campus,
                                     providing easy access to our intended audience. Additionally, the venue provides
                                     adequate accommodations for those in need of wheelchair seating or closed captions.</p>
-                            <p className='parking-text'><a href='https://transportation.uw.edu/park/visitor'>Parking Information</a>
+                            <p className='parking-text'><a href='https://transportation.uw.edu/park/visitor'>Parking Information </a>
                               | <a href='https://www.google.com/maps/place/Kane+Hall/@47.6566273,-122.3091503,15z/data=!4m6!3m5!1s0x549015bbf61d1867:0x39a352937b07450a!8m2!3d47.6566273!4d-122.3091503!16s%2Fg%2F11j111b43t?entry=ttu'>
                                 Directions</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='landing-tedx-container section-ctr'>
+                    <div className='box'>
+                        <img src={starIcon} alt='Star Icon' className='star-icon'/>
+                        <h3 className='title'>WHAT IS TEDx?</h3>
+                    </div>
+                    <div className='landing-tedx-contents-ctr'>
+                        <div className='landing-tedx-img-container'>
+                            <img src={tedxPhoto} alt='Kane Hall Photo'/>
+                        </div>
+                        <div className='landing-tedx-text-ctr'>
+                            <p className='tedx-text'>In the spirit of ideas worth spreading, TED
+                            has created a program called TEDx. TEDx is a program of local, self-organized
+                            events that bring people together to share a TED-like experience.
+                            Our event is called TEDxUofw, where x = independently organized TED event.
+                            At our TEDxUofw event, TED Talks video and live speakers will combine to
+                            spark deep discussion and connection in a small group. The TED Conference
+                            provides general guidance for the TEDx program, but individual TEDx events,
+                            including ours, are self-organized.</p>
                         </div>
                     </div>
                 </div>
@@ -125,7 +149,7 @@ function Landing(){
                         <div className='landing-team-text-ctr'>
                             <p id='landing-team-text'>Learn more about the team behind the conference!</p>
                             <div className='meet-team-btn'>
-                            <button><a href='/team' className='meet-team-link'>MEET THE TEAM</a></button>
+                            <button className='btn'><a href='/team' className='meet-team-link'>MEET THE TEAM</a></button>
                             </div>
 
                         </div>

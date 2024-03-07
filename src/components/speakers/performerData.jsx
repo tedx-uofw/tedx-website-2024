@@ -1,5 +1,5 @@
 import vocalJazz from "./speakersImg/vocalJazz.png"
-import chineseDance from "./speakersImg/chineseDance.png"
+import tcd from "./speakersImg/tcd.png"
 
 
 const performerArray = [
@@ -14,7 +14,7 @@ const performerArray = [
         </p>
     },
     {
-        img: chineseDance,
+        img: tcd,
         name: "Traditional Chinese Dance at UW",
         description: <p>
             Traditional Chinese Dance at UW was founded in 2021 with the mission 
