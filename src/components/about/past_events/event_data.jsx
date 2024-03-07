@@ -6,7 +6,7 @@ import moonshot from "./event_imgs/moonshot_theme.png";
 const events = [
     {
         img: invisible,
-        logistics: '04.22.2023 @ 10:00AM, KANE HALL',
+        logistics: '04.22.2023 @ 9:00AM, KANE HALL',
         title: "SEEING THE INVISIBLE",
         description: <p>
             The theme “Seeing the Invisible” places the spotlight on ideas, 
@@ -26,7 +26,7 @@ const events = [
     },
     {
         img: steps,
-        logistics: '05.04.2019 @ 10:00AM, KANE HALL',
+        logistics: '05.04.2019 @ 11:00AM, KANE HALL',
         title: "TWO STEPS FORWARD",
         description: <p>
             Life rarely follows a straight path, and this year, we wanted to 
@@ -36,7 +36,7 @@ const events = [
     },
     {
         img: moonshot,
-        logistics: '05.05.2018 @ 10:00AM, KANE HALL',
+        logistics: '05.05.2018 @ 12:00PM, KANE HALL',
         title: "MOONSHOT",
         description: <p>
             Inspired by President John F. Kennedy’s 1967 Address at Rice University, 
