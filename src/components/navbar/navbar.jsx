@@ -40,6 +40,7 @@ function Navbar(){
   window.addEventListener("touchstart", function(event) {
     touchStartY = event.touches[0].clientY;
   });
+
   window.addEventListener("touchmove", function(event) {
     let touchEndY = event.touches[0].clientY;
     let scroll = window.scrollY;
