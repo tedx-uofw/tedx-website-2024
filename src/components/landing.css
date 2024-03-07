@@ -386,7 +386,7 @@ a:link, a:visited, a:active, a:hover {
 
     }
 
-    .ticket-btn {
+    .ticket-btn, .btn {
         width: 8.625rem;
     }
 

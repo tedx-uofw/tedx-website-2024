@@ -118,7 +118,7 @@ from the button */
   display: block;
 }
 
-#right-nav a:hover, .dropdown:hover .drop-cover{
+#right-nav-links a:hover, .dropdown:hover .drop-cover{
   text-decoration: none;
   background-color: #90FFD4;
   background-image: linear-gradient(60deg, #90FFD4, #67AFE0, #737CFE, #E57EFF);
@@ -128,20 +128,29 @@ from the button */
   -moz-text-fill-color: transparent;
 }
 
-#navbar .ticket-btn button{
-  padding: 0.6rem 1.5rem;
+#nav-button {
   /* overflow: hidden; */
   white-space: nowrap;
-
   font-size: 90%;
-  margin-left: 1.5rem;
+  width: 100%;
+  height: 101%;
   /* margin-right: 1.5rem; */
 }
 
-.ticket-btn {
+#navbar button, #small-screen button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#navbar .ticket-btn {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 2.5rem;
+  width: 25%;
+  height: 42px;
 }
 
 #small-screen {
@@ -149,13 +158,17 @@ from the button */
 }
 
 @media only screen and (max-width: 1200px) {
-  #navbar .ticket-btn button{
-    padding: 0.5rem 1.2rem;
+  #nav-button {
+
     /* overflow: hidden; */
     white-space: nowrap;
     font-size: 80%;
-    margin-left: 3.5rem;
     /* margin-right: 1.5rem; */
+  }
+
+  #navbar .ticket-btn {
+    margin-left: 2.5rem;
+    height: 40px;
   }
 
   #nav-logo {
@@ -185,8 +198,17 @@ from the button */
   #small-screen {
     display: block;
     /* overflow: hidden; */
-    width: 60%;
+    width: 90%;
     height: 100%;
+    z-index: 4;
+  }
+
+  #small-screen .ticket-btn {
+    margin-left: 0px;
+    /* width: 45%;
+    height: 70%; */
+    height: 45px;
+    width: 170px;
   }
 
   #small-screen svg {
@@ -199,17 +221,18 @@ from the button */
     display: none;
   }
 
-  #small-screen .ticket-btn button {
+  #small-screen #nav-button {
     margin-left: 0px;
     font-size: 90%;
     overflow: hidden;
     white-space: nowrap;
   }
 
-  #small-screen .ticket-btn {
+  #small-screen .ticket-btn-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    white-space: nowrap;
     padding-bottom: 1rem;
     padding-top: 2rem;
     margin-right: 1rem;
@@ -241,10 +264,10 @@ from the button */
   }
 
   #nav-logo-clicked {
-    padding-left: 10.5%;
-    padding-top: 2.55%;
+    padding-left: 12.5%;
+    padding-top: 3.45%;
     opacity: 70%;
-    width: 170px;
+    width: 150px;
   }
 
   .side-menu-content {
@@ -277,7 +300,19 @@ from the button */
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 650px) {
+  #small-screen .ticket-btn {
+    margin-left: 0px;
+    width: 140px;
+    height: 40px;
+  }
+
+  #small-screen #nav-button {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
   #nav-logo {
     width: 100px;
   }
@@ -290,11 +325,17 @@ from the button */
     width: 15%;
   }
 
-  #small-screen .ticket-btn button {
+  #nav-button {
     margin-left: 0px;
     font-size: 65%;
     overflow: hidden;
     white-space: nowrap;
+  }
+
+  #small-screen .ticket-btn {
+    margin-left: 0px;
+    width: 100px;
+    height: 30px;
   }
 
   #exit-button {
