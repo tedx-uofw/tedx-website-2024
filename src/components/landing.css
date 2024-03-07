@@ -249,10 +249,10 @@ a:link, a:visited, a:active, a:hover {
     display: inline-block;
     height: 3.313rem;
     z-index: 1;
-    
+
 }
 
-.ticket-btn {
+.ticket-btn, .btn {
     width: 11.25rem;
 }
 
@@ -276,7 +276,7 @@ a:link, a:visited, a:active, a:hover {
     z-index: 2;
   }
 
-  
+
 
   .btn:hover {
     color: rgb(29, 29, 29);
