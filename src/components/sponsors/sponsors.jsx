@@ -55,7 +55,7 @@ function Sponsors(){
   return (
       <div id="friends">
       <div id="friends-card">
-        <h1 id="friends-header">OUR SPONSORS</h1>
+        <h1 id="friends-header">THANK YOU TO OUR SPONSORS</h1>
           <div id="friends-bucket">
           {/* <div id="cards"> */}
 
