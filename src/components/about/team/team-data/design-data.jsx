@@ -9,7 +9,7 @@ const data =
 [
     {
         name: "MADELYN LEE",
-        title: "Director | MAJOR",
+        title: "Director | Informatics",
         img: madelyn
     },
     {
