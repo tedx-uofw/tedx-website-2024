@@ -84,11 +84,22 @@
     }
 
     .event-logistics {
-        margin: 33.16px 33.16px 0 33.16px;
+        /* margin: 33.16px 33.16px 0 33.16px; */
+        margin: 32px 32px 0 32px;
     }
 
     .event-info {
-        margin: 0 33.16px 33.16px 33.16px;
+        /* margin: 0 33.16px 33.16px 33.16px; */
+        margin: 32px;
+    }
+
+    .event-descr {
+        margin-top: 24px;
+    }
+
+    .event-title {
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .event-img {
@@ -135,7 +146,17 @@
     }
 
     .event-info {
-        margin: 0 24px 24px 24px;
+        /* margin: 0 24px 24px 24px; */
+        margin: 24px 24px 24px 24px;
+    }
+
+    .event-descr {
+        margin-top: 20px;
+    }
+
+    .event-title {
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .star-img {
