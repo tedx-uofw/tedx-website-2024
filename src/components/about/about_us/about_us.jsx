@@ -10,10 +10,16 @@ import instagram from "./assets/Instagram.svg";
 import linkedin from "./assets/LinkedIn.svg";
 import tiktok from "./assets/Tiktok.svg";
 import "./about_us.css";
+import { Helmet } from "react-helmet";
 
 function AboutUs(){
   return (
       <div id="about_us">
+        <Helmet>
+          <title>About Us</title>
+          <meta name="description" content="Learn about TED, TEDx, and TEDxUofW, and view our social media platforms" />
+          <meta name="keywords" content="About Us, TED, TEDx, TEDxUofW"/>
+        </Helmet>
         {/* About TED */}
         <div id="about_ted">
           <div class="aboutus-header">

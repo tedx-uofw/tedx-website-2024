@@ -5,6 +5,7 @@ import CreateSpeaker from "./createSpeaker.jsx";
 import CreatePerformer from "./createPerformer.jsx";
 import speakerData from './speakerData.jsx';
 import performerData from './performerData.jsx';
+import { Helmet } from "react-helmet";
 
 function Speakers(){
 
@@ -13,7 +14,11 @@ function Speakers(){
 
   return (
       <div id="speakers">
-
+        <Helmet>
+          <title>Speakers and Performers</title>
+          <meta name="description" content="View and learn about the speakers and performers at the TEDxUofW conference" />
+          <meta name="keywords" content="Speakers, Emily Lago Anderson, Chirag Shah, Noha Polack, Nash Fung, Zarya Rubin, Jeff Nguyen, Vocal Jazz at UW, Traditional Chinese Dance at UW"/>
+        </Helmet>
         <div className="header-box">
           <div className="header-content">
             <img src={star} className="star-img" alt="Christmas Star"/>

@@ -8,6 +8,7 @@ import bouldering from "./sponsors-img/bouldering.png";
 import wLogo from "./sponsors-img/W-Logo.png";
 import gpss from "./sponsors-img/GPSS.jpg";
 import hub from "./sponsors-img/hub.png";
+import { Helmet } from 'react-helmet';
 
 
 import "./sponsors.css";
@@ -52,8 +53,13 @@ function Sponsors(){
   }, []);
 
 
-  return (
+  return (     
       <div id="friends">
+        <Helmet>
+          <title>Sponsors</title>
+          <meta name="description" content="Explore the sponsors that made the 2024 TEDxUofW conference possible" />
+          <meta name="keywords" content="the HUB, UW Alumni Association, Graduate and Professional Student Senate (GPSS), ASUW, University Marketing & Communications (UMAC), Cotopaxi, Seattle Bouldering Project (SBP), NEKO Cat Cafe, WSECU" />
+        </Helmet>
       <div id="friends-card">
         <h1 id="friends-header">THANK YOU TO OUR SPONSORS</h1>
           <div id="friends-bucket">
