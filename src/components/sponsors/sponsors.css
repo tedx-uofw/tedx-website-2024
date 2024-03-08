@@ -30,7 +30,7 @@
 
 #friends img {
   max-width: 15rem;
-  max-height: 15rem;
+  max-height: 13rem;
 }
 
 .friends-box:hover {
@@ -43,7 +43,7 @@
 }
 
 #long-text {
-  margin-top: 3rem;
+  margin-top: 6.5rem;
 }
 
 #friends-card {

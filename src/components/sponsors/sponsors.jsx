@@ -1,5 +1,5 @@
 import React, {useState, useLayoutEffect} from "react";
-import temp from "./sponsors-img/temp.png";
+import asuw from "./sponsors-img/asuw.png";
 import uwaa from "./sponsors-img/UWAA.jpg";
 import wsecu from "./sponsors-img/WSECU.png";
 import nekoCat from "./sponsors-img/neko-cat-logo.png";
@@ -7,6 +7,8 @@ import cotopaxi from "./sponsors-img/cotopaxi.png";
 import bouldering from "./sponsors-img/bouldering.png";
 import wLogo from "./sponsors-img/W-Logo.png";
 import gpss from "./sponsors-img/GPSS.jpg";
+import hub from "./sponsors-img/hub.png";
+
 
 import "./sponsors.css";
 
@@ -63,7 +65,7 @@ function Sponsors(){
                 onMouseEnter={() => {setHover(false); setMyText('The HUB supports the Husky Experience by enhancing UW community, providing a dynamic event center, and fostering student engagement. The HUB provided support on all printed and online promotional materials.')}}
                 onMouseLeave={() => {setHover(true); setMyText('')}}
                 ><p>{myText}</p>
-              <img className={isHovered ? "friends-logo" : "hover-friends-logo"} src={temp} alt="logo"/>
+              <img className={isHovered ? "friends-logo" : "hover-friends-logo"} src={hub} alt="logo"/>
             </section>
             </a>
 
@@ -90,7 +92,7 @@ function Sponsors(){
               onMouseEnter={() => {setHover4(false); setMyText4('The University of Washington is committed to providing access, equal opportunity and reasonable accommodation in its services, programs, activities, education and employment for individuals with disabilities. To request disability accommodation contact the Disability Services Office at least ten days in advance at: 206.543.6450/V, 206.543.6452/TTY, 206.685.7264 (FAX), or e-mail at dso@u.washington.edu.')}}
               onMouseLeave={() => {setHover4(true); setMyText4('')}}
             ><p id="long-text">{myText4}</p>
-              <img className={isHovered4 ? "friends-logo" : "hover-friends-logo"} src={temp} alt="logo"/>
+              <img className={isHovered4 ? "friends-logo" : "hover-friends-logo"} src={asuw} alt="logo"/>
             </section>
             </a>
 
