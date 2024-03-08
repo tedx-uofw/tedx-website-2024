@@ -276,6 +276,10 @@ a:link, a:visited, a:active, a:hover {
     z-index: 2;
   }
 
+  .meet-team-link {
+    font-size: 1.1rem;
+  }
+
 
 
   .btn:hover {
@@ -443,6 +447,10 @@ a:link, a:visited, a:active, a:hover {
     }
 
     .meet-team-btn button {
+        font-size: 0.8rem;
+    }
+
+    .meet-team-link {
         font-size: 0.8rem;
     }
 
