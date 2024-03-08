@@ -19,7 +19,7 @@ function AboutTeam() {
     return (
         <div>
             <Helmet>
-                <title>About Team</title>
+                <title>Team</title>
                 <meta name="description" content="View the 2024 TEDxUofW team that planned and set up the conference" />
                 <meta name="keywords" content="About Team, Co-Presidents, Design, Web Development, Logistics, Marketing, Finance, Speaker Selection"/>
             </Helmet>
