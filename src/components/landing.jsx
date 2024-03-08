@@ -48,7 +48,7 @@ function Landing(){
     ];
 
     return (
-        <div className = "landing-container">
+        <div className = "landing-container landingFadeInUp">
             <div className='landing-title'>
                 <div className='landing-theme-date'>
                     <p>04.13.2023 | 10:30 AM | Kane Hall | Seattle, WA</p>
