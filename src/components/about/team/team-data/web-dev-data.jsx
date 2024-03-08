@@ -7,7 +7,7 @@ const data =
 [
     {
         name: "HARMONY SHIRK",
-        title: "Director | Computer Science",
+        title: "Web Development Director | Computer Science",
         img: harmony
     },
     {

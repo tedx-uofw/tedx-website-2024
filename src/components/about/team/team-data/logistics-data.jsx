@@ -10,7 +10,7 @@ const data =
 [
     {
         name: "KATE KODAMA",
-        title: "Director | Intended Informatics",
+        title: "Logistics Director | Intended Informatics",
         img: kate
     },
     {

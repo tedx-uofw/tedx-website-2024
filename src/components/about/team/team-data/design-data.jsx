@@ -9,7 +9,7 @@ const data =
 [
     {
         name: "MADELYN LEE",
-        title: "Director | Informatics",
+        title: "Design Director | Informatics",
         img: madelyn
     },
     {
@@ -34,7 +34,7 @@ const data =
     },
     {
         name: "MICHELLE NGUYEN",
-        title: "Intended Informatics",
+        title: "HCDE",
         img: michelle
     }
 ]

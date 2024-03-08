@@ -9,12 +9,12 @@ const data =
 [
     {
         name: "LEAH MATHEW",
-        title: "Director | Public Health",
+        title: "Finance Director | Public Health",
         img: leah
     },
     {
         name: "EVELYN HOOTMAN",
-        title: "Director | International Relations, Business Minor",
+        title: "Finance Director | International Relations, Business Minor",
         img: evelyn
     },
     {

@@ -10,7 +10,7 @@ const data =
 [
     {
         name: "KAREN E. SALAZAR",
-        title: "Director | Marketing & Entrepreneurship",
+        title: "Marketing Director | Marketing & Entrepreneurship",
         img: karen
     },
     {
