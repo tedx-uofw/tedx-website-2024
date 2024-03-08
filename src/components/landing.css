@@ -437,9 +437,13 @@ a:link, a:visited, a:active, a:hover {
         font-size: 0.625rem;
     }
 
-    .ticket-btn button, .meet-team-btn button {
+    .ticket-btn button  {
         font-size: 1rem;
         padding: 0.313rem 1rem;
+    }
+
+    .meet-team-btn button {
+        font-size: 0.8rem;
     }
 
     .theme-intro {
