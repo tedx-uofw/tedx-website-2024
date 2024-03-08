@@ -66,7 +66,7 @@ function Navbar(){
     window.addEventListener('resize', handleResize);
 
   return (
-      <div id={isClicked ? "navbar" : "navbar-with-side-menu"}>
+      <div id={isClicked ? "navbar" : "navbar-with-side-menu"} >
        <section id="left-nav" onClick={() => {setClick(true)}}>
 
         <a id={isClicked ? "logo" : "logo-clicked"} href="/">
