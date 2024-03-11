@@ -65,7 +65,7 @@ function Sponsors(){
           <div id="friends-bucket">
           {/* <div id="cards"> */}
 
-          <a href="http://www.asuw.org/">
+          <a href="http://www.asuw.org/" id="first-box">
             <section className="friends-box"
               onMouseEnter={() => {setHover4(false); setMyText4('The University of Washington is committed to providing access, equal opportunity and reasonable accommodation in its services, programs, activities, education and employment for individuals with disabilities. To request disability accommodation contact the Disability Services Office at least ten days in advance at: 206.543.6450/V, 206.543.6452/TTY, 206.685.7264 (FAX), or e-mail at dso@u.washington.edu.')}}
               onMouseLeave={() => {setHover4(true); setMyText4('')}}
@@ -102,7 +102,7 @@ function Sponsors(){
             </a>
 
 
-            <a href="https://hub.washington.edu/" id="first-box">
+            <a href="https://hub.washington.edu/">
             <section className="friends-box"
                 onMouseEnter={() => {setHover(false); setMyText('The HUB supports the Husky Experience by enhancing UW community, providing a dynamic event center, and fostering student engagement. The HUB provided support on all printed and online promotional materials.')}}
                 onMouseLeave={() => {setHover(true); setMyText('')}}
