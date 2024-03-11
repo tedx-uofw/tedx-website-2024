@@ -223,9 +223,6 @@
   max-height: 385px;
   scrollbar-color: #A5A5CC;
   flex: 1;
-  border: 1px solid #A5A5CC;
-  border-radius: 12px;
-  background: var(--off-black-40, rgba(30, 28, 34, 0.40));
 }
 
 @media screen and (max-width: 1524px) {

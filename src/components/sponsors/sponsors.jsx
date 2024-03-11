@@ -65,6 +65,42 @@ function Sponsors(){
           <div id="friends-bucket">
           {/* <div id="cards"> */}
 
+          <a href="http://www.asuw.org/">
+            <section className="friends-box"
+              onMouseEnter={() => {setHover4(false); setMyText4('The University of Washington is committed to providing access, equal opportunity and reasonable accommodation in its services, programs, activities, education and employment for individuals with disabilities. To request disability accommodation contact the Disability Services Office at least ten days in advance at: 206.543.6450/V, 206.543.6452/TTY, 206.685.7264 (FAX), or e-mail at dso@u.washington.edu.')}}
+              onMouseLeave={() => {setHover4(true); setMyText4('')}}
+            ><p id="long-text">{myText4}</p>
+              <img className={isHovered4 ? "friends-logo" : "hover-friends-logo"} src={asuw} alt="logo"/>
+            </section>
+            </a>
+
+            <a href="https://wsecu.org/">
+            <section className="friends-box"
+              onMouseEnter={() => {setHover9(false); setMyText9("We are a member-powered credit union that provides unparalleled service. From today’s small transactions to tomorrow’s big financial goals, we're the champion in your corner to help you every step of the way. We’re not-for-profit, so we can focus on you and on investing in the communities that make Washington such an amazing place to call home.")}}
+              onMouseLeave={() => {setHover9(true); setMyText9('')}}
+            ><p>{myText9}</p>
+              <img className={isHovered9 ? "friends-logo" : "hover-friends-logo"} src={wsecu} alt="logo"/>
+            </section>
+            </a>
+
+            <a href="https://www.washington.edu/brand/about/">
+            <section className="friends-box"
+              onMouseEnter={() => {setHover5(false); setMyText5('University Marketing & Communications (UMAC) is the University of Washington’s central branding, marketing and communications office. Based within University Advancement, UMAC brings together talented staff from across a range of marketing and communications disciplines in support of the UW’s highest priorities. At the center of our work is the Boundless brand, reflecting the optimistic spirit and extensive positive impact of the University on our students’ lives and on communities near and far.')}}
+              onMouseLeave={() => {setHover5(true); setMyText5('')}}
+            ><p id="long-text">{myText5}</p>
+              <img className={isHovered5 ? "friends-logo" : "hover-friends-logo"} src={wLogo} alt="logo"/>
+            </section>
+            </a>
+
+            <a href="https://depts.washington.edu/gpss/">
+            <section className="friends-box"
+              onMouseEnter={() => {setHover3(false); setMyText3('The Graduate and Professional Student Senate (GPSS) represents over 15,000 graduate and professional students at the University of Washington. Our Senators represent academic departments as well as non-academic programs and communities. GPSS hosts events and programming, provides opportunities for engagement through internal committees and university-wide liaison positions, and offers funding for academic and professional development.')}}
+              onMouseLeave={() => {setHover3(true); setMyText3('')}}
+            ><p id="long-text">{myText3}</p>
+              <img className={isHovered3 ? "friends-logo" : "hover-friends-logo"} src={gpss} alt="logo"/>
+            </section>
+            </a>
+
 
             <a href="https://hub.washington.edu/" id="first-box">
             <section className="friends-box"
@@ -81,34 +117,6 @@ function Sponsors(){
               onMouseLeave={() => {setHover2(true); setMyText2('')}}
             ><p>{myText2}</p>
               <img className={isHovered2 ? "friends-logo" : "hover-friends-logo"} src={uwaa} alt="logo"/>
-            </section>
-            </a>
-
-            <a href="https://depts.washington.edu/gpss/">
-            <section className="friends-box"
-              onMouseEnter={() => {setHover3(false); setMyText3('The Graduate and Professional Student Senate (GPSS) represents over 15,000 graduate and professional students at the University of Washington. Our Senators represent academic departments as well as non-academic programs and communities. GPSS hosts events and programming, provides opportunities for engagement through internal committees and university-wide liaison positions, and offers funding for academic and professional development.')}}
-              onMouseLeave={() => {setHover3(true); setMyText3('')}}
-            ><p id="long-text">{myText3}</p>
-              <img className={isHovered3 ? "friends-logo" : "hover-friends-logo"} src={gpss} alt="logo"/>
-            </section>
-            </a>
-
-            <a href="http://www.asuw.org/">
-            <section className="friends-box"
-              onMouseEnter={() => {setHover4(false); setMyText4('The University of Washington is committed to providing access, equal opportunity and reasonable accommodation in its services, programs, activities, education and employment for individuals with disabilities. To request disability accommodation contact the Disability Services Office at least ten days in advance at: 206.543.6450/V, 206.543.6452/TTY, 206.685.7264 (FAX), or e-mail at dso@u.washington.edu.')}}
-              onMouseLeave={() => {setHover4(true); setMyText4('')}}
-            ><p id="long-text">{myText4}</p>
-              <img className={isHovered4 ? "friends-logo" : "hover-friends-logo"} src={asuw} alt="logo"/>
-            </section>
-            </a>
-
-
-            <a href="https://www.washington.edu/brand/about/">
-            <section className="friends-box"
-              onMouseEnter={() => {setHover5(false); setMyText5('University Marketing & Communications (UMAC) is the University of Washington’s central branding, marketing and communications office. Based within University Advancement, UMAC brings together talented staff from across a range of marketing and communications disciplines in support of the UW’s highest priorities. At the center of our work is the Boundless brand, reflecting the optimistic spirit and extensive positive impact of the University on our students’ lives and on communities near and far.')}}
-              onMouseLeave={() => {setHover5(true); setMyText5('')}}
-            ><p id="long-text">{myText5}</p>
-              <img className={isHovered5 ? "friends-logo" : "hover-friends-logo"} src={wLogo} alt="logo"/>
             </section>
             </a>
 
@@ -139,15 +147,6 @@ function Sponsors(){
               onMouseLeave={() => {setHover8(true); setMyText8('')}}
             ><p>{myText8}</p>
               <img className={isHovered8 ? "friends-logo" : "hover-friends-logo"} src={nekoCat} alt="logo"/>
-            </section>
-            </a>
-
-            <a href="https://wsecu.org/">
-            <section className="friends-box"
-              onMouseEnter={() => {setHover9(false); setMyText9("We are a member-powered credit union that provides unparalleled service. From today’s small transactions to tomorrow’s big financial goals, we're the champion in your corner to help you every step of the way. We’re not-for-profit, so we can focus on you and on investing in the communities that make Washington such an amazing place to call home.")}}
-              onMouseLeave={() => {setHover9(true); setMyText9('')}}
-            ><p>{myText9}</p>
-              <img className={isHovered9 ? "friends-logo" : "hover-friends-logo"} src={wsecu} alt="logo"/>
             </section>
             </a>
 
