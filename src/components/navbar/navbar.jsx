@@ -4,9 +4,6 @@ import arrow from "./nav-img/arrow.png";
 import exit from "./nav-img/close.png";
 import arrowColor from "./nav-img/arrow-color.png";
 
-// import line from "./nav-img/line.png";
-
-// import { useNavigate } from "react-router-dom";
 import "./navbar.css";
 
 function Navbar(){
@@ -14,14 +11,6 @@ function Navbar(){
   const [isClicked, setClick] = useState(true);
   const [isHovered, setHover] = useState(false);
 
-  // let navigate = useNavigate();
-  // const routeChange = (page) =>{
-  //   let path = "/" + page;
-  //   navigate(path);
-  // }
-
-  // const [width, setWidth] = useState(window.innerWidth);
-  // adapt for touch
   let prevScroll = window.scrollY;
   window.onscroll = function() {
     let scroll = window.scrollY;
@@ -100,7 +89,7 @@ function Navbar(){
 
 
         {/* add on click functionality when tix page up */}
-        <div className='ticket-btn'>
+        <div className= 'ticket-btn'>
                     <button id="nav-button" className='btn'>
                     <a href='https://docs.google.com/forms/d/e/1FAIpQLScFKzPkloRcReyNhadtJzJZ9HuH_g9o7tsom5HJczat4zWp0A/viewform' className='tickets-link'>GET TICKETS</a>
                     </button>

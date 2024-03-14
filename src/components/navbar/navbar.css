@@ -136,8 +136,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 2.5rem;
-  width: 25%;
-  height: 42px;
+  margin-top: 0.2rem;
 }
 
 #small-screen {
@@ -187,8 +186,8 @@
 
   #small-screen .ticket-btn {
     margin-left: 0px;
-    height: 40px;
-    width: 170px;
+    height: 3rem;
+    width: 10.625rem;
   }
 
   #small-screen svg {
