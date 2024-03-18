@@ -20,22 +20,25 @@
 
 .friends-box {
   display: flex;
-  justify-content: center;
+justify-content: center;
   align-items: center;
   width: 21.5rem;
   height: 16.25rem;
-  text-align: center;
-  overflow: hidden;
+    text-align: center;
+    overflow: hidden;
   border-radius: 0.75rem;
   border: 1px solid var(--Purble, #A5A5CC);
   background: var(--off-black-40, rgba(30, 28, 34, 0.40));
+}
 
-  
+#friends img {
+  max-width: 15rem;
+  max-height: 13rem;
 }
 
 .friends-box:hover {
   overflow-y: scroll;
-  align-items: flex-start;
+  scrollbar-width: none;
   background-color: rgb(16, 5, 40);
   transition: background-color .5s ease-out;
   -moz-transition: background-color .5s ease-out;
@@ -43,23 +46,18 @@
   -o-transition: background-color .5s ease-out;
 }
 
-.friends-text-box:hover{
-  padding-left: 1rem;
-  padding-right: 1rem;
-  -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
-  transition: all 0.4s ease-out;
-  -webkit-transition: all 0.4s ease-out;
-  scrollbar-color: #A5A5CC;
+.friends-box p {
+  margin: 0.3rem;
 }
 
 #long-text {
-  font-size: 1rem;
-
+  margin-top: 6.5rem;
 }
 
 #friends-card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: auto;
 }
 
@@ -69,8 +67,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.friends-logo {
-  max-width: 15rem;
+#friends {
+  display: flex;
 }
 
 .hover-friends-logo {
