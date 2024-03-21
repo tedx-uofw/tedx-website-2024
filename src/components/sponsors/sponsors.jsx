@@ -53,9 +53,9 @@ function Sponsors(){
   }, []);
 
 
-  return (     
+  return (
       <div id="friends">
-        <Helmet>
+<Helmet>
           <title>Sponsors</title>
           <meta name="description" content="Explore the sponsors that made the 2024 TEDxUofW conference possible" />
           <meta name="keywords" content="the HUB, UW Alumni Association, Graduate and Professional Student Senate (GPSS), ASUW, University Marketing & Communications (UMAC), Cotopaxi, Seattle Bouldering Project (SBP), NEKO Cat Cafe, WSECU" />
@@ -65,7 +65,7 @@ function Sponsors(){
           <div id="friends-bucket">
           {/* <div id="cards"> */}
 
-          <a href="http://www.asuw.org/" id="first-box">
+<a href="http://www.asuw.org/" id="first-box">
             <section className="friends-box"
               onMouseEnter={() => {setHover4(false); setMyText4('The University of Washington is committed to providing access, equal opportunity and reasonable accommodation in its services, programs, activities, education and employment for individuals with disabilities. To request disability accommodation contact the Disability Services Office at least ten days in advance at: 206.543.6450/V, 206.543.6452/TTY, 206.685.7264 (FAX), or e-mail at dso@u.washington.edu.')}}
               onMouseLeave={() => {setHover4(true); setMyText4('')}}
@@ -79,11 +79,11 @@ function Sponsors(){
 
             <a href="https://wsecu.org/">
             <section className="friends-box"
-              onMouseEnter={() => {setHover9(false); setMyText9("We are a member-powered credit union that provides unparalleled service. From today’s small transactions to tomorrow’s big financial goals, we're the champion in your corner to help you every step of the way. We’re not-for-profit, so we can focus on you and on investing in the communities that make Washington such an amazing place to call home.")}}
+                onMouseEnter={() => {setHover9(false); setMyText9("We are a member-powered credit union that provides unparalleled service. From today’s small transactions to tomorrow’s big financial goals, we're the champion in your corner to help you every step of the way. We’re not-for-profit, so we can focus on you and on investing in the communities that make Washington such an amazing place to call home.")}}
               onMouseLeave={() => {setHover9(true); setMyText9('')}}
-            >
+                >
               <div className="friends-text-box">
-              <p id="long-text">{myText9}</p>
+              <p>{myText9}</p>
               </div>
               <img className={isHovered9 ? "friends-logo" : "hover-friends-logo"} src={wsecu} alt="logo"/>
             </section>
@@ -97,7 +97,7 @@ function Sponsors(){
               <div className="friends-text-box">
               <p id="long-text">{myText5}</p>
               </div>
-              
+
               <img className={isHovered5 ? "friends-logo" : "hover-friends-logo"} src={wLogo} alt="logo"/>
             </section>
             </a>
@@ -109,7 +109,7 @@ function Sponsors(){
             >
               <div className="friends-text-box">
               <p id="long-text">{myText3}</p>
-              </div>
+</div>
               <img className={isHovered3 ? "friends-logo" : "hover-friends-logo"} src={gpss} alt="logo"/>
             </section>
             </a>
@@ -117,23 +117,23 @@ function Sponsors(){
 
             <a href="https://hub.washington.edu/">
             <section className="friends-box"
-                onMouseEnter={() => {setHover(false); setMyText('The HUB supports the Husky Experience by enhancing UW community, providing a dynamic event center, and fostering student engagement. The HUB provided support on all printed and online promotional materials.')}}
-                onMouseLeave={() => {setHover(true); setMyText('')}}
-                >
+              onMouseEnter={() => {setHover(false); setMyText('The HUB supports the Husky Experience by enhancing UW community, providing a dynamic event center, and fostering student engagement. The HUB provided support on all printed and online promotional materials.')}}
+              onMouseLeave={() => {setHover(true); setMyText('')}}
+            >
                   <div className="friends-text-box">
-                  <p id="long-text">{myText}</p>
-                  </div>
+                  <p>{myText}</p>
+              </div>
               <img className={isHovered ? "friends-logo" : "hover-friends-logo"} src={hub} alt="logo"/>
             </section>
             </a>
 
-            <a href="https://www.washington.edu/alumni/">
+<a href="https://www.washington.edu/alumni/">
             <section className="friends-box"
               onMouseEnter={() => {setHover2(false); setMyText2('Founded in 1889, the UW Alumni Association has been the foundation of the UW alumni community for more than 125 years. UWAA’s mission is to support the University of Washington and higher education in the state of Washington. UWAA provided support on all printed and online promotional materials')}}
               onMouseLeave={() => {setHover2(true); setMyText2('')}}
             >
               <div className="friends-text-box">
-              <p id="long-text">{myText2}</p>
+              <p>{myText2}</p>
               </div>
               <img className={isHovered2 ? "friends-logo" : "hover-friends-logo"} src={uwaa} alt="logo"/>
             </section>
@@ -146,8 +146,8 @@ function Sponsors(){
               onMouseLeave={() => {setHover6(true); setMyText6('')}}
             >
               <div className="friends-text-box">
-              <p id="long-text">{myText6}</p>
-              </div>
+              <p>{myText6}</p>
+</div>
               <img className={isHovered6 ? "friends-logo" : "hover-friends-logo"} src={cotopaxi} alt="logo"/>
             </section>
             </a>
@@ -159,8 +159,8 @@ function Sponsors(){
               onMouseLeave={() => {setHover7(true); setMyText7('')}}
             >
               <div className="friends-text-box">
-              <p id="long-text">{myText7}</p>
-              </div>
+              <p>{myText7}</p>
+</div>
               <img className={isHovered7 ? "friends-logo" : "hover-friends-logo"} src={bouldering} alt="logo"/>
             </section>
             </a>
@@ -172,11 +172,11 @@ function Sponsors(){
               onMouseLeave={() => {setHover8(true); setMyText8('')}}
             >
               <div className="friends-text-box">
-              <p id="long-text">{myText8}</p>
+              <p>{myText8}</p>
               </div>
               <div className="friends-img-box">
               <img className={isHovered8 ? "friends-logo" : "hover-friends-logo"} src={nekoCat} alt="logo"/>
-              </div>
+            </div>
             </section>
             </a>
 
