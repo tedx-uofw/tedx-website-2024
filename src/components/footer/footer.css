@@ -94,8 +94,14 @@ footer {
 
 #icons {
     display: flex;
+    justify-content: flex-end;
     gap: 1rem;
-    margin-right: 0.7rem;
+    padding-right: 1.5rem;
+
+}
+
+#icons img {
+    width: 1.3rem;
 }
 
 #icons a {

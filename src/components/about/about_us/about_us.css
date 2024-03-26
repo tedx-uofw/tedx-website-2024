@@ -3,7 +3,6 @@
   padding: 1rem;
   align-items: center;
   align-content: center;
-  gap: 1.25rem;
   /* font-size: 1.5rem; */
   border-radius: 0.75rem;
   border: 1px solid var(--Purble, #A5A5CC);
@@ -39,7 +38,6 @@
   /* display: flex; */
   gap: 5rem;
   margin: 0rem 5rem;
-  
 }
 
 .star-img {
@@ -67,8 +65,30 @@
   -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
   transition: all 0.4s ease-out;
   -webkit-transition: all 0.4s ease-out;
-  
+  overflow-x: hidden;
+
 }
+
+#about_tedxuofw {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-tedx-pic {
+  width: 90%;
+  border-radius: 0.75rem;
+}
+
+.about-tedx-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-tedx-text {
+  width: 90%;
+}
+
 
 #about_us {
   flex-direction: column;
@@ -225,7 +245,7 @@
   padding: 22px 22px;
   align-content: center;
   /* height: auto; */
-  overflow: scroll;
+  overflow-y: auto;
   max-height: 280px;
   flex: 1;
   padding-top: 0rem;

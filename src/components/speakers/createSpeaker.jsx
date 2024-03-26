@@ -7,10 +7,10 @@ function CreateSpeaker(props) {
           <div className="speaker-box">
             <img className="speaker-photo" src={props.img} alt={props.name}/>
             <div className="speaker-content">
-              <p className="speaker-name">{props.name}</p>
+              <p className="speaker-name">{props.talk}</p>
+              <p className="speaker-talk">{props.name}</p>
               <p className="speaker-title">{props.title}</p>
-              <p className="speaker-talk">{props.talk}</p>
-              <p className="speaker-descr">{props.description}</p>              
+              <p className="speaker-descr">{props.description}</p>
             </div>
           </div>
         </section>
