@@ -65,9 +65,50 @@
   -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
   transition: all 0.4s ease-out;
   -webkit-transition: all 0.4s ease-out;
+  scrollbar-color: #A5A5CC;
   overflow-x: hidden;
-
 }
+
+/* scrollbar */
+.content p:hover {
+  /* margin-bottom: 0; */
+  -webkit-mask-image: none;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+.content p::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+
+.content p:hover::-webkit-scrollbar-thumb {
+  background: #A5A5CC;
+}
+
+.content p::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background: transparent;
+}
+
+.content p::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+.content p::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+.content p::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+}
+
+.content p:hover::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 10px;
+}
+
 
 #about_tedxuofw {
   display: flex;
