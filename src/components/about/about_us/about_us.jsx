@@ -52,7 +52,7 @@ function AboutUs(){
             <img src={star} className="star-img" alt="Christmas Star"></img>
             <h1>ABOUT TEDx<span class="desktop-only">, x = independently organized event</span></h1>
           </div>
-          <div class="content">
+          <div class="content no-grad">
             <img src={newPhoto} alt="TEDx Logo"></img>
             <p>In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience.<br></br><br></br>
               At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx,

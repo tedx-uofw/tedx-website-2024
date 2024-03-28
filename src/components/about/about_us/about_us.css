@@ -227,6 +227,10 @@
     letter-spacing: 0em;
     text-align: left;
   }
+
+  .content p {
+    -webkit-mask-image: none;
+  }
 }
 
 /* Additional responsive CSS for mobile: */
@@ -311,6 +315,11 @@
   }
   .content img {
     margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .no-grad p {
+    -webkit-mask-image: none;
   }
 }
 
