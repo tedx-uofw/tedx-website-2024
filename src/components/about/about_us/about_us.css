@@ -3,7 +3,6 @@
   padding: 1rem;
   align-items: center;
   align-content: center;
-  gap: 1.25rem;
   /* font-size: 1.5rem; */
   border-radius: 0.75rem;
   border: 1px solid var(--Purble, #A5A5CC);
@@ -39,7 +38,6 @@
   /* display: flex; */
   gap: 5rem;
   margin: 0rem 5rem;
-  
 }
 
 .star-img {
@@ -67,8 +65,71 @@
   -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
   transition: all 0.4s ease-out;
   -webkit-transition: all 0.4s ease-out;
-  
+  scrollbar-color: #A5A5CC;
+  overflow-x: hidden;
 }
+
+/* scrollbar */
+.content p:hover {
+  /* margin-bottom: 0; */
+  -webkit-mask-image: none;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+.content p::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+
+.content p:hover::-webkit-scrollbar-thumb {
+  background: #A5A5CC;
+}
+
+.content p::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background: transparent;
+}
+
+.content p::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+.content p::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+.content p::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+}
+
+.content p:hover::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 10px;
+}
+
+
+#about_tedxuofw {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-tedx-pic {
+  width: 90%;
+  border-radius: 0.75rem;
+}
+
+.about-tedx-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-tedx-text {
+  width: 90%;
+}
+
 
 #about_us {
   flex-direction: column;
@@ -166,6 +227,10 @@
     letter-spacing: 0em;
     text-align: left;
   }
+
+  .content p {
+    -webkit-mask-image: none;
+  }
 }
 
 /* Additional responsive CSS for mobile: */
@@ -225,7 +290,7 @@
   padding: 22px 22px;
   align-content: center;
   /* height: auto; */
-  overflow: scroll;
+  overflow-y: auto;
   max-height: 280px;
   flex: 1;
   padding-top: 0rem;
@@ -250,6 +315,11 @@
   }
   .content img {
     margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .no-grad p {
+    -webkit-mask-image: none;
   }
 }
 
