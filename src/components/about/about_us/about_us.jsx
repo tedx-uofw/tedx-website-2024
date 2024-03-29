@@ -13,7 +13,7 @@ import newPhoto from "./assets/newPhoto.png";
 import "./about_us.css";
 import { Helmet } from "react-helmet";
 
-function AboutUs(){
+function AboutUs() {
   return (
       <div id="about_us">
         <Helmet>
@@ -30,12 +30,12 @@ function AboutUs(){
           <div class="content">
             <img src={ted} alt="TED Logo: Ideas worth spreading"></img>
             <p class="mobile">TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in
-              California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual
+              California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual</p>
             <p class="mobile">TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in
               California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual
               TED conferences invite the world's leading thinkers and doers to Vancouver, British Columbia to speak for 18 minutes or less.</p>
 
-            <p class="scroll">TED is on a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact. Our organization is devoted to curiosity, reason, wonder and the pursuit of knowledge — without an agenda.
+            <p class="scroll">TED is on a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact. Our organization is devoted to curiosity, reason, wonder and the pursuit of knowledge — without an agenda.</p>
 
             <p class="scroll">TED is on a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact. Our organization is devoted to curiosity, reason, wonder and the pursuit of knowledge — without an agenda.
               We welcome people from every discipline and culture who seek a deeper understanding of the world and connection with others, and we invite everyone to engage with ideas and activate them in your community.
@@ -79,7 +79,7 @@ function AboutUs(){
           </div>
           <div class="content">
             <img src={tedxuofw} alt="TEDxUofW Logo"></img>
-            <p>TEDxUofW was established to bring inspirational and informative TED style talks to the University of Washington. Since 2012, our student-run organization
+            <p>TEDxUofW was established to bring inspirational and informative TED style talks to the University of Washington. Since 2012, our student-run organization</p>
           <div class="content" className="about-tedx-content">
             <img src={tedxuofw} className="about-tedx-pic" alt="TEDxUofW Logo"></img>
             <p className="about-tedx-text">TEDxUofW was established to bring inspirational and informative TED style talks to the University of Washington. Since 2012, our student-run organization
@@ -106,6 +106,7 @@ function AboutUs(){
                 {/* LinkedIn */}
                 <a href="https://www.linkedin.com/company/tedxuofw/mycompany/"><img src={linkedin}></img>@tedxuofw</a>
               </div>
+        </div>
         </div>
       </div>
   )
