@@ -77,15 +77,12 @@ function AboutUs() {
             <img src={star} className="star-img" alt="Christmas Star"></img>
             <h1>ABOUT TEDxUofW</h1>
           </div>
-          <div class="content">
-            <img src={tedxuofw} alt="TEDxUofW Logo"></img>
-            <p>TEDxUofW was established to bring inspirational and informative TED style talks to the University of Washington. Since 2012, our student-run organization</p>
+
           <div class="content" className="about-tedx-content">
             <img src={tedxuofw} className="about-tedx-pic" alt="TEDxUofW Logo"></img>
             <p className="about-tedx-text">TEDxUofW was established to bring inspirational and informative TED style talks to the University of Washington. Since 2012, our student-run organization
               has sought to give amazing speakers a receptive audience to share their passions with. </p>
           </div>
-        </div>
 
         {/* Contact Us */}
         <div id="contact">
