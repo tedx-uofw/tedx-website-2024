@@ -2,6 +2,7 @@
   display: flex;
   margin-top: 7%;
   position: relative;
+  flex-direction: column;
 }
 
 #friends-bucket {
@@ -31,7 +32,7 @@
   background: var(--off-black-40, rgba(30, 28, 34, 0.40));
 }
 
-#friends img {
+#friends-card img {
   max-width: 15rem;
   max-height: 13rem;
 }
@@ -71,6 +72,58 @@
   display: none;
 }
 
+
+/*Ro Container*/
+
+.ro-container {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin-left: 16.063rem;
+  margin-right: 16.063rem;
+  width: 75vw;
+}
+
+/* Venue & What is TEDx */
+.ro-contents-ctr {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 3.75rem;
+
+}
+
+.ro-img-container img{
+  width: 20vw;
+  border-radius: 1.25rem;
+}
+
+.ro-text, .ro-link {
+  font-size: 1.157vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.ro-text:hover, .ro-link:hover {
+  cursor: pointer;
+}
+
+.ro-link {
+  text-decoration-line: underline;
+}
+
+.ro-title {
+    color: var(--white);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 @media only screen and (max-width: 1024px) {
   #friends {
     display: flex;
@@ -80,6 +133,47 @@
   #friends-bucket {
     padding-top: 1rem;
   }
+
+  .ro-title {
+    font-size: 1.563rem;
+  }
+
+  .box {
+      padding-left: 1.25rem;
+      gap: 1.25rem;
+      height: 4.063rem;
+  }
+
+  .star-icon {
+      width: 4vw;
+  }
+
+  .ro-container {
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .ro-contents-ctr {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  .ro-img-container img{
+    width: 100%;
+  }
+  .ro-img-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .ro-text, .ro-link a{
+    font-size: 1rem;
+  }
+
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -113,4 +207,34 @@
     width: 21.5rem;
     height: 16.25rem;
   }
+
+  .ro-text, .ro-link a{
+    font-size: 0.8rem;
+  }
+
+  .ro-img-container img{
+    width: 100%;
+  }
+
+  .ro-title {
+    font-size: 1rem;
+  }
+
+  .ro-container {
+    justify-content: center;
+    width: 90%;
+    margin-left: 1rem;
+  }
+
+  .star-icon {
+      width: 4.44vw;
+  }
+
+  .box {
+      padding-left: 1rem;
+      gap: 0.75rem;
+      height: 3.25rem;
+
+  }
+
 }
