@@ -6,7 +6,7 @@ function CreatePerformer(props) {
         <section>
           <div className="speaker-box">
             <img className="speaker-photo" src={props.img} alt={props.name}/>
-            <div className="speaker-content">
+            <div className={`speaker-content ${props.name === 'Vocal Jazz at UW' ? '' : 'speaker-gradient'}`}>
               <p className="speaker-name">{props.name}</p>
               <p className="performer-descr">{props.description}</p>              
             </div>
