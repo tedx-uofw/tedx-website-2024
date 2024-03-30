@@ -2,21 +2,6 @@ import React, {useState, useEffect} from 'react';
 import "./createSpeaker.css";
 
 function CreateSpeaker(props) {
-  const [hasOverflow, setHasOverflow] = useState(false);
-
-  useEffect(() => {
-    console.log("Descr changed");
-    const content = document.querySelector('.speaker-content');
-    console.log("Scroll Height:", content.scrollHeight);
-    console.log("Client Height:", content.clientHeight);
-
-    if (content.scrollHeight > content.clientHeight) {
-      setHasOverflow(true);
-    } else {
-      setHasOverflow(false);
-    }
-  }, [props.description]);
-
   return (
       <section>
         <div className="speaker-box">
