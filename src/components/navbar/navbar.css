@@ -60,6 +60,7 @@
   align-items: center;
   padding-top: 10px;
   gap: 1.25rem;
+  margin-right: 30px;
 }
 
 .dropdown {
@@ -88,7 +89,9 @@
   position: absolute;
   z-index: 2;
   margin-top: 35px;
-  padding: 0.1rem 0.5rem;
+  /* padding: 0.1rem 0.5rem; */
+  /* margin-top: 40px; */
+  padding: 12px 16px;
   border-radius: 0.25rem;
   border: 1px solid var(--Purble, #A5A5CC);
   background: var(--Background-Dark-Blue, #0B0D26);
