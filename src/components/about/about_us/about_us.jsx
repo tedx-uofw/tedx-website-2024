@@ -31,9 +31,6 @@ function AboutUs() {
             <img src={ted} alt="TED Logo: Ideas worth spreading"></img>
             <p class="mobile">TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in
               California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual</p>
-            <p class="mobile">TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in
-              California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual
-              TED conferences invite the world's leading thinkers and doers to Vancouver, British Columbia to speak for 18 minutes or less.</p>
 
             <p class="scroll">TED is on a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact. Our organization is devoted to curiosity, reason, wonder and the pursuit of knowledge — without an agenda.</p>
 
