@@ -32,8 +32,6 @@ function AboutUs() {
             <p class="mobile">TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in
               California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual</p>
 
-            <p class="scroll">TED is on a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact. Our organization is devoted to curiosity, reason, wonder and the pursuit of knowledge — without an agenda.</p>
-
             <p class="scroll">TED is on a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact. Our organization is devoted to curiosity, reason, wonder and the pursuit of knowledge — without an agenda.
               We welcome people from every discipline and culture who seek a deeper understanding of the world and connection with others, and we invite everyone to engage with ideas and activate them in your community.
               TED began in 1984 as a conference where Technology, Entertainment and Design converged, but today it spans a multitude of worldwide communities and initiatives exploring everything from science and business to education,
