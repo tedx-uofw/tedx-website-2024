@@ -96,7 +96,7 @@ function AboutUs() {
                 {/* Facebook */}
                 <a href="https://www.facebook.com/TEDxUofW"><img src={facebook}></img>@tedxuofw</a>
                 {/* LinkedIn */}
-                <a href="https://www.linkedin.com/company/tedxuofw/mycompany/"><img src={linkedin}></img>@tedxuofw</a>
+                <a href="https://www.linkedin.com/company/tedxatuofw/"><img src={linkedin}></img>@tedxuofw</a>
               </div>
         </div>
         </div>

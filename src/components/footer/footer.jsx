@@ -54,7 +54,7 @@ function Footer(){
               {/* TikTok */}
               <a href="https://www.tiktok.com/@tedxuofw"><img src={tiktok}></img></a>
               {/* LinkedIn */}
-              <a href="https://www.linkedin.com/company/tedxuofw/mycompany/"><img src={linkedin}></img></a>
+              <a href="https://www.linkedin.com/company/tedxatuofw/"><img src={linkedin}></img></a>
             </div>
           </div>
         </footer>

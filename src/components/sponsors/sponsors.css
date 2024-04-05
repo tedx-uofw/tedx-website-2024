@@ -81,9 +81,8 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 1.25rem;
-  margin-left: 16.063rem;
-  margin-right: 16.063rem;
-  width: 75vw;
+  margin-left: 8.843rem;
+  width: 83%;
 }
 
 /* Venue & What is TEDx */
@@ -128,6 +127,7 @@
   #friends {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   #friends-bucket {
@@ -152,8 +152,8 @@
     justify-content: center;
     align-items: flex-start;
     gap: 1.25rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 0rem;
+    width: 72%;
   }
 
   .ro-contents-ctr {
@@ -195,6 +195,10 @@
   .friends-box {
     width: 25.5rem;
     height: 20.25rem;
+  }
+
+  .ro-title {
+    font-size: 1.3rem;
   }
 }
 
