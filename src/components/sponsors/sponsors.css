@@ -4,6 +4,8 @@
   position: relative;
   flex-direction: column;
   align-items: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 #friends-bucket {

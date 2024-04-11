@@ -34,15 +34,15 @@ function Landing(){
         {name: 'CONFERENCE BEGINS', talk:'', title: '', time: "10:30AM-10:45AM"},
         {name: 'EMILY LAGO ANDERSON', talk:'The Purpose in Daydreaming', title: 'Engineer and Educational Equity Activist', time: "10:50AM - 11:05AM"},
         {name: 'CHIRAG SHAH, PhD', talk:'What AI Could, Should, and Would Do', title: 'Professor in Information School', time: "11:10AM - 11:25AM"},
-        {name: 'VOCAL JAZZ @ UW', title: 'Performance', talk:'', time: "11:30AM - 11:45AM"},
+        {name: 'RAFFLE DRAW 1', title: '', talk:'', time: "11:30AM - 11:45AM"},
         {name: 'NOHA POLACK, MD, FAAP', talk:'Recognizing the Weight Bias Within', title: 'Pediatrician', time: "11:50AM - 12:05PM"},
-        {name: 'RAFFLE DRAW 1', title: '', talk:'', time: "12:10PM - 12:25PM"},
+        {name: 'RAFFLE DRAW 2', title: '', talk:'', time: "12:10PM - 12:25PM"},
         {name: 'INTERMISSION', title: '', talk:'', time: "12:30PM - 1:30PM"},
         {name: 'NASH FUNG', talk:'Unlock the Magic to Providing Better Emotional Support', title: 'Keystone Speaker & Magician', time: "1:40PM - 1:55PM"},
         {name: 'ZARYA RUBIN, MD', talk:'Four Words That Can Protect You From Burnout', title: 'Functional Medicine Physician', time: "2:00PM - 2:15PM"},
         {name: 'TRADITIONAL CHINESE DANCE @ UW', title: 'Performance', talk:'', time: "2:20PM - 2:35PM"},
         {name: 'JEFF NGUYEN', talk:'Finding Clarity: Navigating Your North Star', title: 'Founder @ BobaTalks', time: "2:40PM - 2:55PM"},
-        {name: 'RAFFLE DRAW 2', title: '', talk:'', time: "3:00PM - 3:15PM"},
+        {name: 'RAFFLE DRAW 3', title: '', talk:'', time: "3:00PM - 3:15PM"},
         {name: 'NETWORKING SESSION', title: '', talk:'', time: "3:20PM - 3:55PM"},
         {name: 'END OF CONFERENCE', title: '', talk:'', time: "4:00PM - 4:10PM"}
     ];

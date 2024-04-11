@@ -40,7 +40,7 @@ function Speakers(){
         <div className="performer-box">
           <div className="header-content">
             <img src={star} className="star-img" alt="Christmas Star"/>
-            <p className="header-text">PERFORMERS</p>
+            <p className="header-text">PERFORMER</p>
           </div>
         </div>
 
