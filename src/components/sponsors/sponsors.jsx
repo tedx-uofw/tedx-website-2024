@@ -195,8 +195,8 @@ function Sponsors(){
                         </div>
                         <div className='ro-text-ctr'>
                             <p className='ro-text'>Ro Verdeja is a Business Presentations Specialist, Speaker Coach, Slide Designer,
-                            Storyteller and Facilitator. Although he works with clients like Microsoft, Nike, Unilever, and Nestlé.
-                            His approach to public speaking and storytelling is "follow the story, not the slides".
+                            Storyteller and Facilitator. Although he works with clients like Microsoft, Nike, Unilever, and Nestlé,
+                            his approach to public speaking and storytelling is "follow the story, not the slides".
                             His superpower when coaching speakers: becoming the audience.</p>
 
                             <p className='ro-link'><a href='https://www.linkedin.com/in/ro-verdeja/'>LinkedIn</a></p>
