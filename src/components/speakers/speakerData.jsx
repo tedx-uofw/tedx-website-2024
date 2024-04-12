@@ -60,6 +60,18 @@ const speakerArray = [
         </p>
     },
     {
+        img: jeffNguyen,
+        name: "Jeff Nguyen",
+        title: "Founder @ BobaTalks",
+        talk: "Finding Clarity: Navigating Your North Star",
+        description: <p>
+            Jeff Nguyen is most known for his work with BobaTalks, a nonprofit that
+            helps students navigate the early career ambiguities of their lives. He
+            spends most of my time taking photos, planning weddings, and helping
+            students figure out their lives, one boba chat at a time.
+        </p>
+    },
+    {
         img: zaryaRubin,
         name: "Zarya Rubin, MD",
         title: "Functional Medicine Physician",
@@ -70,18 +82,6 @@ const speakerArray = [
             get to the root cause of chronic symptoms and stress so they can heal
             from the inside out and truly thrive. She is the founder and CEO of Dr.
             Zarya, a boutique functional medicine practice in Portland, OR.
-        </p>
-    },
-    {
-        img: jeffNguyen,
-        name: "Jeff Nguyen",
-        title: "Founder @ BobaTalks",
-        talk: "Finding Clarity: Navigating Your North Star",
-        description: <p>
-            Jeff Nguyen is most known for his work with BobaTalks, a nonprofit that
-            helps students navigate the early career ambiguities of their lives. He
-            spends most of my time taking photos, planning weddings, and helping
-            students figure out their lives, one boba chat at a time.
         </p>
     }
 ]
