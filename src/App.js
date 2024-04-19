@@ -1,7 +1,8 @@
 import './App.css';
-import React, { useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AnimatedBackground from './background';
+import Popup from './components/popup/popup.jsx'
 
 
 import Home from './components/home/home';
@@ -17,6 +18,13 @@ import { Helmet } from 'react-helmet';
 
 
 function App() {
+  const [timedPopup, setTimedPopup] = useState(false);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setTimedPopup(true);
+        }, 0);
+    }, []);
   return (
     <div>
       <Helmet>
@@ -38,6 +46,12 @@ function App() {
               <Route path="/speakers" element = { <Speakers />} />
               <Route path="*" element={<div> 404 Not Found </div>}></Route>
             </Routes>
+            <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
+                <h3>The conference has concluded...</h3>
+
+                <p>Thank you to all who attended and we hope to see you next year!</p>
+                <p>More information about team applications and speaker applications for next year will be out soon.</p>
+            </Popup>
             <Footer />
           </div>
         </Router>
