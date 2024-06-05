@@ -46,12 +46,12 @@ function App() {
               <Route path="/speakers" element = { <Speakers />} />
               <Route path="*" element={<div> 404 Not Found </div>}></Route>
             </Routes>
-            <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
+            {/* <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
                 <h3>The conference has concluded...</h3>
 
                 <p>Thank you to all who attended and we hope to see you next year!</p>
                 <p>More information about team applications and speaker applications for next year will be out soon.</p>
-            </Popup>
+            </Popup> */}
             <Footer />
           </div>
         </Router>
